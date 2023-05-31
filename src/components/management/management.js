@@ -28,14 +28,14 @@ const coremanagment = [
     corepara:
       "He is technically very competent and highly professional. Having more than 29+ years of experience in management and execution of civil construction, including 5 years of experience in USA. Armed with an international exposure of best practices and latest know-how, his dream has been to transform the perception of construction businesses in India by making Hitech the symbol of professional integrity.",
   },
-  {
-    src: "Sources/images/management/team/3.png",
-    corename: "Manish Dave",
-    coredes: "COO",
-    coreedu: "(B.E, Civil, PGDM)",
-    corepara:
-      "With over 31+ years of experience in the Construction Industry, he currently handles construction operations and spearheads the development and implementation of systems at Hitech. He has experience of handling project planning, budgeting, execution and monitoring functions. His previous stints include senior positions at JMC Projects (India), Kalpataru Power Transmission and ITD Cementation across various functions",
-  },
+  // {
+  //   src: "Sources/images/management/team/3.png",
+  //   corename: "Manish Dave",
+  //   coredes: "COO",
+  //   coreedu: "(B.E, Civil, PGDM)",
+  //   corepara:
+  //     "With over 31+ years of experience in the Construction Industry, he currently handles construction operations and spearheads the development and implementation of systems at Hitech. He has experience of handling project planning, budgeting, execution and monitoring functions. His previous stints include senior positions at JMC Projects (India), Kalpataru Power Transmission and ITD Cementation across various functions",
+  // },
   {
     src: "Sources/images/management/team/4.png",
     corename: "Viral Shah",
@@ -101,149 +101,166 @@ const corevaluescard = [
 const Management = () => {
   return (
     <>
-      <section>
-        <div className="section_padding"></div>
-        <div className="container">
-          <div>
+      <div className="about-us-bg">
+        <section>
+          <div className="section_padding"></div>
+          <div className="container">
+            <div>
+              <div className="sectional_heading">
+                <p className="is-size-2 has-text-weight-semibold pt-3 blue_color has-text-centered">
+                  Core Management
+                </p>
+              </div>
+              <Row style={{ display: "flex", justifyContent: "center" }}>
+                {coremanagment.map((item, key) => {
+                  return (
+                    <Col
+                      xxl={12}
+                      lg={12}
+                      md={12}
+                      sm={24}
+                      xs={24}
+                      style={{ display: "flex", justifyContent: "center" }}
+                    >
+                      <div className="core_box" style={{backgroundColor: "#fff"}}>
+                        <div className="core_img">
+                          <img src={item.src} alt="404 - Not Given" />
+                        </div>
+                        <div>
+                          <p className="is-size-4 has-text-centered has-text-weight-semibold">
+                            {item.corename}
+                          </p>
+                          <p className="is-size-5 has-text-centered">
+                            {item.coredes}
+                          </p>
+                          <p className="is-size-6 has-text-centered mb-3">
+                            {item.coreedu}
+                          </p>
+                          <p className="has-text-justified">{item.corepara}</p>
+                        </div>
+                      </div>
+                    </Col>
+                  );
+                })}
+              </Row>
+            </div>
+          </div>
+          <div className="section_padding"></div>
+        </section>
+
+        <section className="mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
             <div className="sectional_heading">
               <p className="is-size-2 has-text-weight-semibold pt-3 blue_color has-text-centered">
-                Core Management
+                Our Team
               </p>
             </div>
-            <Row style={{ display: "flex", justifyContent: "center" }}>
-              {coremanagment.map((item, key) => {
-                return (
-                  <Col
-                    xxl={8}
-                    lg={8}
-                    md={12}
-                    sm={24}
-                    xs={24}
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <div className="core_box">
-                      <div className="core_img">
-                        <img src={item.src} alt="404 - Not Given" />
-                      </div>
-                      <div>
-                        <p className="is-size-4 has-text-centered has-text-weight-semibold">
-                          {item.corename}
-                        </p>
-                        <p className="is-size-5 has-text-centered">
-                          {item.coredes}
-                        </p>
-                        <p className="is-size-6 has-text-centered mb-3">
-                          {item.coreedu}
-                        </p>
-                        <p className="has-text-justified">{item.corepara}</p>
-                      </div>
-                    </div>
-                  </Col>
-                );
-              })}
-            </Row>
+            <div className="mt-3">
+              <Row>
+                <Col
+                  xxl={12}
+                  lg={12}
+                  md={12}
+                  sm={24}
+                  xs={24}
+                  className="my-auto"
+                >
+                  <p className="has-text-justified">
+                    Hitech's team shares the same common values as their
+                    clients: Service, Detail, Experience, Integrity, and
+                    Quality. Our team has been recognized as collaborators and
+                    individuals for excellence in construction, thought
+                    leadership, and professional growth. Without our team, we
+                    wouldn't be here today.
+                  </p>
+                  <br />
+                  <p className="has-text-justified">
+                    Our Family consists of: Engineers & Supervisors: 48% Plant
+                    and Machinery Staff: 18% Top Management: 5% Managers &
+                    Above: 10% Supporting Staff: 19%
+                  </p>
+                </Col>
+                <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
+                <Col
+                  xxl={11}
+                  lg={11}
+                  md={12}
+                  sm={24}
+                  xs={24}
+                  className="my-auto"
+                >
+                  <div>
+                    <img
+                      src="Sources/images/management/team.png"
+                      alt="404 - Not Given"
+                    />
+                  </div>
+                </Col>
+              </Row>
+            </div>
           </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+          <div className="section_padding"></div>
+        </section>
 
-      <section className="mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div className="sectional_heading">
-            <p className="is-size-2 has-text-weight-semibold pt-3 blue_color has-text-centered">
-              Our Team
-            </p>
+        <section className="bluebg_color mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
+            <div className="core_value">
+              <p className="is-size-2 has-text-weight-semibold has-text-centered has-text-white mb-2">
+                Our Core Values
+              </p>
+              <p className="is-size-5 has-text-centered has-text-white mb-5">
+                Our core values define who we are and what we stand for as a
+                company. Value-driven companies achieve better brand and
+                business performance. Our core values form an integral part of
+                our work culture, giving our clients a unique experience of
+                trust. We have built our company around following 5 core values.
+              </p>
+            </div>
+            <div>
+              <Row style={{ display: "flex", justifyContent: "center" }}>
+                {corevaluescard.map((item, key) => {
+                  return (
+                    <Col
+                      xxl={8}
+                      lg={12}
+                      md={24}
+                      sm={24}
+                      xs={24}
+                      className="my-auto"
+                      style={{ display: "flex", justifyContent: "center" }}
+                    >
+                      <Card className="management_card">
+                        <div className="has-text-centered management_icon">
+                          {item.icon}
+                        </div>
+                        <div className="management_content">
+                          <p className="is-size-4 has-text-weight-semibold has-text-centered is-uppercase has-text-white">
+                            {item.title}
+                          </p>
+                          <p className="is-size-5 has-text-justified mt-4">
+                            We focus on optimizing every process in our company
+                            by focusing on those activities that generate the
+                            most value for our clients and stakeholders, while
+                            removing as many redundancies as possible. We
+                            continuously strive to improve our construction
+                            technology, our equipment, our standards of
+                            excellence , our process methodologies. We take
+                            continuous actions to build competence levels and
+                            skill sets of our people.
+                          </p>
+                        </div>
+                      </Card>
+                    </Col>
+                  );
+                })}
+              </Row>
+            </div>
           </div>
-          <div className="mt-3">
-            <Row>
-              <Col xxl={12} lg={12} md={12} sm={24} xs={24} className="my-auto">
-                <p className="has-text-justified">
-                  Hitech's team shares the same common values as their clients:
-                  Service, Detail, Experience, Integrity, and Quality. Our team
-                  has been recognized as collaborators and individuals for
-                  excellence in construction, thought leadership, and
-                  professional growth. Without our team, we wouldn't be here
-                  today.
-                </p>
-                <br />
-                <p className="has-text-justified">
-                  Our Family consists of: Engineers & Supervisors: 48% Plant and
-                  Machinery Staff: 18% Top Management: 5% Managers & Above: 10%
-                  Supporting Staff: 19%
-                </p>
-              </Col>
-              <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
-              <Col xxl={11} lg={11} md={12} sm={24} xs={24} className="my-auto">
-                <div>
-                  <img
-                    src="Sources/images/management/team.png"
-                    alt="404 - Not Given"
-                  />
-                </div>
-              </Col>
-            </Row>
-          </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
-
-      <section className="bluebg_color mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div className="core_value">
-            <p className="is-size-2 has-text-weight-semibold has-text-centered has-text-white mb-2">
-              Our Core Values
-            </p>
-            <p className="is-size-5 has-text-centered has-text-white mb-5">
-              Our core values define who we are and what we stand for as a
-              company. Value-driven companies achieve better brand and business
-              performance. Our core values form an integral part of our work
-              culture, giving our clients a unique experience of trust. We have
-              built our company around following 5 core values.
-            </p>
-          </div>
-          <div>
-            <Row style={{ display: "flex", justifyContent: "center" }}>
-              {corevaluescard.map((item, key) => {
-                return (
-                  <Col
-                    xxl={8}
-                    lg={12}
-                    md={24}
-                    sm={24}
-                    xs={24}
-                    className="my-auto"
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <Card className="management_card">
-                      <div className="has-text-centered management_icon">
-                        {item.icon}
-                      </div>
-                      <div className="management_content">
-                        <p className="is-size-4 has-text-weight-semibold has-text-centered is-uppercase has-text-white">
-                          {item.title}
-                        </p>
-                        <p className="is-size-5 has-text-justified mt-4">
-                          We focus on optimizing every process in our company by
-                          focusing on those activities that generate the most
-                          value for our clients and stakeholders, while removing
-                          as many redundancies as possible. We continuously
-                          strive to improve our construction technology, our
-                          equipment, our standards of excellence , our process
-                          methodologies. We take continuous actions to build
-                          competence levels and skill sets of our people.
-                        </p>
-                      </div>
-                    </Card>
-                  </Col>
-                );
-              })}
-            </Row>
-          </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+          <div className="section_padding"></div>
+        </section>
+      </div>
 
       {/* <section className="mobile_margin">
         <div className="section_padding"></div>

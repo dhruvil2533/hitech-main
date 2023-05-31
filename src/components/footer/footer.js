@@ -284,7 +284,7 @@ const Footer = () => {
               xs={24}
               className="footer_colum"
             >
-              <div className="second_col">
+              <div className="second_col" style={{ marginLeft: "0px" }}>
                 <div className="footer_line">
                   <h3 className="is-size-5 has-text-weight-semibold pb-4 mt-3 has-text-white footer_heading">
                     Address
@@ -306,7 +306,7 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
-            <Col
+            {/* <Col
               xxl={8}
               lg={8}
               md={12}
@@ -396,7 +396,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-            </Col>
+            </Col> */}
             {/* <Col xxl={6} lg={6} md={12} sm={24} xs={24}>
               <iframe
                 title="Maps"
@@ -409,6 +409,114 @@ const Footer = () => {
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </Col> */}
+          </Row>
+        </div>
+        <div className="container">
+          <Row style={{ display: "flex", justifyContent: "center" }}>
+            <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+              <div className="third_col">
+                <div className="footer_line">
+                  <p className="is-size-5 has-text-weight-semibold pb-4 mt-3 has-text-white footer_heading">
+                    Certifications
+                  </p>
+                </div>
+                <div className="footer_address mt-5">
+                  <p className="mt-2">ISO 9001</p>
+                  <p>ISO 45001</p>
+                </div>
+              </div>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              className="footer_colum"
+            >
+              <div className="second-col" style={{ marginLeft: window.innerWidth >= 768 ? "11%" : "0px", marginTop: "0px" }}>
+                <div className="footer_line">
+                  <h3 className="is-size-5 has-text-weight-semibold pb-4 mt-3 has-text-white footer_heading">
+                    Contact Us
+                  </h3>
+                </div>
+                <div className="mt-5">
+                  <div>
+                    <ul>
+                      <li className="footer_link">
+                        <Space direction="horizontal">
+                          <BiPhoneCall className="arrow_icon is-size-4" />
+                          <div>
+                            <a
+                              href="tel:+91 9904592200"
+                              className="has-text-white"
+                            >
+                              <span className="pl-2">+91-9904592200 /</span>
+                            </a>
+                            <a
+                              href="tel:+91 9904288900"
+                              className="has-text-white"
+                            >
+                              <span className="pl-2">+91-9904288900</span>
+                            </a>
+                          </div>
+                        </Space>
+                      </li>
+                      <li className="footer_link">
+                        <Space direction="horizontal">
+                          <AiOutlineMail className="arrow_icon is-size-4" />
+                          <a
+                            href="mailto:info@hitechprojects.co.in"
+                            className="has-text-white"
+                          >
+                            <span className="pl-2">
+                              info@hitechprojects.co.in
+                            </span>
+                          </a>
+                        </Space>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="social_icon">
+                    <a
+                      className="has-text-white"
+                      href="https://www.linkedin.com/company/hitechprojects/"
+                      target="blank"
+                    >
+                      <ImLinkedin className="is-size-4" />
+                    </a>
+                    <a
+                      className="has-text-white"
+                      href="https://www.instagram.com/hitechpplofficial/"
+                      target="blank"
+                    >
+                      <ImInstagram className="is-size-4 ml-3" />
+                    </a>
+                    <a
+                      className="has-text-white"
+                      href="https://www.facebook.com/hitechpplofficial/"
+                      target="blank"
+                    >
+                      <ImFacebook2 className="is-size-4 ml-3" />
+                    </a>
+                    <a
+                      className="has-text-white"
+                      href="https://twitter.com/hitechppl"
+                      target="blank"
+                    >
+                      <ImTwitter className="is-size-4 ml-3" />
+                    </a>
+                    <a
+                      className="has-text-white"
+                      href="https://www.youtube.com/channel/UCbrjSl-jZB23ZB8HzSNqa8w"
+                      target="blank"
+                    >
+                      <ImYoutube className="is-size-4 ml-3" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Col>
           </Row>
         </div>
         <div className="section_padding"></div>

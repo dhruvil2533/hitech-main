@@ -100,7 +100,7 @@ const imagegallery = [
   },
   {
     src: "Sources/images/gallery/6.png",
-    title: "Enterence lounge",
+    title: "Entrance lounge",
     des: "",
   },
   {
@@ -111,12 +111,12 @@ const imagegallery = [
   {
     src: "Sources/images/gallery/8.png",
     title: "reception",
-    des: "We express gratitute to all our business partners and stakeholders who have supported us throughout this exciting journey.",
+    des: "We express gratitude to all our business partners and stakeholders who have supported us throughout this exciting journey.",
   },
   {
     src: "Sources/images/gallery/9.png",
     title: "Training room",
-    des: "Sucess in business requires: Training, Discipline, Hard Work",
+    des: "Success in business requires: Training, Discipline, Hard Work",
   },
 ];
 
@@ -208,56 +208,57 @@ const Home = () => {
         <div className="section_padding"></div>
       </section>
 
-      <section className="aboutus mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <Row>
-            <Col
-              xxl={12}
-              lg={12}
-              md={24}
-              sm={24}
-              xs={24}
-              className="my-auto"
-              style={{ textAlign: "center" }}
-            >
-              <img
-                src="Sources/images/home_img.png"
-                alt="404 -Not Given"
-                className="about_img"
-              />
-            </Col>
-            <Col
-              xxl={12}
-              lg={12}
-              md={24}
-              sm={24}
-              xs={24}
-              className="my-auto about_content"
-            >
-              <div style={{ padding: "50px" }}>
-                <div className="sectional_heading">
-                  <p className="is-size-2 has-text-weight-semibold pt-3">
-                    We are&nbsp;
-                    <span className="blue_color has-text-weight-semibold">
-                      Hitech
-                    </span>
+      <div className="home-page-bg">
+        <section className="aboutus mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
+            <Row>
+              <Col
+                xxl={12}
+                lg={12}
+                md={24}
+                sm={24}
+                xs={24}
+                className="my-auto"
+                style={{ textAlign: "center" }}
+              >
+                <img
+                  src="Sources/images/home_img.png"
+                  alt="404 -Not Given"
+                  className="about_img"
+                />
+              </Col>
+              <Col
+                xxl={12}
+                lg={12}
+                md={24}
+                sm={24}
+                xs={24}
+                className="my-auto about_content"
+              >
+                <div style={{ padding: "50px" }}>
+                  <div className="sectional_heading">
+                    <p className="is-size-2 has-text-weight-semibold pt-3">
+                      We are&nbsp;
+                      <span className="blue_color has-text-weight-semibold">
+                        Hitech
+                      </span>
+                    </p>
+                  </div>
+                  <p className="has-text-justified pt-4">
+                    Hitech took that step in 1996, since when it has quietly
+                    marched to emerge as one of the leading construction
+                    companies in Ahmedabad.
                   </p>
-                </div>
-                <p className="has-text-justified pt-4">
-                  Hitech took that step in 1996, since when it has quietly
-                  marched to emerge as one of the leading construction companies
-                  in Ahmedabad.
-                </p>
-                <br />
-                <p className="has-text-justified">
-                  Hitech, one of the most successful and efficient organization
-                  has a varied portfolio of :- Industrial Structures -
-                  Residential Buildings - Commercial Buildings - Institutional &
-                  other Buildings.
-                </p>
-                <br />
-                <p className="has-text-justified">
+                  <br />
+                  <p className="has-text-justified">
+                    Hitech, one of the most successful and efficient
+                    organization has a varied portfolio of :- Industrial
+                    Structures - Residential Buildings - Commercial Buildings -
+                    Institutional & other Buildings.
+                  </p>
+                  <br />
+                  {/* <p className="has-text-justified">
                   Hitech has a proven track record of delivering quality on
                   time, for every project. It is one of the few construction
                   companies in Ahmedabad with quality system certification ISO
@@ -269,24 +270,34 @@ const Home = () => {
                   Together with our customers, we deliver landmark projects that
                   foster long-term progress and economic growth. We've completed
                   many extraordinary projects—many first-of-a-kind.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+                </p> */}
+                  <p className="has-text-justified">
+                    Our dedication to delivering high-quality projects on time
+                    has led to obtaining the ISO 9001 certification for quality
+                    management. Additionally, we have achieved the ISO 45001
+                    certification, demonstrating our commitment to upholding the
+                    highest EHS standards in the industry. We have also been
+                    recognized as a &#39;AA&#39; class special category - I
+                    (Buildings) by the Govt. of Gujarat.
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <div className="section_padding"></div>
+        </section>
 
-      <section className="our_projects mobile_margin">
-        <p
-          className="is-size-2 has-text-weight-semibold blue_color"
-          style={{ textAlign: "center" }}
-        >
-          Our Projects
-        </p>
-        <div className="section_padding"></div>
-        <div className="container">
-          <Row>
+        <section className="our_projects mobile_margin">
+          <div className="section_padding"></div>
+          <p
+            className="is-size-2 has-text-weight-semibold blue_color"
+            style={{ textAlign: "center" }}
+          >
+            Our Projects
+          </p>
+          <div className="section_padding"></div>
+          <div className="container">
+            {/* <Row> */}
             {/* <Col xxl={12} lg={12} md={12} sm={24} xs={24} className="my-auto">
               <div>
                 <p className="is-size-2 has-text-weight-semibold blue_color">
@@ -301,7 +312,7 @@ const Home = () => {
               </div>
             </Col> */}
 
-            <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
+            <Col xxl={24} lg={24} md={24} sm={24} xs={24}>
               <Row style={{ display: "flex", justifyContent: "center" }}>
                 <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
                   <Link to={url.residential}>
@@ -339,57 +350,58 @@ const Home = () => {
                 </Col>
               </Row>
             </Col>
-            <Col xxl={12} lg={12} md={12} sm={24} xs={24} className="my-auto">
+            {/* <Col xxl={12} lg={12} md={12} sm={24} xs={24} className="my-auto">
               <iframe
                 title="residential"
                 src="https://www.google.com/maps/d/embed?mid=1ihvxpz8rcaJOYZnxQ43yIkeet9usr3w&amp;ehbc=2E312F"
                 width="100%"
                 height="480"
               ></iframe>
-            </Col>
-          </Row>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+            </Col> */}
+            {/* </Row> */}
+          </div>
+          <div className="section_padding"></div>
+        </section>
 
-      <section>
-        <div className="section_padding"></div>
-        <div className="container">
-          <Row style={{ display: "flex", justifyContent: "center" }}>
-            {imagegallery.map((item, key) => {
-              return (
-                <Col
-                  xxl={8}
-                  lg={8}
-                  md={12}
-                  sm={24}
-                  xs={24}
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  <div className="card_gallery_warpper">
-                    <div className="card_gallery">
-                      <div className="content">
-                        <div className="front">
-                          <img src={item.src} alt="404 - Not Given" />
-                        </div>
-                        <div className="back">
-                          <p className="is-size-6 has-text-centered gallery_title1 is-uppercase">
-                            {item.title}
-                          </p>
-                          <p className="is-size-7 has-text-centered gallery_title2">
-                            {item.des}
-                          </p>
+        <section>
+          <div className="section_padding"></div>
+          <div className="container">
+            <Row style={{ display: "flex", justifyContent: "center" }}>
+              {imagegallery.map((item, key) => {
+                return (
+                  <Col
+                    xxl={8}
+                    lg={8}
+                    md={12}
+                    sm={24}
+                    xs={24}
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <div className="card_gallery_warpper">
+                      <div className="card_gallery">
+                        <div className="content">
+                          <div className="front">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                          <div className="back">
+                            <p className="is-size-6 has-text-centered gallery_title1 is-uppercase">
+                              {item.title}
+                            </p>
+                            <p className="is-size-7 has-text-centered gallery_title2">
+                              {item.des}
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </Col>
-              );
-            })}
-          </Row>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+                  </Col>
+                );
+              })}
+            </Row>
+          </div>
+          <div className="section_padding"></div>
+        </section>
+      </div>
 
       <section className="value_parameter">
         <div className="section_padding"></div>

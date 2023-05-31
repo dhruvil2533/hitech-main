@@ -81,16 +81,18 @@ const headeritemtwo = [
 const Header = () => {
   const [isProjectOpen, setIsProjectOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [isDropDown, setisDropDown] = useState(true);
 
-  const onProjectChange = (value) => {
-    if (value === true) setIsAboutOpen(false);
-    setIsProjectOpen(value);
-  };
+const onProjectChange = (value) => {
+  if (value === true) setIsAboutOpen(false);
+  setIsProjectOpen(value);
+};
 
-  const onAboutChange = (value) => {
-    if (value === true) setIsProjectOpen(false);
-    setIsAboutOpen(value);
-  };
+const onAboutChange = (value) => {
+  if (value === true) setIsProjectOpen(false);
+  setIsAboutOpen(value);
+};
+
 
   // Sticky Menu Area
   useEffect(() => {
@@ -120,7 +122,7 @@ const Header = () => {
   }, []);
   const onFinish = (formData) => {};
 
-  const [isActives, setActive] = useState("false");
+  const [isActives, setActive] = useState(false);
 
   const ToggleClass = () => {
     setActive(!isActives);
@@ -328,6 +330,7 @@ const Header = () => {
               className={`my-auto navbar-burger ${isActive ? "is-active" : ""}`}
               onClick={() => {
                 setIsActive(!isActive);
+                ToggleClass();
               }}
               aria-label="menu"
               aria-expanded="false"
@@ -365,7 +368,9 @@ const Header = () => {
             >
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
-                  onClick={() => onProjectChange(!isProjectOpen)}
+                  onClick={() => {
+                    onProjectChange(!isProjectOpen);
+                  }}
                   className="navbar-link header_item"
                 >
                   Projects
@@ -381,13 +386,19 @@ const Header = () => {
                     overflow: small ? "hidden" : undefined,
                   }}
                 >
-                  {headeritemtwo.map((item, key) => {
+                  {isDropDown && headeritemtwo.map((item, key) => {
                     return (
                       <Link
                         className="navbar-item"
                         to={item.headlink}
                         key={key}
-                        onClick={() => setIsActive(false)}
+                        onClick={() => {
+                          setIsActive(!isActive);
+                          setisDropDown(false);
+                          setTimeout(() => {
+                            setisDropDown(true);
+                          }, 100);
+                        }}
                       >
                         {item.headname}
                       </Link>
@@ -423,13 +434,18 @@ const Header = () => {
                     overflow: small ? "hidden" : undefined,
                   }}
                 >
-                  {headeritemone.map((item, key) => {
+                  {isDropDown && headeritemone.map((item, key) => {
                     return (
                       <Link
                         className="navbar-item"
                         to={item.headlink}
                         key={key}
-                        onClick={() => setIsActive(false)}
+                        onClick={() => {
+                          setIsActive(false);
+                          setisDropDown(false);
+                          setTimeout(() => {
+                            setisDropDown(true);
+                          }, 100);}}
                       >
                         {item.headname}
                       </Link>

@@ -653,6 +653,28 @@ a.navbar-item.is-active,
 
 /* image gallery end */
 
+.home-page-bg, .services-page-bg, .about-us-bg {
+  background-color: rgba(255, 255, 255, 0.95);
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.home-page-bg {
+  background-image: url(/public/Sources/images/bg/6.jpg);
+}
+
+.services-page-bg {
+  background-image: url(/public/Sources/images/bg/7.avif);
+}
+
+.about-us-bg {
+  background-image: url(/public/Sources/images/bg/7.avif);
+}
+
 /* project start */
 .project_box {
   background-color: #fff;
@@ -707,6 +729,14 @@ a.navbar-item.is-active,
   min-height: 153px;
 } */
 /* standards end */
+
+.ongoing-projects, .completed-projects {
+  margin: 1.5rem;
+}
+
+.ongoing-projects:hover, .completed-projects:hover {
+  cursor: pointer;
+}
 
 /* residential start */
 
@@ -781,6 +811,46 @@ a.navbar-item.is-active,
   }
 }
 /* residential end */
+
+/* stats start */
+
+.stats {
+  background-image: url("/public/Sources/images/whoarewe/photo-1503708928676-1cb796a0891e.jpg"),
+    url("/public/Sources/images/whoarewe/gray.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.stats .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.stats .container .property_list {
+  min-height: 250px;
+  background-color: white;
+  margin: 10px 20px;
+  padding: 20px;
+}
+
+.stats .container .property_list_image {
+  max-height: 75px;
+  margin: 10px 0;
+}
+
+.stats .container .property_list_content {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .stats .container {
+    width: 100%;
+  }
+}
 
 /* career start */
 .career_card {
@@ -932,6 +1002,9 @@ a.navbar-item.is-active,
   transform: translateY(50%);
   margin: 3rem 2rem;
 }
+
+
+
 .timeline_wrapper {
   width: 100%;
   padding: 50px 0;

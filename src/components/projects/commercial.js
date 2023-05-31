@@ -1,5 +1,5 @@
 import { Col, Image, Row } from "antd";
-import React from "react";
+import React, { useState } from "react";
 
 const commerciallist = [
   {
@@ -236,37 +236,77 @@ const commercialcompleted = [
 ];
 
 const Commercial = () => {
+  const [isOngoing, setIsOngoing] = useState(true);
+  const [isCompleted, setIsCompleted] = useState(false);
+
   return (
     <>
-      <section className="residential">
+      <section className="residential py-5">
         <div className="container">
-          <p className="is-size-1 has-text-weight-semibold has-text-centered blue_color mb-2 is-uppercase">
+          <p className="is-size-1 has-text-weight-semibold has-text-centered blue_color is-uppercase">
             Commercial Projects
-          </p>
-          <div className="section_padding"></div>
-          <p className="is-size-2 has-text-weight-semibold has-text-centered blue_color mb-2 is-uppercase">
-            Ongoing Projects
           </p>
           <div>
             <Row>
-              {commerciallist.map((item, key) => {
-                return (
-                  <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                    <div className="property_list">
-                      <div className="propertylist_image">
-                        <Image src={item.src} alt="404 - Not Given" />
-                      </div>
+              <Col>
+                <p
+                  className="is-size-5 has-text-weight-semibold blue_color mb-2 is-uppercase ongoing-projects"
+                  onClick={() => {
+                    setIsCompleted(false);
+                    setIsOngoing(true);
+                  }}
+                  style={{
+                    borderBottom: isOngoing ? "2px solid #0d2e61" : "none",
+                  }}
+                >
+                  Ongoing
+                </p>
+              </Col>
+              <Col>
+                <p
+                  className="is-size-5 has-text-weight-semibold blue_color mb-2 is-uppercase completed-projects"
+                  onClick={() => {
+                    setIsOngoing(false);
+                    setIsCompleted(true);
+                  }}
+                  style={{
+                    borderBottom: isCompleted ? "2px solid #0d2e61" : "none",
+                  }}
+                >
+                  Completed
+                </p>
+              </Col>
+            </Row>
+          </div>
+        </div>
+      </section>
 
-                      <div className="propertylist_content p-4">
-                        <div className="pt-2">
-                          <p className="is-size-4 has-text-centered blue_color has-text-weight-semibold">
-                            {item.title}
-                          </p>
+      <section className="residential pt-0">
+        <div className="container">
+          <div>
+            <Row>
+              {isOngoing &&
+                commerciallist.map((item, key) => {
+                  return (
+                    <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                      <div
+                        className="property_list"
+                        style={{ minHeight: "650px" }}
+                      >
+                        <div className="propertylist_image">
+                          <Image src={item.src} alt="404 - Not Given" />
                         </div>
-                        <div className="pt-3">
+
+                        <div className="propertylist_content p-4">
+                          <div className="pt-2">
+                            <p className="is-size-4 has-text-centered blue_color has-text-weight-semibold">
+                              {item.title}
+                            </p>
+                          </div>
+                          {/* <div className="pt-3">
                           <p className="is-size-6">{item.content}</p>
-                        </div>
-                        {/* <div className="pt-3">
+                        </div> */}
+                          {/* <div className="pt-3">
                           <p className="is-size-6">
                             <span className="has-text-weight-semibold">
                               Segment:&nbsp;
@@ -274,158 +314,148 @@ const Commercial = () => {
                             Commercial
                           </p>
                         </div> */}
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Client:&nbsp;
-                            </span>
-                            {item.client}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Project Size:&nbsp;
-                            </span>
-                            {item.projectSize}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Project Year:&nbsp;
-                            </span>
-                            {item.projectYear}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Architect:&nbsp;
-                            </span>
-                            {item.architect}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Str. Consultant:&nbsp;
-                            </span>
-                            {item.consultant}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Scope:&nbsp;
-                            </span>
-                            {item.scope}
-                          </p>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Client:&nbsp;
+                              </span>
+                              {item.client}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Project Size:&nbsp;
+                              </span>
+                              {item.projectSize}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Project Year:&nbsp;
+                              </span>
+                              {item.projectYear}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Architect:&nbsp;
+                              </span>
+                              {item.architect}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Str. Consultant:&nbsp;
+                              </span>
+                              {item.consultant}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Scope:&nbsp;
+                              </span>
+                              {item.scope}
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </Col>
-                );
-              })}
+                    </Col>
+                  );
+                })}
             </Row>
           </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
-
-      <section className="residential">
-        <div className="section_padding"></div>
-        <div className="container">
-          <p className="is-size-2 has-text-weight-semibold has-text-centered blue_color mb-2 is-uppercase">
-            Completed Projects
-          </p>
           <div>
             <Row>
-              {commercialcompleted.map((item, key) => {
-                return (
-                  <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                    <div
-                      className="property_list"
-                      style={{ minHeight: "860px" }}
-                    >
-                      <div className="propertylist_image">
-                        <Image src={item.src} alt="404 - Not Given" />
-                      </div>
+              {isCompleted &&
+                commercialcompleted.map((item, key) => {
+                  return (
+                    <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                      <div
+                        className="property_list"
+                        style={{ minHeight: "650px" }}
+                      >
+                        <div className="propertylist_image">
+                          <Image src={item.src} alt="404 - Not Given" />
+                        </div>
 
-                      <div className="propertylist_content p-4">
-                        <div className="pt-2">
-                          <p className="is-size-4 has-text-centered blue_color has-text-weight-semibold">
-                            {item.title}
-                          </p>
-                        </div>
-                        <div className="pt-3">
+                        <div className="propertylist_content p-4">
+                          <div className="pt-2">
+                            <p className="is-size-4 has-text-centered blue_color has-text-weight-semibold">
+                              {item.title}
+                            </p>
+                          </div>
+                          {/* <div className="pt-3">
                           <p className="is-size-6">{item.content}</p>
-                        </div>
-                        <div className="pt-3">
+                        </div> */}
+                          {/* <div className="pt-3">
                           <p className="is-size-6">
                             <span className="has-text-weight-semibold">
                               Segment:&nbsp;
                             </span>
                             {item.segment}
                           </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Client:&nbsp;
-                            </span>
-                            {item.client}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Project Size:&nbsp;
-                            </span>
-                            {item.projectSize}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Project Year:&nbsp;
-                            </span>
-                            {item.projectYear}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Architect:&nbsp;
-                            </span>
-                            {item.architect}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Str. Consultant:&nbsp;
-                            </span>
-                            {item.consultant}
-                          </p>
-                        </div>
-                        <div className="pt-3">
-                          <p className="is-size-6">
-                            <span className="has-text-weight-semibold">
-                              Scope:&nbsp;
-                            </span>
-                            {item.scope}
-                          </p>
+                        </div> */}
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Client:&nbsp;
+                              </span>
+                              {item.client}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Project Size:&nbsp;
+                              </span>
+                              {item.projectSize}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Project Year:&nbsp;
+                              </span>
+                              {item.projectYear}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Architect:&nbsp;
+                              </span>
+                              {item.architect}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Str. Consultant:&nbsp;
+                              </span>
+                              {item.consultant}
+                            </p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Scope:&nbsp;
+                              </span>
+                              {item.scope}
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </Col>
-                );
-              })}
+                    </Col>
+                  );
+                })}
             </Row>
           </div>
         </div>
-        <div className="section_padding"></div>
       </section>
     </>
   );

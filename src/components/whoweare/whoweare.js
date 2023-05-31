@@ -41,6 +41,39 @@ const aboutlist = [
   },
 ];
 
+const statslist = [
+  {
+    src: "Sources/images/achievements/quality.png",
+    title: "Years of Experience",
+    content: "25+",
+  },
+  {
+    src: "Sources/images/achievements/team.png",
+    title: "Team Members",
+    content: "500+",
+  },
+  {
+    src: "Sources/images/achievements/workforce.png",
+    title: "Workforce",
+    content: "3000+",
+  },
+  {
+    src: "Sources/images/achievements/construction.png",
+    title: "Total Constructed Area",
+    content: "25Mn+ Sqft",
+  },
+  {
+    src: "Sources/images/achievements/completed-task.png",
+    title: "Completed Projects",
+    content: "100+",
+  },
+  {
+    src: "Sources/images/achievements/building.png",
+    title: "Ongoing Projects",
+    content: "20+",
+  },
+];
+
 const Whoweare = () => {
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -59,38 +92,39 @@ const Whoweare = () => {
   };
   return (
     <>
-      <section className="mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div>
-            <Row>
-              <Col
-                xxl={12}
-                lg={12}
-                md={24}
-                sm={24}
-                xs={24}
-                className="my-auto about_content px-6"
-              >
-                <div>
-                  <div className="sectional_heading">
-                    <p className="is-size-2 has-text-weight-semibold pt-3 blue_color">
-                      We are Hitech
+      <div className="about-us-bg">
+        <section className="mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
+            <div>
+              <Row>
+                <Col
+                  xxl={12}
+                  lg={12}
+                  md={24}
+                  sm={24}
+                  xs={24}
+                  className="my-auto about_content px-6"
+                >
+                  <div>
+                    <div className="sectional_heading">
+                      <p className="is-size-2 has-text-weight-semibold pt-3 blue_color">
+                        We are Hitech
+                      </p>
+                    </div>
+                    <p className=" pt-4">
+                      Established in 1996, Hitech Construction has steadily
+                      risen to become a premier construction company in
+                      Ahmedabad. Our unwavering commitment to excellence,
+                      customer satisfaction, and our strong focus on
+                      environmental, health, and safety (EHS) standards have
+                      earned us a reputation as one of the most efficient and
+                      reliable construction firms in the region. <br />
+                      At Hitech, we pride ourselves on our diverse portfolio,
+                      which encompasses:
                     </p>
-                  </div>
-                  <p className=" pt-4">
-                    Established in 1996, Hitech Construction has steadily risen
-                    to become a premier construction company in Ahmedabad. Our
-                    unwavering commitment to excellence, customer satisfaction,
-                    and our strong focus on environmental, health, and safety
-                    (EHS) standards have earned us a reputation as one of the
-                    most efficient and reliable construction firms in the
-                    region. <br />
-                    At Hitech, we pride ourselves on our diverse portfolio,
-                    which encompasses:
-                  </p>
-                  <div className="mt-5">
-                    {/* <li>
+                    <div className="mt-5">
+                      {/* <li>
                       It has a proven track record of delivering quality on
                       time, for every project.
                     </li>
@@ -105,90 +139,123 @@ const Whoweare = () => {
                       trained professionals, Hitech is capable of responding to
                       complex challenges.
                     </li> */}
-                    <li>Industrial Structures</li>
-                    <li>Residential Buildings</li>
-                    <li>Commercial Buildings</li>
-                    <li>Institutional &amp; Other Buildings</li>
-                    <br />
-                  </div>
-                  Our dedication to delivering high-quality projects on time has
+                      <li>Industrial Structures</li>
+                      <li>Residential Buildings</li>
+                      <li>Commercial Buildings</li>
+                      <li>Institutional &amp; Other Buildings</li>
+                      <br />
+                    </div>
+                    {/* Our dedication to delivering high-quality projects on time has
                   led to obtaining the ISO 9001 certification for quality
                   management. Additionally, we have achieved the ISO 45001
                   certification, demonstrating our commitment to upholding the
                   highest EHS standards in the industry. We have also been
                   recognized as a &#39;AA&#39; class special category - I
-                  (Buildings) by the Govt. of Gujarat. <br />
-                  <br />
-                  We believe in forging lasting partnerships with our clients to
-                  create landmark projects that contribute to long-term progress
-                  and economic growth. Over the years, we have successfully
-                  completed numerous extraordinary projects, many of which were
-                  groundbreaking in their own right.
-                </div>
-              </Col>
-              <Col
-                xxl={12}
-                lg={12}
-                md={24}
-                sm={24}
-                xs={24}
-                className="my-auto"
-                style={{ textAlign: "center" }}
-              >
-                <img
-                  src="Sources/images/home_img.png"
-                  alt="404 -Not Given"
-                  className="about_img"
-                />
-              </Col>
+                  (Buildings) by the Govt. of Gujarat. <br /> */}
+                    {/* <br /> */}
+                    We believe in forging lasting partnerships with our clients
+                    to create landmark projects that contribute to long-term
+                    progress and economic growth. Over the years, we have
+                    successfully completed numerous extraordinary projects, many
+                    of which were groundbreaking in their own right.
+                  </div>
+                </Col>
+                <Col
+                  xxl={12}
+                  lg={12}
+                  md={24}
+                  sm={24}
+                  xs={24}
+                  className="my-auto"
+                  style={{ textAlign: "center" }}
+                >
+                  <img
+                    src="Sources/images/home_img.png"
+                    alt="404 -Not Given"
+                    className="about_img"
+                  />
+                </Col>
+              </Row>
+            </div>
+            <div className="section_padding"></div>
+          </div>
+        </section>
+        <section className="stats">
+          <div className="container">
+            <p
+              className="is-size-2 has-text-weight-semibold has-text-centered mt-2"
+              style={{ color: "white" }}
+            >
+              Our Achievements
+            </p>
+            <Row gutter={[16, 16]}>
+              {statslist.map((item, key) => (
+                <Col xxl={6} xl={8} lg={12} md={12} sm={24} xs={24} key={key}>
+                  <div className="property_list">
+                    <div>
+                      <img
+                        src={item.src}
+                        alt="404 - Not Given"
+                        className="property_list_image"
+                      />
+                    </div>
+                    <div className="property_list_content">
+                      <p className="is-size-5 has-text-centered blue_color has-text-weight-semibold">
+                        {item.title}
+                      </p>
+                      <p className="is-size-3 has-text-centered blue_color has-text-weight-semibold">
+                        {item.content}
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+              ))}
             </Row>
           </div>
-        </div>
-      </section>
-      <section className="mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div>
-            <Row style={{ display: "flex", justifyContent: "center" }}>
-              {managementcard.map((item, key) => {
-                return (
-                  <Col
-                    xxl={8}
-                    lg={8}
-                    md={12}
-                    sm={24}
-                    xs={24}
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <Card className="servicecard">
-                      <div className="has-text-centered service_icon">
-                        <div className="icon_border">{item.icon}</div>
-                      </div>
-                      <div>
-                        <p className="is-size-4 has-text-weight-semibold has-text-centered is-uppercase service_title mt-3">
-                          {item.title}
-                        </p>
-                        <p className="is-size-5 has-text-justified mt-4">
-                          {item.des}
-                        </p>
-                      </div>
-                    </Card>
-                  </Col>
-                );
-              })}
-            </Row>
+        </section>
+        <section className="mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
+            <div>
+              <Row style={{ display: "flex", justifyContent: "center" }}>
+                {managementcard.map((item, key) => {
+                  return (
+                    <Col
+                      xxl={8}
+                      lg={8}
+                      md={12}
+                      sm={24}
+                      xs={24}
+                      style={{ display: "flex", justifyContent: "center" }}
+                    >
+                      <Card className="servicecard">
+                        <div className="has-text-centered service_icon">
+                          <div className="icon_border">{item.icon}</div>
+                        </div>
+                        <div>
+                          <p className="is-size-4 has-text-weight-semibold has-text-centered is-uppercase service_title mt-3">
+                            {item.title}
+                          </p>
+                          <p className="is-size-5 has-text-justified mt-4">
+                            {item.des}
+                          </p>
+                        </div>
+                      </Card>
+                    </Col>
+                  );
+                })}
+              </Row>
+            </div>
           </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
-      <section>
-        <div className="section_padding"></div>
+          <div className="section_padding"></div>
+        </section>
+        {/* <section>
         <div>
           <Row>
             <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
               <img
                 src="Sources/images/about/about.png"
-                alt="404 - Not Gievn"
+                alt="404 - Not Given"
                 style={{ width: "100%", height: "100%" }}
               />
             </Col>
@@ -220,518 +287,561 @@ const Whoweare = () => {
             </Col>
           </Row>
         </div>
-      </section>
-      <section className="event residential_events">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div className="sectional_heading pb-5">
-            <p className="is-size-2 has-text-weight-semibold blue_color has-text-centered">
-              Our Journey
-            </p>
+      </section> */}
+
+        <section>
+          <div className="container">
+            <Row>
+              <Col xxl={12} lg={12} md={24} sm={24} xs={24}>
+                <img
+                  src="Sources/images/about/about.png"
+                  alt="404 - Not Given"
+                  style={{ width: "100%", height: "500px" }}
+                />
+              </Col>
+              <Col
+                xxl={12}
+                lg={12}
+                md={24}
+                sm={24}
+                xs={24}
+                className="bluebg_color"
+              >
+                <div className="strength">
+                  <p className="is-size-3 has-text-white has-text-centered mb-3" style={{margin: width >= 992 ? "0% 5%" : "5% 0%", paddingTop: "0px"}}>
+                    Our Strengths
+                  </p>
+                  <Slider {...settings}>
+                    {aboutlist.map((item, key) => (
+                      <div className="has-text-centered" key={key}>
+                        <p className="is-size-4 has-text-white mb-3">
+                          <span className="responsive-text">{item.title}</span>
+                        </p>
+                        <p className="is-size-5 has-text-white">
+                          <span className="responsive-text">{item.des}</span>
+                        </p>
+                      </div>
+                    ))}
+                  </Slider>
+                </div>
+              </Col>
+            </Row>
           </div>
-          {width > 767 && (
-            <div className="mt-5">
-              <Row>
-                <Col xxl={10} lg={8} md={8}>
-                  <p className="mt-3 has-text-right timeline_number">19</p>
-                </Col>
-                {/* <Col xxl={1} lg={0} md={0}></Col> */}
-                <Col xxl={4} lg={8} md={8}>
-                  <div className="main_timeline_text">
-                    <p className="is-size-6 has-text-black mt-3 has-text-centered">
-                      Childhood friends Munir Shah & Tejas Dalal started Hi-Tech
-                      from their home office. The Journey started with an
-                      opportunity to build a corporate house for Harsha
-                      Engineers.
-                    </p>
-                  </div>
-                </Col>
-                {/* <Col xxl={1} lg={0} md={0}></Col> */}
-                <Col xxl={10} lg={8} md={8}>
-                  <p className="mt-3 has-text-left timeline_number">96</p>
-                </Col>
-              </Row>
+        </section>
+        <section className="event residential_events">
+          <div className="section_padding"></div>
+          <div className="container">
+            <div className="sectional_heading pb-5">
+              <p className="is-size-2 has-text-weight-semibold blue_color has-text-centered">
+                Our Journey
+              </p>
             </div>
-          )}
-          {width < 768 && (
-            <div className="mt-5">
-              <Row>
-                <Col md={8} sm={24} xs={24}>
-                  <p className="mt-3 has-text-centered timeline_number">1996</p>
-                </Col>
-                <Col md={8} sm={24} xs={24}>
-                  <div className="main_timeline_text">
-                    <p className="is-size-6 has-text-black mt-3 has-text-centered">
-                      Childhood friends Munir Shah & Tejas Dalal started Hi-Tech
-                      from their home office. The Journey started with an
-                      opportunity to build a corporate house for Harsha
-                      Engineers.
+            {width > 767 && (
+              <div className="mt-5">
+                <Row>
+                  <Col xxl={10} lg={8} md={8}>
+                    <p className="mt-3 has-text-right timeline_number">19</p>
+                  </Col>
+                  {/* <Col xxl={1} lg={0} md={0}></Col> */}
+                  <Col xxl={4} lg={8} md={8}>
+                    <div className="main_timeline_text">
+                      <p className="is-size-6 has-text-black mt-3 has-text-centered">
+                        Childhood friends Munir Shah & Tejas Dalal started
+                        Hi-Tech from their home office. The Journey started with
+                        an opportunity to build a corporate house for Harsha
+                        Engineers.
+                      </p>
+                    </div>
+                  </Col>
+                  {/* <Col xxl={1} lg={0} md={0}></Col> */}
+                  <Col xxl={10} lg={8} md={8}>
+                    <p className="mt-3 has-text-left timeline_number">96</p>
+                  </Col>
+                </Row>
+              </div>
+            )}
+            {width < 768 && (
+              <div className="mt-5">
+                <Row>
+                  <Col md={8} sm={24} xs={24}>
+                    <p className="mt-3 has-text-centered timeline_number">
+                      1996
                     </p>
-                  </div>
-                </Col>
-              </Row>
+                  </Col>
+                  <Col md={8} sm={24} xs={24}>
+                    <div className="main_timeline_text">
+                      <p className="is-size-6 has-text-black mt-3 has-text-centered">
+                        Childhood friends Munir Shah & Tejas Dalal started
+                        Hi-Tech from their home office. The Journey started with
+                        an opportunity to build a corporate house for Harsha
+                        Engineers.
+                      </p>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            )}
+          </div>
+          {/* <div className="container is-fluid timeline_wrapper"> */}
+          <div className="timeline_wrapper">
+            <div className="timeline-block timeline-block-left different_width">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">1999</p>
+                <div className="space-align-container">
+                  <Row>
+                    <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/1.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <div>
+                              <p className="is-size-6 has-text-black mt-3">
+                                Moved to 350 sqft office premises
+                                <br /> Bagged 1st green field industrial project
+                                of Export Oriented Manufacturing facility for
+                                Harsha Engineers
+                              </p>
+                            </div>
+                          </div>
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
             </div>
-          )}
-        </div>
-        {/* <div className="container is-fluid timeline_wrapper"> */}
-        <div className="timeline_wrapper">
-          <div className="timeline-block timeline-block-left different_width">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">1999</p>
-              <div className="space-align-container">
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2003</p>
+                <Row>
+                  <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                    <div className="space-align-container">
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          {/* center1 */}
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/2.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <p className="is-size-6 has-text-black mt-3">
+                              Launched various commercial & residential projects
+                              in Ahmedabad & Gandhinagar as a developer
+                            </p>
+                          </div>
+                        </Space>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+            <div className="timeline-block timeline-block-left different_width">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2007</p>
+                <div className="space-align-container">
+                  <Row>
+                    <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/3.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <div>
+                              <p className="is-size-6 has-text-black mt-3">
+                                Executed various industrial projects for Jekson
+                                Hydraulics & logistic hub for Safexpress.
+                              </p>
+                            </div>
+                          </div>
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
+            </div>
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2009</p>
                 <Row>
                   <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        <div>
+                    <div className="space-align-container">
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          {/* center1 */}
                           <div>
-                            <img
-                              src="Sources/images/milestone/1.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/4.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
                             <p className="is-size-6 has-text-black mt-3">
-                              Moved to 350 sqft office premises
-                              <br /> Bagged 1st green field industrial project
-                              of Export Oriented Manufacturing facility for
-                              Harsha Engineers
+                              Bagged a landmark hospital project Narayana
+                              Hrueralava in Ahmedabad. Procured 1st Concrete
+                              Batching Place & Pump.
                             </p>
                           </div>
-                        </div>
-                      </Space>
+                        </Space>
+                      </div>
                     </div>
                   </Col>
                 </Row>
               </div>
             </div>
-          </div>
-          <div className="timeline-block timeline-block-right">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2003</p>
-              <Row>
-                <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
-                  <div className="space-align-container">
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        {/* center1 */}
-                        <div>
+            <div className="timeline-block timeline-block-left different_width">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2010</p>
+                <div className="space-align-container">
+                  <Row>
+                    <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
                           <div>
-                            <img
-                              src="Sources/images/milestone/2.png"
-                              alt="404 - Not Given"
-                            />
+                            <div>
+                              <img
+                                src="Sources/images/milestone/5.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <div>
+                              <p className="is-size-6 has-text-black mt-3">
+                                Association with leading real estate developer
+                                H.N.Saral. <br />5 million sqft built for them
+                                over the years for their various large scale
+                                projects.
+                              </p>
+                            </div>
                           </div>
-                          <p className="is-size-6 has-text-black mt-3">
-                            Launched various commercial & residential projects
-                            in Ahmedabad & Gandhinagar as a developer
-                          </p>
-                        </div>
-                      </Space>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </div>
-          <div className="timeline-block timeline-block-left different_width">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2007</p>
-              <div className="space-align-container">
-                <Row>
-                  <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        <div>
-                          <div>
-                            <img
-                              src="Sources/images/milestone/3.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <div>
-                            <p className="is-size-6 has-text-black mt-3">
-                              Executed various industrial projects for Jekson
-                              Hydraulics & logistic hub for Safexpress.
-                            </p>
-                          </div>
-                        </div>
-                      </Space>
-                    </div>
-                  </Col>
-                </Row>
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="timeline-block timeline-block-right">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2009</p>
-              <Row>
-                <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
-                  <div className="space-align-container">
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        {/* center1 */}
-                        <div>
-                          <div>
-                            <img
-                              src="Sources/images/milestone/4.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <p className="is-size-6 has-text-black mt-3">
-                            Bagged a landmark hospital project Narayana
-                            Hrueralava in Ahmedabad. Procured 1st Concrete
-                            Batching Place & Pump.
-                          </p>
-                        </div>
-                      </Space>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </div>
-          <div className="timeline-block timeline-block-left different_width">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2010</p>
-              <div className="space-align-container">
-                <Row>
-                  <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        <div>
-                          <div>
-                            <img
-                              src="Sources/images/milestone/5.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <div>
-                            <p className="is-size-6 has-text-black mt-3">
-                              Association with leading real estate developer
-                              H.N.Saral. <br />5 million sqft built for them
-                              over the years for their various large scale
-                              projects.
-                            </p>
-                          </div>
-                        </div>
-                      </Space>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-            </div>
-          </div>
-          <div className="timeline-block timeline-block-right">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2013</p>
-              <Row>
-                <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
-                  <div className="space-align-container">
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        {/* center1 */}
-                        <div>
-                          <div>
-                            <img
-                              src="Sources/images/milestone/6.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <p className="is-size-6 has-text-black mt-3">
-                            Moved to 3000 sqft office premises. Associated with
-                            True Value for execution of Ahmedabad's first 22
-                            storey commercial complex. West Cate 2 million sqft
-                            built for them over the years. Procured 1st tower
-                            crane.
-                          </p>
-                        </div>
-                      </Space>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </div>
-          <div className="timeline-block timeline-block-left different_width">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2015</p>
-              <div className="space-align-container">
-                <Row>
-                  <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        <div>
-                          <div>
-                            <img
-                              src="Sources/images/milestone/7.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <div>
-                            <p className="is-size-6 has-text-black mt-3">
-                              Digital transformation initiative taken for
-                              <br />
-                              development of Enterprise Resource Planning (ERP)
-                              tool with inhouse IT team.
-                            </p>
-                          </div>
-                        </div>
-                      </Space>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-            </div>
-          </div>
-          <div className="timeline-block timeline-block-right">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2016</p>
-              <Row>
-                <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
-                  <div className="space-align-container">
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        {/* center1 */}
-                        <div>
-                          <div>
-                            <img
-                              src="Sources/images/milestone/8.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <p className="is-size-6 has-text-black mt-3">
-                            Organisation converted to Private Limited from
-                            Partnership. Association with Sun builders for High
-                            end residential complex-Sun Evoq. 3 million sqft
-                            built for them till date.
-                          </p>
-                        </div>
-                      </Space>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </div>
-          <div className="timeline-block timeline-block-left different_width">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2017</p>
-              <div className="space-align-container">
-                <Row>
-                  <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        <div>
-                          <div>
-                            <img
-                              src="Sources/images/milestone/9.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <div>
-                            <p className="is-size-6 has-text-black mt-3">
-                              Association with Sharanam group for their various
-                              commercial projects.
-                              <br /> 1.5 million sqft built for them in Several
-                              years.
-                            </p>
-                          </div>
-                        </div>
-                      </Space>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-            </div>
-          </div>
-          <div className="timeline-block timeline-block-right">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2018</p>
-              <Row>
-                <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
-                  <div className="space-align-container">
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        {/* center1 */}
-                        <div>
-                          <div>
-                            <img
-                              src="Sources/images/milestone/10.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <p className="is-size-6 has-text-black mt-3">
-                            Expanded the corporate segment construction for
-                            clients like Torrent, Arvind & Nexus. Initiated
-                            geographical expansion by starting projects in
-                            Dholera & Surat.
-                          </p>
-                        </div>
-                      </Space>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </div>
-          <div className="timeline-block timeline-block-left different_width">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2020</p>
-              <div className="space-align-container">
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2013</p>
                 <Row>
                   <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        <div>
+                    <div className="space-align-container">
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          {/* center1 */}
                           <div>
-                            <img
-                              src="Sources/images/milestone/11.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/6.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
                             <p className="is-size-6 has-text-black mt-3">
-                              Won 3 ICI- Ultratech Awards at State & Regional
-                              level in different categories for outstanding
-                              structures.
+                              Moved to 3000 sqft office premises. Associated
+                              with True Value for execution of Ahmedabad's first
+                              22 storey commercial complex. West Cate 2 million
+                              sqft built for them over the years. Procured 1st
+                              tower crane.
                             </p>
                           </div>
-                        </div>
-                      </Space>
+                        </Space>
+                      </div>
                     </div>
                   </Col>
                 </Row>
               </div>
             </div>
-          </div>
-          <div className="timeline-block timeline-block-right">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2021</p>
-              <Row>
-                <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
-                  <div className="space-align-container">
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        {/* center1 */}
-                        <div>
+            <div className="timeline-block timeline-block-left different_width">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2015</p>
+                <div className="space-align-container">
+                  <Row>
+                    <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
                           <div>
-                            <img
-                              src="Sources/images/milestone/12.png"
-                              alt="404 - Not Given"
-                            />
+                            <div>
+                              <img
+                                src="Sources/images/milestone/7.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <div>
+                              <p className="is-size-6 has-text-black mt-3">
+                                Digital transformation initiative taken for
+                                <br />
+                                development of Enterprise Resource Planning
+                                (ERP) tool with inhouse IT team.
+                              </p>
+                            </div>
                           </div>
-                          <p className="is-size-6 has-text-black mt-3">
-                            Started projects with Reliance IndutriesLtd at
-                            Jamnagar. Added concrete boom placer in the feet of
-                            P&M equipment.
-                          </p>
-                        </div>
-                      </Space>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className="timeline-block timeline-block-left different_width">
-            <div className="marker"></div>
-            <div>
-              <p className="is-size-4 timeline_year">2022</p>
-              <div className="space-align-container">
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2016</p>
                 <Row>
-                  <Col xxl={20} lg={17} md={24} sm={24} xs={24}>
-                    <div className="space-align-block">
-                      <Space
-                        align="center"
-                        direction="horizontal"
-                        className="mile_box"
-                      >
-                        <div>
+                  <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
+                    <div className="space-align-container">
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          {/* center1 */}
                           <div>
-                            <img
-                              src="Sources/images/milestone/13.png"
-                              alt="404 - Not Given"
-                            />
-                          </div>
-                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/8.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
                             <p className="is-size-6 has-text-black mt-3">
-                              Moved to state of the art office premises of 25000
-                              sqft.
+                              Organisation converted to Private Limited from
+                              Partnership. Association with Sun builders for
+                              High end residential complex-Sun Evoq. 3 million
+                              sqft built for them till date.
                             </p>
                           </div>
-                        </div>
-                      </Space>
+                        </Space>
+                      </div>
                     </div>
                   </Col>
                 </Row>
               </div>
             </div>
+            <div className="timeline-block timeline-block-left different_width">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2017</p>
+                <div className="space-align-container">
+                  <Row>
+                    <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/9.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <div>
+                              <p className="is-size-6 has-text-black mt-3">
+                                Association with Sharanam group for their
+                                various commercial projects.
+                                <br /> 1.5 million sqft built for them in
+                                Several years.
+                              </p>
+                            </div>
+                          </div>
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
+            </div>
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2018</p>
+                <Row>
+                  <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
+                    <div className="space-align-container">
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          {/* center1 */}
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/10.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <p className="is-size-6 has-text-black mt-3">
+                              Expanded the corporate segment construction for
+                              clients like Torrent, Arvind & Nexus. Initiated
+                              geographical expansion by starting projects in
+                              Dholera & Surat.
+                            </p>
+                          </div>
+                        </Space>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+            <div className="timeline-block timeline-block-left different_width">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2020</p>
+                <div className="space-align-container">
+                  <Row>
+                    <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/11.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <div>
+                              <p className="is-size-6 has-text-black mt-3">
+                                Won 3 ICI- Ultratech Awards at State & Regional
+                                level in different categories for outstanding
+                                structures.
+                              </p>
+                            </div>
+                          </div>
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
+            </div>
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2021</p>
+                <Row>
+                  <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
+                    <div className="space-align-container">
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          {/* center1 */}
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/12.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <p className="is-size-6 has-text-black mt-3">
+                              Started projects with Reliance IndutriesLtd at
+                              Jamnagar. Added concrete boom placer in the feet
+                              of P&M equipment.
+                            </p>
+                          </div>
+                        </Space>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+            <div className="timeline-block timeline-block-left different_width">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2022</p>
+                <div className="space-align-container">
+                  <Row>
+                    <Col xxl={20} lg={17} md={24} sm={24} xs={24}>
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/13.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <div>
+                              <p className="is-size-6 has-text-black mt-3">
+                                Moved to state of the art office premises of
+                                25000 sqft.
+                              </p>
+                            </div>
+                          </div>
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+          <div className="section_padding"></div>
+        </section>
+      </div>
       {/* <section className="event residential_events">
         <div className="section_padding"></div>
         <div className="container">

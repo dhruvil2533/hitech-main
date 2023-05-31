@@ -47,305 +47,243 @@ const Standards = () => {
   }
   return (
     <>
-      <section className="mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div className="mb-5">
-            <p className="is-size-2 has-text-weight-semibold has-text-centered blue_color">
-              Quality
-            </p>
-            <p className="is-size-4 has-text-weight-semibold has-text-centered">
-              Quality over Quantity
-            </p>
-          </div>
-          <Row>
-            <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
-              <div>
-                <p className="has-text-justified">
-                  Hitech was among the first of companies of its type to achieve
-                  ISO 9001 Certification. Our success at being among the leaders
-                  in our industry is based on providing quality construction
-                  related services that exceed the needs of our customers. We
-                  achieve this success by providing an experienced and
-                  responsive team of professionals with a common goal to satisfy
-                  the customer. Our philosophy of continual Improvement is a
-                  vital element in our quest to be among the best. We continue
-                  to build upon a positive reputation in the construction
-                  industry, as we commit to quality servicing for our customers.
-                </p>
-                <div className="mt-4">
-                  <li>
-                    Provision of processes, tools, training, and expertise to
-                    improve the identification and resolution of quality issues.
-                  </li>
-                  <li>
-                    Focusing on human behaviors that drive "right the first
-                    time" quality.
-                  </li>
-                </div>
-                <Row>
-                  <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                    <div className="project_box" style={{ minHeight: "153px" }}>
-                      <BiNotepad className="is-size-1 blue_color" />
-                      <p>Method Statement</p>
-                    </div>
-                  </Col>
-                  <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                    <div className="project_box" style={{ minHeight: "153px" }}>
-                      <BsShieldCheck className="is-size-1 blue_color" />
-                      <p>Standard Material and Practices</p>
-                    </div>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                    <div className="project_box" style={{ minHeight: "153px" }}>
-                      <AiOutlineAudit className="is-size-1 blue_color" />
-                      <p>Strong Internal Audit Systems</p>
-                    </div>
-                  </Col>
-                  <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                    <div className="project_box" style={{ minHeight: "153px" }}>
-                      <BsCardChecklist className="is-size-1 blue_color" />
-                      <p>Checklists And Work Instructions</p>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-            </Col>
-            <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
-
-            <Col xxl={11} lg={11} md={24} sm={24} xs={24} className="my-auto">
-              <div>
-                <Carousel
-                  swipeable
-                  autoPlay
-                  infiniteLoop={true}
-                  emulateTouch={true}
-                  showArrows={false}
-                  showThumbs={false}
-                  showStatus={false}
-                  interval={1000}
-                  stopOnHover
-                >
-                  {quality.map((item, key) => {
-                    return (
-                      <div style={{ height: "100%" }}>
-                        <img
-                          src={item.src}
-                          alt="404 - Not Given"
-                          style={{ height: "100%", width: "100%" }}
-                        />
-                      </div>
-                    );
-                  })}
-
-                  {/* {machinery.map((item, key) => {
-                        return <img src={item.src} alt="404 - Not Given" />;
-                      })} 
-                    </div>*/}
-                </Carousel>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div className="section_padding"></div>
-      </section>
-
-      <section className="mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <Row>
-            {width > 768 && (
-              <Col xxl={11} lg={11} md={24} sm={24} xs={24} className="my-auto">
-                <div>
-                  <Carousel
-                    swipeable
-                    autoPlay
-                    infiniteLoop={true}
-                    emulateTouch={true}
-                    showArrows={false}
-                    showThumbs={false}
-                    showStatus={false}
-                    interval={1000}
-                    stopOnHover
-                  >
-                    {safety.map((item, key) => {
-                      return (
-                        <div style={{ height: "100%" }}>
-                          <img
-                            src={item.src}
-                            alt="404 - Not Given"
-                            style={{ height: "100%", width: "100%" }}
-                          />
-                        </div>
-                      );
-                    })}
-
-                    {/* {machinery.map((item, key) => {
-                        return <img src={item.src} alt="404 - Not Given" />;
-                      })} 
-                    </div>*/}
-                  </Carousel>
-                </div>
-              </Col>
-            )}
-            <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
-            <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
-              <div>
-                <p className="has-text-justified">
-                  Hitech is dedicated to providing its employees and those of
-                  its contractors and subcontractors a safe working environment.
-                  The practice of diligence, good judgment and common sense by
-                  all project team members helps to create an environment in
-                  which the rate of incidents is substantially reduced. Since
-                  our foundation, we have been devoted to building a culture
-                  that promotes an injury-free environment. To do that, we have
-                  developed extensive training and education modules designed to
-                  minimize and eliminate personal injury, property damage and
-                  all associated costs. These ongoing programs provide our
-                  people and our partners with the knowledge and resources they
-                  need to keep themselves and each other safe.
-                </p>
-              </div>
-            </Col>
-            {width < 769 && (
-              <Col xxl={11} lg={11} md={24} sm={24} xs={24} className="my-auto">
-                <div>
-                  <Carousel
-                    swipeable
-                    autoPlay
-                    infiniteLoop={true}
-                    emulateTouch={true}
-                    showArrows={false}
-                    showThumbs={false}
-                    showStatus={false}
-                    interval={1000}
-                    stopOnHover
-                  >
-                    {safety.map((item, key) => {
-                      return (
-                        <div style={{ height: "100%" }}>
-                          <img
-                            src={item.src}
-                            alt="404 - Not Given"
-                            style={{ height: "100%", width: "100%" }}
-                          />
-                        </div>
-                      );
-                    })}
-
-                    {/* {machinery.map((item, key) => {
-                        return <img src={item.src} alt="404 - Not Given" />;
-                      })} 
-                    </div>*/}
-                  </Carousel>
-                </div>
-              </Col>
-            )}
-          </Row>
-          <Row>
-            <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
-              <div>
-                <div style={{ height: "100%" }}>
-                  <img
-                    src="Sources/images/standards/safety/9.png"
-                    alt="404 - Not Given"
-                    style={{ height: "100%", width: "100%" }}
-                  />
-                </div>
-              </div>
-            </Col>
-            <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
-            <Col xxl={11} lg={11} md={24} sm={24} xs={24} className="my-auto">
-              <div>
-                <Carousel
-                  swipeable
-                  autoPlay
-                  infiniteLoop={true}
-                  emulateTouch={true}
-                  showArrows={false}
-                  showThumbs={false}
-                  showStatus={false}
-                  interval={1000}
-                  stopOnHover
-                >
-                  {safetytwo.map((item, key) => {
-                    return (
-                      <div style={{ height: "100%" }}>
-                        <img
-                          src={item.src}
-                          alt="404 - Not Given"
-                          style={{ height: "100%", width: "100%" }}
-                        />
-                      </div>
-                    );
-                  })}
-                </Carousel>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div className="section_padding"></div>
-      </section>
-
-      <section className="mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div className="mb-5">
-            <p className="is-size-2 has-text-weight-semibold has-text-centered blue_color">
-              Training And Development
-            </p>
-            <p className="has-text-centered">
-              Increase competence through training on technical, managerial and
-              behavioural aspects
-            </p>
-          </div>
-          <div>
-            <p className="has-text-justified">
-              With the objective of filling gap between existing and desired
-              pool of knowledge, skills and competence, regular training
-              programmes are organised at all levels. We believe that with
-              training and development programmes overall performance of the
-              organization continually improves and hence its capability to
-              satisfy internal and external customers.
-            </p>
-            <p className="has-text-centered has-text-weight-semibold blue_color mt-5">
-              “Training and Development is a continual improvement procedure”
-            </p>
-          </div>
-          <div className="mt-5">
+      <div className="about-us-bg">
+        <section className="mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
+            <div className="mb-5">
+              <p className="is-size-2 has-text-weight-semibold has-text-centered blue_color">
+                Quality
+              </p>
+              <p className="is-size-4 has-text-weight-semibold has-text-centered">
+                Quality over Quantity
+              </p>
+            </div>
             <Row>
               <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
                 <div>
+                  <p className="has-text-justified">
+                    Hitech was among the first of companies of its type to
+                    achieve ISO 9001 Certification. Our success at being among
+                    the leaders in our industry is based on providing quality
+                    construction related services that exceed the needs of our
+                    customers. We achieve this success by providing an
+                    experienced and responsive team of professionals with a
+                    common goal to satisfy the customer. Our philosophy of
+                    continual Improvement is a vital element in our quest to be
+                    among the best. We continue to build upon a positive
+                    reputation in the construction industry, as we commit to
+                    quality servicing for our customers.
+                  </p>
+                  <div className="mt-4">
+                    <li>
+                      Provision of processes, tools, training, and expertise to
+                      improve the identification and resolution of quality
+                      issues.
+                    </li>
+                    <li>
+                      Focusing on human behaviors that drive "right the first
+                      time" quality.
+                    </li>
+                  </div>
                   <Row>
                     <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                      <div className="project_box">
+                      <div
+                        className="project_box"
+                        style={{ minHeight: "153px" }}
+                      >
                         <BiNotepad className="is-size-1 blue_color" />
-                        <p>Behavioural Training</p>
+                        <p>Method Statement</p>
                       </div>
                     </Col>
                     <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                      <div className="project_box">
+                      <div
+                        className="project_box"
+                        style={{ minHeight: "153px" }}
+                      >
                         <BsShieldCheck className="is-size-1 blue_color" />
-                        <p>Safety Training</p>
+                        <p>Standard Material and Practices</p>
                       </div>
                     </Col>
                   </Row>
                   <Row>
                     <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                      <div className="project_box">
+                      <div
+                        className="project_box"
+                        style={{ minHeight: "153px" }}
+                      >
                         <AiOutlineAudit className="is-size-1 blue_color" />
-                        <p>Induction Training</p>
+                        <p>Strong Internal Audit Systems</p>
                       </div>
                     </Col>
                     <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                      <div className="project_box">
+                      <div
+                        className="project_box"
+                        style={{ minHeight: "153px" }}
+                      >
                         <BsCardChecklist className="is-size-1 blue_color" />
-                        <p>Technical Training</p>
+                        <p>Checklists And Work Instructions</p>
                       </div>
                     </Col>
                   </Row>
+                </div>
+              </Col>
+              <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
+
+              <Col xxl={11} lg={11} md={24} sm={24} xs={24} className="my-auto">
+                <div>
+                  <Carousel
+                    swipeable
+                    autoPlay
+                    infiniteLoop={true}
+                    emulateTouch={true}
+                    showArrows={false}
+                    showThumbs={false}
+                    showStatus={false}
+                    interval={1000}
+                    stopOnHover
+                  >
+                    {quality.map((item, key) => {
+                      return (
+                        <div style={{ height: "100%" }}>
+                          <img
+                            src={item.src}
+                            alt="404 - Not Given"
+                            style={{ height: "100%", width: "100%" }}
+                          />
+                        </div>
+                      );
+                    })}
+
+                    {/* {machinery.map((item, key) => {
+                        return <img src={item.src} alt="404 - Not Given" />;
+                      })} 
+                    </div>*/}
+                  </Carousel>
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <div className="section_padding"></div>
+        </section>
+
+        <section className="mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
+            <Row>
+              {width > 768 && (
+                <Col
+                  xxl={11}
+                  lg={11}
+                  md={24}
+                  sm={24}
+                  xs={24}
+                  className="my-auto"
+                >
+                  <div>
+                    <Carousel
+                      swipeable
+                      autoPlay
+                      infiniteLoop={true}
+                      emulateTouch={true}
+                      showArrows={false}
+                      showThumbs={false}
+                      showStatus={false}
+                      interval={1000}
+                      stopOnHover
+                    >
+                      {safety.map((item, key) => {
+                        return (
+                          <div style={{ height: "100%" }}>
+                            <img
+                              src={item.src}
+                              alt="404 - Not Given"
+                              style={{ height: "100%", width: "100%" }}
+                            />
+                          </div>
+                        );
+                      })}
+
+                      {/* {machinery.map((item, key) => {
+                        return <img src={item.src} alt="404 - Not Given" />;
+                      })} 
+                    </div>*/}
+                    </Carousel>
+                  </div>
+                </Col>
+              )}
+              <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
+              <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
+                <div>
+                  <p className="has-text-justified">
+                    Hitech is dedicated to providing its employees and those of
+                    its contractors and subcontractors a safe working
+                    environment. The practice of diligence, good judgment and
+                    common sense by all project team members helps to create an
+                    environment in which the rate of incidents is substantially
+                    reduced. Since our foundation, we have been devoted to
+                    building a culture that promotes an injury-free environment.
+                    To do that, we have developed extensive training and
+                    education modules designed to minimize and eliminate
+                    personal injury, property damage and all associated costs.
+                    These ongoing programs provide our people and our partners
+                    with the knowledge and resources they need to keep
+                    themselves and each other safe.
+                  </p>
+                </div>
+              </Col>
+              {width < 769 && (
+                <Col
+                  xxl={11}
+                  lg={11}
+                  md={24}
+                  sm={24}
+                  xs={24}
+                  className="my-auto"
+                >
+                  <div>
+                    <Carousel
+                      swipeable
+                      autoPlay
+                      infiniteLoop={true}
+                      emulateTouch={true}
+                      showArrows={false}
+                      showThumbs={false}
+                      showStatus={false}
+                      interval={1000}
+                      stopOnHover
+                    >
+                      {safety.map((item, key) => {
+                        return (
+                          <div style={{ height: "100%" }}>
+                            <img
+                              src={item.src}
+                              alt="404 - Not Given"
+                              style={{ height: "100%", width: "100%" }}
+                            />
+                          </div>
+                        );
+                      })}
+
+                      {/* {machinery.map((item, key) => {
+                        return <img src={item.src} alt="404 - Not Given" />;
+                      })} 
+                    </div>*/}
+                    </Carousel>
+                  </div>
+                </Col>
+              )}
+            </Row>
+            <Row>
+              <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
+                <div>
+                  <div style={{ height: "100%" }}>
+                    <img
+                      src="Sources/images/standards/safety/9.png"
+                      alt="404 - Not Given"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div>
                 </div>
               </Col>
               <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
@@ -362,7 +300,7 @@ const Standards = () => {
                     interval={1000}
                     stopOnHover
                   >
-                    {training.map((item, key) => {
+                    {safetytwo.map((item, key) => {
                       return (
                         <div style={{ height: "100%" }}>
                           <img
@@ -378,9 +316,116 @@ const Standards = () => {
               </Col>
             </Row>
           </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+          <div className="section_padding"></div>
+        </section>
+
+        <section className="mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
+            <div className="mb-5">
+              <p className="is-size-2 has-text-weight-semibold has-text-centered blue_color">
+                Training And Development
+              </p>
+              <p className="has-text-centered">
+                Increase competence through training on technical, managerial
+                and behavioural aspects
+              </p>
+            </div>
+            <div>
+              <p className="has-text-justified">
+                With the objective of filling gap between existing and desired
+                pool of knowledge, skills and competence, regular training
+                programmes are organised at all levels. We believe that with
+                training and development programmes overall performance of the
+                organization continually improves and hence its capability to
+                satisfy internal and external customers.
+              </p>
+              <p className="has-text-centered has-text-weight-semibold blue_color mt-5">
+                “Training and Development is a continual improvement procedure”
+              </p>
+            </div>
+            <div className="mt-5">
+              <Row>
+                <Col
+                  xxl={12}
+                  lg={12}
+                  md={24}
+                  sm={24}
+                  xs={24}
+                  className="my-auto"
+                >
+                  <div>
+                    <Row>
+                      <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
+                        <div className="project_box">
+                          <BiNotepad className="is-size-1 blue_color" />
+                          <p>Behavioural Training</p>
+                        </div>
+                      </Col>
+                      <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
+                        <div className="project_box">
+                          <BsShieldCheck className="is-size-1 blue_color" />
+                          <p>Safety Training</p>
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
+                        <div className="project_box">
+                          <AiOutlineAudit className="is-size-1 blue_color" />
+                          <p>Induction Training</p>
+                        </div>
+                      </Col>
+                      <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
+                        <div className="project_box">
+                          <BsCardChecklist className="is-size-1 blue_color" />
+                          <p>Technical Training</p>
+                        </div>
+                      </Col>
+                    </Row>
+                  </div>
+                </Col>
+                <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
+                <Col
+                  xxl={11}
+                  lg={11}
+                  md={24}
+                  sm={24}
+                  xs={24}
+                  className="my-auto"
+                >
+                  <div>
+                    <Carousel
+                      swipeable
+                      autoPlay
+                      infiniteLoop={true}
+                      emulateTouch={true}
+                      showArrows={false}
+                      showThumbs={false}
+                      showStatus={false}
+                      interval={1000}
+                      stopOnHover
+                    >
+                      {training.map((item, key) => {
+                        return (
+                          <div style={{ height: "100%" }}>
+                            <img
+                              src={item.src}
+                              alt="404 - Not Given"
+                              style={{ height: "100%", width: "100%" }}
+                            />
+                          </div>
+                        );
+                      })}
+                    </Carousel>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </div>
+          <div className="section_padding"></div>
+        </section>
+      </div>
     </>
   );
 };

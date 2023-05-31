@@ -32,61 +32,63 @@ const awardscard = [
 const Awards = () => {
   return (
     <>
-      <section>
-        <div className="section_padding"></div>
-        <div className="container">
-          <div>
-            <p className="is-size-2 has-text-weight-semibold has-text-centered blue_color mb-5">
-              Awards And Certifications
-            </p>
-            {/* <p className="is-size-4 has-text-centered mb-3">Year 2020</p> */}
-            <p className="is-size-5 has-text-centered mt-3">
-              {/* Our company has been felicitated with the Indian Concrete
+      <div className="about-us-bg">
+        <section>
+          <div className="section_padding"></div>
+          <div className="container">
+            <div>
+              <p className="is-size-2 has-text-weight-semibold has-text-centered blue_color mb-5">
+                Awards And Certifications
+              </p>
+              {/* <p className="is-size-4 has-text-centered mb-3">Year 2020</p> */}
+              <p className="is-size-5 has-text-centered mt-3">
+                {/* Our company has been felicitated with the Indian Concrete
               Institute-Ultra Tech Outstanding Structure Awards 2020 at State
               And Regional Level. */}
-              The many talented and devoted workers at Hitech are responsible
-              for the numerous awards and recognition <br />
-              we have received throughout the years.
-            </p>
-          </div>
-          <div>
-            <img src="Sources/images/awards/4.png" alt="404 - Not Found" />
-          </div>
-          <div>
-            <Row style={{ display: "flex", justifyContent: "center" }}>
-              {awardscard.map((item, key) => {
-                return (
-                  <Col
-                    xxl={8}
-                    lg={8}
-                    md={12}
-                    sm={24}
-                    xs={24}
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <Card className="awardcard">
-                      <div className="has-text-centered service_icon">
-                        <div>
-                          <Image src={item.src} alt="404 - Not Found" />
+                The many talented and devoted workers at Hitech are responsible
+                for the numerous awards and recognition <br />
+                we have received throughout the years.
+              </p>
+            </div>
+            <div>
+              <img src="Sources/images/awards/4.png" alt="404 - Not Found" />
+            </div>
+            <div>
+              <Row style={{ display: "flex", justifyContent: "center" }}>
+                {awardscard.map((item, key) => {
+                  return (
+                    <Col
+                      xxl={8}
+                      lg={8}
+                      md={12}
+                      sm={24}
+                      xs={24}
+                      style={{ display: "flex", justifyContent: "center" }}
+                    >
+                      <Card className="awardcard">
+                        <div className="has-text-centered service_icon">
+                          <div>
+                            <Image src={item.src} alt="404 - Not Found" />
+                          </div>
                         </div>
-                      </div>
-                      <div>
-                        <p className="is-size-5 has-text-weight-semibold has-text-centered mt-4 blue_color">
-                          {item.title}
-                        </p>
-                        <p className="is-size-5 has-text-justified mt-4">
-                          {item.des}
-                        </p>
-                      </div>
-                    </Card>
-                  </Col>
-                );
-              })}
-            </Row>
+                        <div>
+                          <p className="is-size-5 has-text-weight-semibold has-text-centered mt-4 blue_color">
+                            {item.title}
+                          </p>
+                          <p className="is-size-5 has-text-justified mt-4">
+                            {item.des}
+                          </p>
+                        </div>
+                      </Card>
+                    </Col>
+                  );
+                })}
+              </Row>
+            </div>
           </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+          <div className="section_padding"></div>
+        </section>
+      </div>
     </>
   );
 };
