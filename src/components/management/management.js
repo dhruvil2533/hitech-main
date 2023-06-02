@@ -136,7 +136,7 @@ const Management = () => {
                           <p className="is-size-6 has-text-centered mb-3">
                             {item.coreedu}
                           </p>
-                          <p className="has-text-justified">{item.corepara}</p>
+                          <p className="has-text-left">{item.corepara}</p>
                         </div>
                       </div>
                     </Col>
@@ -166,7 +166,7 @@ const Management = () => {
                   xs={24}
                   className="my-auto"
                 >
-                  <p className="has-text-justified">
+                  <p className="has-text-left">
                     Hitech's team shares the same common values as their
                     clients: Service, Detail, Experience, Integrity, and
                     Quality. Our team has been recognized as collaborators and
@@ -175,7 +175,7 @@ const Management = () => {
                     wouldn't be here today.
                   </p>
                   <br />
-                  <p className="has-text-justified">
+                  <p className="has-text-left">
                     Our Family consists of: Engineers & Supervisors: 48% Plant
                     and Machinery Staff: 18% Top Management: 5% Managers &
                     Above: 10% Supporting Staff: 19%
@@ -239,7 +239,7 @@ const Management = () => {
                           <p className="is-size-4 has-text-weight-semibold has-text-centered is-uppercase has-text-white">
                             {item.title}
                           </p>
-                          <p className="is-size-5 has-text-justified mt-4">
+                          <p className="is-size-5 has-text-left mt-4">
                             We focus on optimizing every process in our company
                             by focusing on those activities that generate the
                             most value for our clients and stakeholders, while
@@ -307,7 +307,7 @@ const Management = () => {
                   <p className="is-size-4 has-text-weight-semibold blue_color mb-2">
                     CONTINUAL IMPROVEMENT
                   </p>
-                  <p className="has-text-justified">
+                  <p className="has-text-left">
                     We focus on optimizing every process in our company by
                     focusing on those activities that generate the most value
                     for our clients and stakeholders, while removing as many
@@ -358,7 +358,7 @@ const Management = () => {
                         <p className="is-size-4 has-text-weight-semibold has-text-centered is-uppercase service_title mt-3">
                           {item.title}
                         </p>
-                        <p className="is-size-5 has-text-justified mt-4">
+                        <p className="is-size-5 has-text-left mt-4">
                           {item.des}
                         </p>
                       </div>

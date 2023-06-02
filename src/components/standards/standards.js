@@ -62,7 +62,7 @@ const Standards = () => {
             <Row>
               <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
                 <div>
-                  <p className="has-text-justified">
+                  <p className="has-text-left">
                     Hitech was among the first of companies of its type to
                     achieve ISO 9001 Certification. Our success at being among
                     the leaders in our industry is based on providing quality
@@ -215,7 +215,7 @@ const Standards = () => {
               <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
               <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
                 <div>
-                  <p className="has-text-justified">
+                  <p className="has-text-left">
                     Hitech is dedicated to providing its employees and those of
                     its contractors and subcontractors a safe working
                     environment. The practice of diligence, good judgment and
@@ -332,7 +332,7 @@ const Standards = () => {
               </p>
             </div>
             <div>
-              <p className="has-text-justified">
+              <p className="has-text-left">
                 With the objective of filling gap between existing and desired
                 pool of knowledge, skills and competence, regular training
                 programmes are organised at all levels. We believe that with

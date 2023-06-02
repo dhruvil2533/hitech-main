@@ -245,20 +245,20 @@ const Home = () => {
                       </span>
                     </p>
                   </div>
-                  <p className="has-text-justified pt-4">
+                  <p className="has-text-left pt-4">
                     Hitech took that step in 1996, since when it has quietly
                     marched to emerge as one of the leading construction
                     companies in Ahmedabad.
                   </p>
                   <br />
-                  <p className="has-text-justified">
+                  <p className="has-text-left">
                     Hitech, one of the most successful and efficient
                     organization has a varied portfolio of :- Industrial
                     Structures - Residential Buildings - Commercial Buildings -
                     Institutional & other Buildings.
                   </p>
                   <br />
-                  {/* <p className="has-text-justified">
+                  {/* <p className="has-text-left">
                   Hitech has a proven track record of delivering quality on
                   time, for every project. It is one of the few construction
                   companies in Ahmedabad with quality system certification ISO
@@ -266,12 +266,12 @@ const Home = () => {
                   category - I (Buildings).
                 </p>
                 <br />
-                <p className="has-text-justified">
+                <p className="has-text-left">
                   Together with our customers, we deliver landmark projects that
                   foster long-term progress and economic growth. We've completed
                   many extraordinary projects—many first-of-a-kind.
                 </p> */}
-                  <p className="has-text-justified">
+                  <p className="has-text-left">
                     Our dedication to delivering high-quality projects on time
                     has led to obtaining the ISO 9001 certification for quality
                     management. Additionally, we have achieved the ISO 45001
@@ -303,7 +303,7 @@ const Home = () => {
                 <p className="is-size-2 has-text-weight-semibold blue_color">
                   Our Projects
                 </p>
-                <p className="has-text-justified pt-3">
+                <p className="has-text-left pt-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus nisl enim, fermentum ut erat sed, rhoncus posuere
                   nibh. Nulla vulputate hendrerit fringilla. Curabitur placerat

@@ -236,7 +236,7 @@ const Whoweare = () => {
                           <p className="is-size-4 has-text-weight-semibold has-text-centered is-uppercase service_title mt-3">
                             {item.title}
                           </p>
-                          <p className="is-size-5 has-text-justified mt-4">
+                          <p className="is-size-5 has-text-left mt-4">
                             {item.des}
                           </p>
                         </div>

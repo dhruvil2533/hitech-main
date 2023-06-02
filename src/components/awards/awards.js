@@ -75,7 +75,7 @@ const Awards = () => {
                           <p className="is-size-5 has-text-weight-semibold has-text-centered mt-4 blue_color">
                             {item.title}
                           </p>
-                          <p className="is-size-5 has-text-justified mt-4">
+                          <p className="is-size-5 has-text-left mt-4">
                             {item.des}
                           </p>
                         </div>

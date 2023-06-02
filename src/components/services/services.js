@@ -223,7 +223,7 @@ const Services = () => {
                           <p className="is-size-4 has-text-weight-semibold has-text-centered is-uppercase service_title mt-3">
                             {item.title}
                           </p>
-                          <p className="is-size-5 has-text-justified mt-4">
+                          <p className="is-size-5 has-text-left mt-4">
                             {item.des}
                           </p>
                         </div>
@@ -260,7 +260,7 @@ const Services = () => {
                     className="my-auto"
                     style={{ display: "flex", justifyContent: "center" }}
                   >
-                    <p className="has-text-justified mr-4">
+                    <p className="has-text-left mr-4">
                       We have established a robust plant and machinery cell that
                       is responsible for repair and management system. The cell
                       also looks after resource planning, selection of right
@@ -516,13 +516,13 @@ const Services = () => {
               </Col>
               <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
               <Col xxl={11} lg={11} md={24} sm={24} xs={24} className="my-auto">
-                <p className="has-text-justified">
+                <p className="has-text-left">
                   For each concrete structure and component, Hitech deploys the
                   most suitable formwork system from major formwork companies
                   such as PERI, DOKA and Alsina around the globe.
                 </p>
                 <br />
-                <p className="has-text-justified">
+                <p className="has-text-left">
                   Hitech makes sure the kind of materials and formworks used for
                   every project are based after considering on-site efficiency
                   of production, health , safety and environmental issues,
@@ -558,7 +558,7 @@ const Services = () => {
                 <p className="is-size-3 blue_color has-text-weight-semibold mb-3">
                   ERP
                 </p>
-                <p className="has-text-justified">
+                <p className="has-text-left">
                   Our ERP System combines advanced enterprise technologies with
                   decades of construction industry experience into one,
                   integrated system. Going beyond traditional construction
@@ -639,7 +639,7 @@ const Services = () => {
                 <p className="is-size-3 blue_color has-text-weight-semibold mb-3">
                   Hi-Mapp
                 </p>
-                <p className="has-text-justified">
+                <p className="has-text-left">
                   Hi-Mapp is Hitech's productivity app helping teams to deliver
                   on time. Hi-Mapp provides users the ease of mobility. Hi-Mapp
                   groups together most essential functionalities of ERP and HRMS
@@ -716,7 +716,7 @@ const Services = () => {
                   <p className="is-size-3 blue_color has-text-weight-semibold mb-3">
                     INTERNET OF THINGS
                   </p>
-                  <p className="has-text-justified">
+                  <p className="has-text-left">
                     Hitech incorporates and uses to build up secure and well
                     managed architecture of interconnected things. From Asset
                     Tracking to Data collections from IoT enabled devices,
