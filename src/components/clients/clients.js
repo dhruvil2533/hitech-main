@@ -2,6 +2,7 @@ import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { Col, Row } from "antd";
 import Slider from "react-slick";
+import Header from "../header/header";
 
 const clientlist = [
   { src: "Sources/images/our_client/1.png" },
@@ -152,7 +153,15 @@ const Clients = () => {
   };
   return (
     <>
+      <img
+        src="Sources/images/carousel/f.png"
+        alt="404 -Not Given"
+        className="about_img"
+        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+      />
+
       <div className="clients">
+        <Header />
         <section>
           <div className="section_padding"></div>
           <div className="container">

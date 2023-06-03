@@ -6,6 +6,7 @@ import { AiOutlineAudit } from "react-icons/ai";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import React, { useEffect, useState } from "react";
+import Header from "../header/header";
 
 const quality = [
   { src: "Sources/images/standards/Quality/1.png" },
@@ -47,7 +48,15 @@ const Standards = () => {
   }
   return (
     <>
+      <img
+        src="Sources/images/carousel/f.png"
+        alt="404 -Not Given"
+        className="about_img"
+        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+      />
+
       <div className="about-us-bg">
+        <Header />
         <section className="mobile_margin">
           <div className="section_padding"></div>
           <div className="container">

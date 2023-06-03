@@ -22,6 +22,7 @@ import Meta from "antd/lib/card/Meta";
 
 import "./home.css";
 import { Carousel } from "react-responsive-carousel";
+import Header from "../header/header";
 
 const valueparameter = [
   {
@@ -205,10 +206,10 @@ const Home = () => {
             })}
           </Carousel>
         </div>
-        <div className="section_padding"></div>
       </section>
 
       <div className="home-page-bg">
+        <Header />
         <section className="aboutus mobile_margin">
           <div className="section_padding"></div>
           <div className="container">
@@ -323,7 +324,7 @@ const Home = () => {
                   </Link>
                 </Col>
                 <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                  <Link to={url.residential}>
+                  <Link to={url.commercial}>
                     <div className="project_box">
                       <RiBuilding2Fill className="is-size-1 blue_color" />
                       <p>Commercial</p>
@@ -333,7 +334,7 @@ const Home = () => {
               </Row>
               <Row style={{ display: "flex", justifyContent: "center" }}>
                 <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                  <Link to={url.residential}>
+                  <Link to={url.industrial}>
                     <div className="project_box">
                       <TbBuildingFactory className="is-size-1 blue_color" />
                       <p>Industrial</p>
@@ -341,7 +342,7 @@ const Home = () => {
                   </Link>
                 </Col>
                 <Col xxl={10} lg={10} md={12} sm={24} xs={24}>
-                  <Link to={url.residential}>
+                  <Link to={url.institutionalprojects}>
                     <div className="project_box">
                       <MdOutlineCorporateFare className="is-size-1 blue_color" />
                       <p>Institutional & Corporate</p>

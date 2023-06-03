@@ -24,6 +24,7 @@ import { ImageList, ImageListItem } from "@mui/material";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Header from "../header/header";
 
 const machinery = [
   { src: "Sources/images/expertise/Machinery/1.png" },
@@ -165,7 +166,15 @@ const Services = () => {
   }
   return (
     <>
+      <img
+        src="Sources/images/carousel/f.png"
+        alt="404 -Not Given"
+        className="about_img"
+        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+      />
+
       <div className="services-page-bg">
+        <Header />
         <section className="mobile_margin">
           <div className="section_padding"></div>
           <div className="container">

@@ -1,5 +1,6 @@
 import { Col, Image, Row } from "antd";
 import React, { useEffect, useState } from "react";
+import Header from "../header/header";
 
 const industriallist = [
   {
@@ -237,6 +238,13 @@ const Residential = () => {
 
   return (
     <>
+      <img
+        src="Sources/images/bg/bg1.jpg"
+        alt="404 -Not Given"
+        className="about_img"
+      />
+<div className="projects-bg">
+      <Header />
       <section className="residential py-5">
         <div className="container">
           <p className="is-size-1 has-text-weight-semibold has-text-centered blue_color is-uppercase">
@@ -453,6 +461,7 @@ const Residential = () => {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 };

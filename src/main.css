@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
 }
 
 .shadow-0 {
-  box-shadow: none !important;
+  box-shadow: 0 0 5px 2px #6d6c6c71 !important;
   transition: all 0.3s ease-in !important;
   padding-top: 0.75rem !important;
   padding-bottom: 0.75rem !important;
@@ -51,14 +51,16 @@ body::-webkit-scrollbar {
 }
 
 .fixed-nav {
-  position: fixed !important;
-  animation: animate-nav 2s forwards !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
   width: 100%;
   box-shadow: 0 0 5px 2px #6d6c6c71 !important;
 }
 
 .remove-fixed-nav {
   position: fixed !important;
+  box-shadow: 0 0 5px 2px #6d6c6c71 !important;
   animation: animate-nav-remove 2s forwards !important;
   width: 100%;
 }
@@ -444,6 +446,37 @@ body::-webkit-scrollbar {
 
 /* pop up end */
 
+.nav_bar {
+position: -webkit-sticky;
+position: sticky !important;
+top: 0;
+z-index: 1000;
+}
+
+.nav_bar .container {
+background-color: lavender;
+padding: 14px 0;
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav_bar .container .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.nav_bar .container .row .col {
+  border-right: 1px solid black;
+}
+
+.nav_bar .container .row .col a {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
 /* header start */
 .ant-back-top-content {
   background-color: grey;
@@ -795,16 +828,20 @@ a.navbar-item.is-active,
 /* residential start */
 
 .residential {
-  background-image: url(/public/Sources/images/background1.png);
-  background-attachment: fixed;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
   display: flex;
   height: auto;
   justify-content: center;
   padding: 5rem 0;
   position: relative;
+}
+
+.projects-bg {
+  background-image: url(/public/Sources/images/background1.png);
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .property_list {

@@ -1,5 +1,6 @@
 import { Card, Col, Image, Row } from "antd";
 import React from "react";
+import Header from "../header/header";
 
 const awardscard = [
   {
@@ -32,7 +33,15 @@ const awardscard = [
 const Awards = () => {
   return (
     <>
+      <img
+        src="Sources/images/carousel/f.png"
+        alt="404 -Not Given"
+        className="about_img"
+        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+      />
+
       <div className="about-us-bg">
+        <Header />
         <section>
           <div className="section_padding"></div>
           <div className="container">

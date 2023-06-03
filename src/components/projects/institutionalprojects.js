@@ -1,5 +1,6 @@
 import { Col, Image, Row } from "antd";
 import React, { useState } from "react";
+import Header from "../header/header";
 
 // const institutionalprojectslist = [
 //   {
@@ -115,6 +116,13 @@ const Institutionalprojects = () => {
   
   return (
     <>
+      <img
+        src="Sources/images/bg/bg1.jpg"
+        alt="404 -Not Given"
+        className="about_img"
+      />
+<div className="projects-bg">
+      <Header />
       <section className="residential py-5">
         <div className="container">
           <p className="is-size-1 has-text-weight-semibold has-text-centered blue_color is-uppercase">
@@ -246,7 +254,10 @@ const Institutionalprojects = () => {
                 institutionalprojectscompleted.map((item, key) => {
                   return (
                     <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                      <div className="property_list" style={{minHeight: "650px"}}>
+                      <div
+                        className="property_list"
+                        style={{ minHeight: "650px" }}
+                      >
                         <div className="propertylist_image">
                           <Image src={item.src} alt="404 - Not Given" />
                         </div>
@@ -325,6 +336,7 @@ const Institutionalprojects = () => {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 };

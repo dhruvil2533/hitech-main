@@ -15,7 +15,7 @@ const customStyles = {
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
     width: "40%",
-    zIndex: "99",
+    zIndex: "1000",
     border: "1px solid #0d2e61",
   },
 };
@@ -28,7 +28,7 @@ const mobilecustomStyles = {
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
     width: "85%",
-    zIndex: "99",
+    zIndex: "1000",
   },
 };
 const headeritemone = [
@@ -317,14 +317,21 @@ const onAboutChange = (value) => {
         className="navbar navbarshadow"
         role="navigation"
         aria-label="main navigation"
+        style={{
+          width: width >= 1024 && "50%",
+          marginLeft: width >= 1024 && "25%",
+          borderRadius: width >= 1024 && "10px",
+          boxShadow: width >= 1024 && "0 0 5px 2px #6d6c6c71",
+          marginTop: width >= 1024 && "20px",
+        }}
       >
         <div className="container navigation">
           <div className="navbar-brand">
-            <a className="navbar-item logo" href="\">
+            {/* <a className="navbar-item logo" href="\">
               <img src="Sources/images/hitech_logo.png" alt="logo" />
-            </a>
+            </a> */}
 
-            <a
+            {/* <a
               href="#"
               role="button"
               className={`my-auto navbar-burger ${isActive ? "is-active" : ""}`}
@@ -339,29 +346,32 @@ const onAboutChange = (value) => {
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
-            </a>
+            </a> */}
           </div>
 
           <div className="navbar-start">
-            <div
+            {/* <div
               className="navbar-end navbar_line my-auto"
               style={{
                 width: width >= 1024 && "100%",
                 display: width >= 1024 && "flex",
                 justifyContent: width >= 1024 && "center",
               }}
-            ></div>
+            ></div> */}
           </div>
           <div
             id="navbarBasicExample"
-            className={`borderXwidth navbar-menu ${
-              isActive ? "is-active" : ""
-            }`}
+            // className={`borderXwidth navbar-menu ${
+            //   isActive ? "is-active" : ""
+            // }`}
+            style={{
+              width: width >= 1024 && "65%",
+            }}
           >
             <div
-              className="navbar-end navbar_line my-auto"
+              className="my-auto"
               style={{
-                width: width >= 1024 && "100%",
+                width: width >= 1024 && "50%",
                 display: width >= 1024 && "flex",
                 justifyContent: width >= 1024 && "center",
               }}
@@ -386,24 +396,25 @@ const onAboutChange = (value) => {
                     overflow: small ? "hidden" : undefined,
                   }}
                 >
-                  {isDropDown && headeritemtwo.map((item, key) => {
-                    return (
-                      <Link
-                        className="navbar-item"
-                        to={item.headlink}
-                        key={key}
-                        onClick={() => {
-                          setIsActive(!isActive);
-                          setisDropDown(false);
-                          setTimeout(() => {
-                            setisDropDown(true);
-                          }, 100);
-                        }}
-                      >
-                        {item.headname}
-                      </Link>
-                    );
-                  })}
+                  {isDropDown &&
+                    headeritemtwo.map((item, key) => {
+                      return (
+                        <Link
+                          className="navbar-item"
+                          to={item.headlink}
+                          key={key}
+                          onClick={() => {
+                            setIsActive(!isActive);
+                            setisDropDown(false);
+                            setTimeout(() => {
+                              setisDropDown(true);
+                            }, 100);
+                          }}
+                        >
+                          {item.headname}
+                        </Link>
+                      );
+                    })}
                 </div>
               </div>
               <div className="header_wrapper">
@@ -434,23 +445,25 @@ const onAboutChange = (value) => {
                     overflow: small ? "hidden" : undefined,
                   }}
                 >
-                  {isDropDown && headeritemone.map((item, key) => {
-                    return (
-                      <Link
-                        className="navbar-item"
-                        to={item.headlink}
-                        key={key}
-                        onClick={() => {
-                          setIsActive(false);
-                          setisDropDown(false);
-                          setTimeout(() => {
-                            setisDropDown(true);
-                          }, 100);}}
-                      >
-                        {item.headname}
-                      </Link>
-                    );
-                  })}
+                  {isDropDown &&
+                    headeritemone.map((item, key) => {
+                      return (
+                        <Link
+                          className="navbar-item"
+                          to={item.headlink}
+                          key={key}
+                          onClick={() => {
+                            setIsActive(false);
+                            setisDropDown(false);
+                            setTimeout(() => {
+                              setisDropDown(true);
+                            }, 100);
+                          }}
+                        >
+                          {item.headname}
+                        </Link>
+                      );
+                    })}
                 </div>
               </div>
               <div className="header_wrapper">

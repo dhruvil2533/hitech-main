@@ -1,5 +1,6 @@
 import { Col, Row } from "antd";
 import React from "react";
+import Header from "../header/header";
 
 const awardscard = [
   { src: "https://www.youtube.com/embed/YkmQBe1Lebk" },
@@ -12,7 +13,15 @@ const awardscard = [
 const Csr = () => {
   return (
     <>
+      <img
+        src="Sources/images/carousel/f.png"
+        alt="404 -Not Given"
+        className="about_img"
+        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+      />
+
       <div className="about-us-bg">
+        <Header />
         <section className="mobile_margin">
           <div className="section_padding"></div>
           <div className="container">

@@ -8,6 +8,7 @@ import { ImLocation } from "react-icons/im";
 import TextArea from "antd/lib/input/TextArea";
 import { UploadOutlined } from "@ant-design/icons";
 import { Upload } from "antd";
+import Header from "../header/header";
 
 const Careers = () => {
   const onFinish = (formData) => {
@@ -15,7 +16,15 @@ const Careers = () => {
   };
   return (
     <>
+      <img
+        src="Sources/images/carousel/f.png"
+        alt="404 -Not Given"
+        className="about_img"
+        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+      />
+
       <div className="about-us-bg">
+        <Header />
         <section className="career">
           <div className="section_padding"></div>
           <div className="container">

@@ -23,6 +23,7 @@ import Institutionalprojects from "./components/projects/institutionalprojects";
 import Industrial from "./components/projects/industrial";
 import Gallery from "./components/gallery/gallery";
 import Careers from "./components/careers/careers";
+import Header1 from "./components/header/header1";
 
 const Main = () => {
   const path = useLocation().pathname;
@@ -35,7 +36,7 @@ const Main = () => {
   }, [path]);
   return (
     <>
-      <Header />
+      <Header1 />
       <Routes>
         <Route path={url.home} element={<Home />} />
         <Route path={url.residential} element={<Residential />} />

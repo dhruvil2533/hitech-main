@@ -9,6 +9,7 @@ import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { DiStreamline } from "react-icons/di";
 import { BsGraphUp } from "react-icons/bs";
 import { GrOptimize } from "react-icons/gr";
+import Header from "../header/header";
 // import { PieChart } from "react-minimal-pie-chart";
 
 const coremanagment = [
@@ -101,7 +102,15 @@ const corevaluescard = [
 const Management = () => {
   return (
     <>
+      <img
+        src="Sources/images/carousel/f.png"
+        alt="404 -Not Given"
+        className="about_img"
+        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+      />
+
       <div className="about-us-bg">
+        <Header />
         <section>
           <div className="section_padding"></div>
           <div className="container">
@@ -122,7 +131,10 @@ const Management = () => {
                       xs={24}
                       style={{ display: "flex", justifyContent: "center" }}
                     >
-                      <div className="core_box" style={{backgroundColor: "#fff"}}>
+                      <div
+                        className="core_box"
+                        style={{ backgroundColor: "#fff" }}
+                      >
                         <div className="core_img">
                           <img src={item.src} alt="404 - Not Given" />
                         </div>

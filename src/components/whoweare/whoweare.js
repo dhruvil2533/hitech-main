@@ -5,6 +5,10 @@ import { ImRocket } from "react-icons/im";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Header from "../header/header";
+
 
 const managementcard = [
   {
@@ -82,6 +86,9 @@ const Whoweare = () => {
       setWidth(window.innerWidth);
     });
   }, []);
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const settings = {
     dots: false,
     infinite: true,
@@ -92,7 +99,15 @@ const Whoweare = () => {
   };
   return (
     <>
+      <img
+        src="Sources/images/carousel/f.png"
+        alt="404 -Not Given"
+        className="about_img"
+        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+      />
+
       <div className="about-us-bg">
+        <Header />
         <section className="mobile_margin">
           <div className="section_padding"></div>
           <div className="container">
@@ -192,14 +207,18 @@ const Whoweare = () => {
               {statslist.map((item, key) => (
                 <Col xxl={6} xl={8} lg={12} md={12} sm={24} xs={24} key={key}>
                   <div className="property_list">
-                    <div>
+                    <div data-aos="zoom-in" data-aos-delay="200">
                       <img
                         src={item.src}
                         alt="404 - Not Given"
                         className="property_list_image"
                       />
                     </div>
-                    <div className="property_list_content">
+                    <div
+                      className="property_list_content"
+                      data-aos="zoom-in"
+                      data-aos-delay="200"
+                    >
                       <p className="is-size-5 has-text-centered blue_color has-text-weight-semibold">
                         {item.title}
                       </p>
@@ -308,7 +327,13 @@ const Whoweare = () => {
                 className="bluebg_color"
               >
                 <div className="strength">
-                  <p className="is-size-3 has-text-white has-text-centered mb-3" style={{margin: width >= 992 ? "0% 5%" : "5% 0%", paddingTop: "0px"}}>
+                  <p
+                    className="is-size-3 has-text-white has-text-centered mb-3"
+                    style={{
+                      margin: width >= 992 ? "0% 5%" : "5% 0%",
+                      paddingTop: "0px",
+                    }}
+                  >
                     Our Strengths
                   </p>
                   <Slider {...settings}>
