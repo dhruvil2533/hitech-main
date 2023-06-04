@@ -322,7 +322,7 @@ const onAboutChange = (value) => {
           marginLeft: width < 1024 ? (width < 525 ? "5%" : "5%") : "25%",
           borderRadius: width >= 1024 && "10px",
           boxShadow: width >= 1024 && "0 0 5px 2px #6d6c6c71",
-          marginTop: width >= 1024 && "20px",
+          // marginTop: width >= 1024 && "20px",
         }}
       >
         <div className="container navigation">
