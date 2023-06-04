@@ -402,82 +402,82 @@ const Home = () => {
           </div>
           <div className="section_padding"></div>
         </section>
-      </div>
 
-      <section className="value_parameter">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div>
-            <p className="is-size-2 has-text-weight-semibold has-text-centered mb-5 has-text-white">
-              Our Value Creation Parameters
-            </p>
-          </div>
-          <div>
-            <Row>
-              {valueparameter.map((item, key) => {
-                return (
-                  <Col xxl={6} lg={6} md={12} sm={24} xs={24}>
-                    <div
-                      className="single-service has-text-centered"
-                      style={{
-                        visibility: "visible",
-                        animationDelay: "0.3s",
-                        animationName: "fadeInUp",
-                      }}
-                    >
-                      <div className="service-hidding-and-icon">
-                        <div className="service-icon">{item.iconone}</div>
-                        <p className="is-size-5 is-uppercase has-text-weight-semibold mb-3">
-                          {item.titleone}
-                        </p>
+        <section className="value_parameter">
+          <div className="section_padding"></div>
+          <div className="container">
+            <div>
+              <p className="is-size-2 has-text-weight-semibold has-text-centered mb-5 has-text-white">
+                Our Value Creation Parameters
+              </p>
+            </div>
+            <div>
+              <Row>
+                {valueparameter.map((item, key) => {
+                  return (
+                    <Col xxl={6} lg={6} md={12} sm={24} xs={24}>
+                      <div
+                        className="single-service has-text-centered"
+                        style={{
+                          visibility: "visible",
+                          animationDelay: "0.3s",
+                          animationName: "fadeInUp",
+                        }}
+                      >
+                        <div className="service-hidding-and-icon">
+                          <div className="service-icon">{item.iconone}</div>
+                          <p className="is-size-5 is-uppercase has-text-weight-semibold mb-3">
+                            {item.titleone}
+                          </p>
+                        </div>
+                        <div className="service-details">
+                          <div className="service-icon">{item.icontwo}</div>
+                          <p className="is-size-5 is-uppercase has-text-weight-semibold mb-3">
+                            {item.titletwo}
+                          </p>
+                          <p className="is-size-6 mb-2">{item.des}</p>
+                          <Link
+                            to={item.paramlink}
+                            className="is-size-6 has-text-white has-text-weight-semibold"
+                          >
+                            <Space direction="horizontal">
+                              {item.button}
+                              <HiArrowNarrowRight />
+                            </Space>
+                          </Link>
+                        </div>
                       </div>
-                      <div className="service-details">
-                        <div className="service-icon">{item.icontwo}</div>
-                        <p className="is-size-5 is-uppercase has-text-weight-semibold mb-3">
-                          {item.titletwo}
-                        </p>
-                        <p className="is-size-6 mb-2">{item.des}</p>
-                        <Link
-                          to={item.paramlink}
-                          className="is-size-6 has-text-white has-text-weight-semibold"
-                        >
-                          <Space direction="horizontal">
-                            {item.button}
-                            <HiArrowNarrowRight />
-                          </Space>
-                        </Link>
-                      </div>
-                    </div>
-                  </Col>
-                );
-              })}
-              {/* <Col xxl={6} lg={6} md={24} sm={24} xs={24}></Col>
+                    </Col>
+                  );
+                })}
+                {/* <Col xxl={6} lg={6} md={24} sm={24} xs={24}></Col>
               <Col xxl={6} lg={6} md={24} sm={24} xs={24}></Col>
               <Col xxl={6} lg={6} md={24} sm={24} xs={24}></Col> */}
-            </Row>
-          </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
-
-      <section className="mobile_margin">
-        <div className="section_padding"></div>
-        <div className="container">
-          <div>
-            <p className="is-size-3 blue_color has-text-centered has-text-weight-semibold">
-              Looking to Partner with Us?
-            </p>
-            <div className="has-text-centered mt-4">
-              <Link to={url.Contact}>
-                <Button className="partnerbtn" size="large">
-                  Contact Us
-                </Button>
-              </Link>
+              </Row>
             </div>
           </div>
-        </div>
-        <div className="section_padding"></div>
-      </section>
+          <div className="section_padding"></div>
+        </section>
+
+        <section className="mobile_margin">
+          <div className="section_padding"></div>
+          <div className="container">
+            <div>
+              <p className="is-size-3 blue_color has-text-centered has-text-weight-semibold">
+                Looking to Partner with Us?
+              </p>
+              <div className="has-text-centered mt-4">
+                <Link to={url.Contact}>
+                  <Button className="partnerbtn" size="large">
+                    Contact Us
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="section_padding"></div>
+        </section>
+      </div>
     </>
   );
 };

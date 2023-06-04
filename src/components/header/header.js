@@ -319,7 +319,7 @@ const onAboutChange = (value) => {
         aria-label="main navigation"
         style={{
           width: width >= 1024 && "50%",
-          marginLeft: width >= 1024 && "25%",
+          marginLeft: width < 1024 ? (width < 525 ? "5%" : "5%") : "25%",
           borderRadius: width >= 1024 && "10px",
           boxShadow: width >= 1024 && "0 0 5px 2px #6d6c6c71",
           marginTop: width >= 1024 && "20px",
@@ -365,15 +365,20 @@ const onAboutChange = (value) => {
             //   isActive ? "is-active" : ""
             // }`}
             style={{
-              width: width >= 1024 && "65%",
+              width: width < 1024 ? (width < 525 ? "95%" : "95%") : "65%",
+              borderRadius: width < 1024 && "10px",
+              boxShadow: width < 1024 && "0 0 5px 2px #6d6c6c71",
+              maxWidth: width < 1024 ? (width < 525 ? "95%" : "95%") : "65%",
             }}
           >
             <div
               className="my-auto"
               style={{
-                width: width >= 1024 && "50%",
-                display: width >= 1024 && "flex",
-                justifyContent: width >= 1024 && "center",
+                width: width >= 1024 ? "50%" : "90%",
+                display: "flex",
+                justifyContent: "center",
+                fontSize: width < 525 && "14px",
+                marginLeft: width < 1024 && "5%",
               }}
             >
               <div className="navbar-item has-dropdown is-hoverable">
@@ -390,9 +395,11 @@ const onAboutChange = (value) => {
                   style={{
                     display: small
                       ? isProjectOpen
-                        ? "block"
+                        ? "table-caption"
                         : "none"
                       : undefined,
+                    maxWidth: small && isProjectOpen && "250px",
+                    boxSizing: small && isProjectOpen && "border-box",
                     overflow: small ? "hidden" : undefined,
                   }}
                 >
@@ -410,6 +417,7 @@ const onAboutChange = (value) => {
                               setisDropDown(true);
                             }, 100);
                           }}
+                          
                         >
                           {item.headname}
                         </Link>
