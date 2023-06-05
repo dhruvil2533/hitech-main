@@ -387,6 +387,9 @@ const onAboutChange = (value) => {
                     onProjectChange(!isProjectOpen);
                   }}
                   className="navbar-link header_item"
+                  style={{
+                    display: small && "inline-block",
+                  }}
                 >
                   Projects
                 </Link>
@@ -398,7 +401,7 @@ const onAboutChange = (value) => {
                         ? "table-caption"
                         : "none"
                       : undefined,
-                    maxWidth: small && isProjectOpen && "250px",
+                    maxWidth: small && isProjectOpen && "108px",
                     boxSizing: small && isProjectOpen && "border-box",
                     overflow: small ? "hidden" : undefined,
                   }}
@@ -434,21 +437,27 @@ const onAboutChange = (value) => {
                 </Link>
               </div>
               <div className="navbar-item has-dropdown is-hoverable">
-                <a
-                  onClick={() => onAboutChange(!isAboutOpen)}
+                <Link
+                  onClick={() => {
+                    onAboutChange(!isAboutOpen);
+                  }}
                   className="navbar-link header_item"
-                  href="#"
+                  style={{
+                    display: small && "inline-block",
+                  }}
                 >
                   About Us
-                </a>
+                </Link>
                 <div
                   className="navbar-dropdown"
                   style={{
                     display: small
                       ? isAboutOpen
-                        ? "block"
+                        ? "table-caption"
                         : "none"
                       : undefined,
+                    maxWidth: small && isAboutOpen && "115px",
+                    boxSizing: small && isAboutOpen && "border-box",
                     overflow: small ? "hidden" : undefined,
                   }}
                 >
@@ -460,7 +469,7 @@ const onAboutChange = (value) => {
                           to={item.headlink}
                           key={key}
                           onClick={() => {
-                            setIsActive(false);
+                            setIsActive(!isActive);
                             setisDropDown(false);
                             setTimeout(() => {
                               setisDropDown(true);
@@ -473,6 +482,7 @@ const onAboutChange = (value) => {
                     })}
                 </div>
               </div>
+
               <div className="header_wrapper">
                 <Link
                   className="navbar-item header_item hoverheader_item"
