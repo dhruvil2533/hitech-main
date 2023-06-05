@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
   top: 15px;
   z-index: 1000;
   width: 100%;
-  box-shadow: 0 0 5px 2px #6d6c6c71 !important;
+  /* box-shadow: 0 0 5px 2px #6d6c6c71 !important; */
 }
 
 .remove-fixed-nav {

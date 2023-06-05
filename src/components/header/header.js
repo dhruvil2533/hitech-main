@@ -106,7 +106,7 @@ const onAboutChange = (value) => {
   const isSticky = (e) => {
     const header = document.querySelector(".navbarshadow");
     const scrollTop = window.scrollY;
-    if (scrollTop >= 300) header.classList.add("fixed-nav");
+    if (scrollTop >= 150) header.classList.add("fixed-nav");
     else header.classList.remove("fixed-nav");
   };
   /* end*/
@@ -318,20 +318,20 @@ const onAboutChange = (value) => {
         role="navigation"
         aria-label="main navigation"
         style={{
-          width: width >= 1024 && "50%",
-          marginLeft: width < 1024 ? (width < 525 ? "5%" : "5%") : "25%",
+          width: width < 1024 ? (width < 768 ? "95%" : "70%") : "50%",
+          marginLeft: width < 1024 ? (width < 768 ? "3%" : "15%") : "25%",
           borderRadius: "10px",
-          boxShadow: "0 0 5px 2px #6d6c6c71",
+          boxShadow: "0 0 2px 2px #6d6c6c71",
           marginTop: "20px",
         }}
       >
         <div className="container navigation">
           {/* <div className="navbar-brand"> */}
-            {/* <a className="navbar-item logo" href="\">
+          {/* <a className="navbar-item logo" href="\">
               <img src="Sources/images/hitech_logo.png" alt="logo" />
             </a> */}
 
-            {/* <a
+          {/* <a
               href="#"
               role="button"
               className={`my-auto navbar-burger ${isActive ? "is-active" : ""}`}
@@ -349,8 +349,8 @@ const onAboutChange = (value) => {
             </a> */}
           {/* </div> */}
 
-          <div className="navbar-start">
-            {/* <div
+          {/* <div className="navbar-start"> */}
+          {/* <div
               className="navbar-end navbar_line my-auto"
               style={{
                 width: width >= 1024 && "100%",
@@ -358,7 +358,7 @@ const onAboutChange = (value) => {
                 justifyContent: width >= 1024 && "center",
               }}
             ></div> */}
-          </div>
+          {/* </div> */}
           <div
             id="navbarBasicExample"
             // className={`borderXwidth navbar-menu ${
@@ -369,7 +369,6 @@ const onAboutChange = (value) => {
               // borderRadius: width < 1024 && "10px",
               // boxShadow: width < 1024 && "0 0 5px 2px #6d6c6c71",
               maxWidth: width < 1024 ? (width < 525 ? "98%" : "95%") : "65%",
-              
             }}
           >
             <div
@@ -379,8 +378,7 @@ const onAboutChange = (value) => {
                 display: "flex",
                 justifyContent: "center",
                 fontSize: width < 525 && "14px",
-                marginLeft: width < 1024 && "5%",
-                
+                marginLeft: width > 1024 ? "50%" : "5%",
               }}
             >
               <div className="navbar-item has-dropdown is-hoverable">
@@ -419,7 +417,6 @@ const onAboutChange = (value) => {
                               setisDropDown(true);
                             }, 100);
                           }}
-                          
                         >
                           {item.headname}
                         </Link>
