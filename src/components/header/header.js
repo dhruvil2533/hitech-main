@@ -320,13 +320,13 @@ const onAboutChange = (value) => {
         style={{
           width: width >= 1024 && "50%",
           marginLeft: width < 1024 ? (width < 525 ? "5%" : "5%") : "25%",
-          borderRadius: width >= 1024 && "10px",
-          boxShadow: width >= 1024 && "0 0 5px 2px #6d6c6c71",
-          // marginTop: width >= 1024 && "20px",
+          borderRadius: "10px",
+          boxShadow: "0 0 5px 2px #6d6c6c71",
+          marginTop: "20px",
         }}
       >
         <div className="container navigation">
-          <div className="navbar-brand">
+          {/* <div className="navbar-brand"> */}
             {/* <a className="navbar-item logo" href="\">
               <img src="Sources/images/hitech_logo.png" alt="logo" />
             </a> */}
@@ -347,7 +347,7 @@ const onAboutChange = (value) => {
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
             </a> */}
-          </div>
+          {/* </div> */}
 
           <div className="navbar-start">
             {/* <div
@@ -365,10 +365,11 @@ const onAboutChange = (value) => {
             //   isActive ? "is-active" : ""
             // }`}
             style={{
-              width: width < 1024 ? (width < 525 ? "95%" : "95%") : "65%",
-              borderRadius: width < 1024 && "10px",
-              boxShadow: width < 1024 && "0 0 5px 2px #6d6c6c71",
-              maxWidth: width < 1024 ? (width < 525 ? "95%" : "95%") : "65%",
+              width: width < 1024 ? (width < 525 ? "98%" : "95%") : "65%",
+              // borderRadius: width < 1024 && "10px",
+              // boxShadow: width < 1024 && "0 0 5px 2px #6d6c6c71",
+              maxWidth: width < 1024 ? (width < 525 ? "98%" : "95%") : "65%",
+              
             }}
           >
             <div
@@ -379,6 +380,7 @@ const onAboutChange = (value) => {
                 justifyContent: "center",
                 fontSize: width < 525 && "14px",
                 marginLeft: width < 1024 && "5%",
+                
               }}
             >
               <div className="navbar-item has-dropdown is-hoverable">
