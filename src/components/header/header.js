@@ -319,7 +319,7 @@ const onAboutChange = (value) => {
         aria-label="main navigation"
         style={{
           width: width < 1024 ? (width < 768 ? "95%" : "70%") : "50%",
-          marginLeft: width < 1024 ? (width < 768 ? "3%" : "15%") : "25%",
+          marginLeft: width < 1024 ? (width < 768 ? "2%" : "15%") : "25%",
           borderRadius: "10px",
           boxShadow: "0 0 2px 2px #6d6c6c71",
           marginTop: "20px",
