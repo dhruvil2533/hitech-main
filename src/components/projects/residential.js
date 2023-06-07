@@ -239,7 +239,7 @@ const Residential = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/bg1.jpg"
+        src="Sources/images/bg/a.jpg"
         alt="404 -Not Given"
         className="about_img"
       />

@@ -100,10 +100,10 @@ const Whoweare = () => {
   return (
     <>
       <img
-        src="Sources/images/carousel/f.png"
+        src="Sources/images/bg/six.jpg"
         alt="404 -Not Given"
         className="about_img"
-        style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+        //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
       />
 
       <div className="about-us-bg">

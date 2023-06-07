@@ -117,7 +117,7 @@ const Institutionalprojects = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/bg1.jpg"
+        src="Sources/images/bg/d1.jpg"
         alt="404 -Not Given"
         className="about_img"
       />
