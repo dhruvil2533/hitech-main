@@ -187,7 +187,7 @@ const Footer = () => {
         <div className="section_padding"></div>
       </section> */}
       <AntFooter className="main_footer">
-        <div className="section_padding"></div>
+        {/* <div className="section_padding"></div> */}
         <div className="container">
           <Row style={{ display: "flex", justifyContent: "center" }}>
             <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
@@ -434,7 +434,7 @@ const Footer = () => {
               xs={24}
               className="footer_colum"
             >
-              <div className="second-col" style={{ marginLeft: window.innerWidth >= 768 ? "11%" : "0px", marginTop: "0px" }}>
+              <div className="second-col" style={{ marginTop: "0px" }}>
                 <div className="footer_line">
                   <h3 className="is-size-5 has-text-weight-semibold pb-4 mt-3 has-text-white footer_heading">
                     Contact Us
@@ -453,6 +453,7 @@ const Footer = () => {
                             >
                               <span className="pl-2">+91-9904592200 /</span>
                             </a>
+
                             <a
                               href="tel:+91 9904288900"
                               className="has-text-white"
@@ -519,7 +520,7 @@ const Footer = () => {
             </Col>
           </Row>
         </div>
-        <div className="section_padding"></div>
+        {/* <div className="section_padding"></div> */}
       </AntFooter>
       <hr className="footerhr" />
       <section className="lower_foot bluebg_color">

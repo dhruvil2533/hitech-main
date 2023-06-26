@@ -133,7 +133,6 @@ const Expertise = () => {
   }
   return (
     <>
-    
       <section className="machinary mobile_margin">
         <div className="section_padding"></div>
         <div className="container">

@@ -14,10 +14,10 @@ const Csr = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/three.jpg"
+        src="Sources/images/bg/CSR-Amendment-Rules-2022.jpg"
         alt="404 -Not Given"
         className="about_img"
-       // style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+        // style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
       />
 
       <div className="about-us-bg">
@@ -33,26 +33,15 @@ const Csr = () => {
                 our corporate social responsibility initiatives.
               </p>
               <div className="mt-5" style={{ marginLeft: "3%" }}>
-                <li>
-                  Education for construction worker children -1 Video of labours
-                  kids going to school.
-                </li>
+                <li>Education for construction worker children</li>
                 <br />
-                <li>
-                  Regular medical, eye checkup camps at labour colonies – take
-                  suitable picture from Hitech cares video made by you guys.
-                </li>
+                <li>Regular medical, eye checkup camps at labour colonies .</li>
                 <br />
-                <li>
-                  Workshops on AIDS, tobacco and alcohol awareness – Take AIDS
-                  awareness pic from the video.
-                </li>
+                <li>Workshops on AIDS, tobacco and alcohol awareness.</li>
                 <br />
                 <li>
                   Malnutrition related awareness and nutrition grocery kit
-                  distribution – Take pic of grocery distribution kits from the
-                  video (remove covid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from text or
-                  pics).
+                  distribution.
                 </li>
                 <Row style={{ display: "flex", justifyContent: "center" }}>
                   <Col

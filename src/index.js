@@ -24,6 +24,7 @@ import Industrial from "./components/projects/industrial";
 import Gallery from "./components/gallery/gallery";
 import Careers from "./components/careers/careers";
 import Header1 from "./components/header/header1";
+import Machinery from "./components/Expertise/Machinery";
 
 const Main = () => {
   const path = useLocation().pathname;
@@ -53,6 +54,8 @@ const Main = () => {
         <Route path={url.industrial} element={<Industrial />} />
         <Route path={url.gallery} element={<Gallery />} />
         <Route path={url.careers} element={<Careers />} />
+        <Route path={url.machinery} element={<Machinery />} />
+
         <Route
           path={url.institutionalprojects}
           element={<Institutionalprojects />}

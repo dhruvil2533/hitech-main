@@ -15,4 +15,5 @@ export const url = {
   industrial: "/Industrial",
   gallery: "/Gallery",
   careers: "/Careers",
+  machinery: "/Machinery",
 };

@@ -17,7 +17,7 @@ const Careers = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/second.jpg"
+        src="Sources/images/bg/a1.jpg"
         alt="404 -Not Given"
         className="about_img"
         // style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}

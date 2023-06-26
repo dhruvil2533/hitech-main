@@ -103,10 +103,10 @@ const Management = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/four.jpg"
+        src="Sources/images/bg/a22.jpg"
         alt="404 -Not Given"
         className="about_img"
-       // style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
+        // style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
       />
 
       <div className="about-us-bg">
@@ -187,11 +187,11 @@ const Management = () => {
                     wouldn't be here today.
                   </p>
                   <br />
-                  <p className="has-text-left">
+                  {/* <p className="has-text-left">
                     Our Family consists of: Engineers & Supervisors: 48% Plant
                     and Machinery Staff: 18% Top Management: 5% Managers &
                     Above: 10% Supporting Staff: 19%
-                  </p>
+                  </p> */}
                 </Col>
                 <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
                 <Col
@@ -204,7 +204,7 @@ const Management = () => {
                 >
                   <div>
                     <img
-                      src="Sources/images/management/team.png"
+                      src="Sources/images/management/team 1-1.jpg"
                       alt="404 - Not Given"
                     />
                   </div>

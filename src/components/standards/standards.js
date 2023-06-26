@@ -49,7 +49,7 @@ const Standards = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/five.jpg"
+        src="Sources/images/bg/a11.jpg"
         alt="404 -Not Given"
         className="about_img"
         //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}

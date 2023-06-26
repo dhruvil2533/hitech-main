@@ -243,7 +243,7 @@ const Commercial = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/bg1.jpg"
+        src="Sources/images/bg/a10.jpg"
         alt="404 -Not Given"
         className="about_img"
       />

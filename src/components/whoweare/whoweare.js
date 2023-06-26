@@ -9,7 +9,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "../header/header";
 
-
 const managementcard = [
   {
     icon: <AiFillEye className="is-size-1 service_mainicon" />,
@@ -100,7 +99,7 @@ const Whoweare = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/six.jpg"
+        src="Sources/images/bg/a3.jpg"
         alt="404 -Not Given"
         className="about_img"
         //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
@@ -203,35 +202,38 @@ const Whoweare = () => {
             >
               Our Achievements
             </p>
-            <Row gutter={[16, 16]}>
-              {statslist.map((item, key) => (
-                <Col xxl={6} xl={8} lg={12} md={12} sm={24} xs={24} key={key}>
-                  <div className="property_list">
-                    <div data-aos="zoom-in" data-aos-delay="200">
-                      <img
-                        src={item.src}
-                        alt="404 - Not Given"
-                        className="property_list_image"
-                      />
+            {
+              <Row gutter={[8, 8]}>
+                {statslist.map((item, key) => (
+                  <Col xxl={6} xl={8} lg={12} md={12} sm={24} xs={24} key={key}>
+                    <div className="property_list">
+                      <div data-aos="zoom-in" data-aos-delay="200">
+                        <img
+                          src={item.src}
+                          alt="404 - Not Given"
+                          className="property_list_image"
+                        />
+                      </div>
+                      <div
+                        className="property_list_content"
+                        data-aos="zoom-in"
+                        data-aos-delay="200"
+                      >
+                        <p className="is-size-5 has-text-centered blue_color has-text-weight-semibold">
+                          {item.title}
+                        </p>
+                        <p className="is-size-3 has-text-centered blue_color has-text-weight-semibold">
+                          {item.content}
+                        </p>
+                      </div>
                     </div>
-                    <div
-                      className="property_list_content"
-                      data-aos="zoom-in"
-                      data-aos-delay="200"
-                    >
-                      <p className="is-size-5 has-text-centered blue_color has-text-weight-semibold">
-                        {item.title}
-                      </p>
-                      <p className="is-size-3 has-text-centered blue_color has-text-weight-semibold">
-                        {item.content}
-                      </p>
-                    </div>
-                  </div>
-                </Col>
-              ))}
-            </Row>
+                  </Col>
+                ))}
+              </Row>
+            }
           </div>
         </section>
+
         <section className="mobile_margin">
           <div className="section_padding"></div>
           <div className="container">

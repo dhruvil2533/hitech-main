@@ -77,22 +77,35 @@ const headeritemtwo = [
     headlink: url.institutionalprojects,
   },
 ];
+const headeritemthree = [
+  {
+    headname: "Plant And Machinery",
+    headlink: url.machinery,
+  },
+  {
+    headname: "Form work",
+    headlink: url.commercial,
+  },
+  {
+    headname: "Technology",
+    headlink: url.industrial,
+  },
+];
 
 const Header = () => {
   const [isProjectOpen, setIsProjectOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [isDropDown, setisDropDown] = useState(true);
 
-const onProjectChange = (value) => {
-  if (value === true) setIsAboutOpen(false);
-  setIsProjectOpen(value);
-};
+  const onProjectChange = (value) => {
+    if (value === true) setIsAboutOpen(false);
+    setIsProjectOpen(value);
+  };
 
-const onAboutChange = (value) => {
-  if (value === true) setIsProjectOpen(false);
-  setIsAboutOpen(value);
-};
-
+  const onAboutChange = (value) => {
+    if (value === true) setIsProjectOpen(false);
+    setIsAboutOpen(value);
+  };
 
   // Sticky Menu Area
   useEffect(() => {
@@ -427,14 +440,60 @@ const onAboutChange = (value) => {
                     })}
                 </div>
               </div>
-              <div className="header_wrapper">
+              {/* <div className="header_wrapper">
                 <Link
                   className="navbar-item header_item hoverheader_item"
                   to={url.services}
                   onClick={() => setIsActive(false)}
                 >
-                  Services
+                  Expertise
                 </Link>
+              </div> */}
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link
+                  onClick={() => {
+                    onProjectChange(!isProjectOpen);
+                  }}
+                  className="navbar-link header_item"
+                  style={{
+                    display: small && "inline-block",
+                  }}
+                >
+                  Expertise
+                </Link>
+                <div
+                  className="navbar-dropdown"
+                  style={{
+                    display: small
+                      ? isProjectOpen
+                        ? "table-caption"
+                        : "none"
+                      : undefined,
+                    maxWidth: small && isProjectOpen && "108px",
+                    boxSizing: small && isProjectOpen && "border-box",
+                    overflow: small ? "hidden" : undefined,
+                  }}
+                >
+                  {isDropDown &&
+                    headeritemthree.map((item, key) => {
+                      return (
+                        <Link
+                          className="navbar-item"
+                          to={item.headlink}
+                          key={key}
+                          onClick={() => {
+                            setIsActive(!isActive);
+                            setisDropDown(false);
+                            setTimeout(() => {
+                              setisDropDown(true);
+                            }, 100);
+                          }}
+                        >
+                          {item.headname}
+                        </Link>
+                      );
+                    })}
+                </div>
               </div>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link

@@ -5,17 +5,17 @@ import Header from "../header/header";
 const awardscard = [
   {
     src: "Sources/images/awards/3.png",
-    title: "Outstanding Structure",
+    title: "Structure Award",
     des: "Project “THE BANYAN” was awarded for Outstanding Structure at State Level in Mass Housing category ( < 100)",
   },
   {
     src: "Sources/images/awards/2.png",
-    title: "Outstanding Structure",
+    title: "Structure Award",
     des: "Project “HIGH TEMP FURNACES” was awarded for Outstanding Structure at Regional Level North Gujarat in Industrial category",
   },
   {
     src: "Sources/images/awards/1.png",
-    title: "Outstanding Structure",
+    title: "Structure Award",
     des: "Project “SUN EVOQ” was awarded for Outstanding Structure at Regional Level North Gujarat in Mass Housing category ( < 100)",
   },
   {
@@ -34,7 +34,7 @@ const Awards = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/seven.jpg"
+        src="Sources/images/bg/a5.jpg"
         alt="404 -Not Given"
         className="about_img"
         //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
