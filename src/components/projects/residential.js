@@ -5,11 +5,65 @@ import Header from "../header/header";
 const industriallist = [
   {
     src: "Sources/images/prouctlist/residential/ongoing/1.png",
-    title: "RELIANCE JAMNAGAR",
+    title: "Aranyam",
+    content: "...",
+    segment: "Residential",
+    client: "Aaryan Developers",
+    location: "Shilaj, Ahmedabad",
+    projectSize: "- Sq. ft.",
+    projectYear: "2023-Current",
+    architect: "AAA Architects",
+    consultant: "HNBS Associates",
+    scope: "RCC Frame works, Block work, Plaster work",
+  },
+  {
+    src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    title: "The Bellagio",
+    content: "...",
+    segment: "Residential",
+    client: "Palak Group",
+    location: "S. G. Highway, Ahmedabad",
+    projectSize: "1,060,422 Sq. ft.",
+    projectYear: "2023-Current",
+    architect: "Studio Mansi Shah",
+    consultant: "HNBS Associates",
+    scope:
+      "Construction of 02 Basement+ G.F + 2 Podium+ HP + 20 floors of Residential Building. ",
+  },
+  {
+    src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    title: "Celeste@Godrej",
+    content: "...",
+    segment: "Residential",
+    client: "Shree Siddhi Group",
+    location: "Godrej Garden City, Ahmedabad",
+    projectSize: "1,550,196 Sq. ft.",
+    projectYear: "2022-Current",
+    architect: "Placekinesis Associates",
+    consultant: "Japan Shah Consulting Engineers",
+    scope: "Civil works RCC Core Structure along with Masonry & Plaster",
+  },
+  {
+    src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    title: "Ikaria - Easy Living",
+    content: "...",
+    segment: "Residential",
+    client: "Alinea Properties LLP",
+    location: "Adani Shantigram",
+    projectSize: "2,24,000 Sq. ft.",
+    projectYear: "2022-Current",
+    architect: "Studio ARA, Ahmedabad",
+    consultant: "N K Shah Consulting LLP",
+    scope: "Civil Structure (Core & Shell) and Finishing works.",
+  },
+  {
+    src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    title: "RELIANCE",
     content:
       "Security Staff Housing Complex project at Jamnagar-LC 01, LC 04 and LC 10",
     segment: "Residential",
     client: "Reliance Industries Ltd",
+    location: "Moti Khavdi, Jamnagar",
     projectSize: "3,40,900 Sq. ft. (G+2 Floors)",
     projectYear: "2022-Current",
     architect: "PVDRS, Ahmedabad",
@@ -23,6 +77,7 @@ const industriallist = [
     content: "5 and 6 BHK Sky Villas of 22 floored structure.",
     segment: "Residential",
     client: "Sheetal Infrastructure",
+    location: "Ambli, Ahmedabad",
     projectSize: "5,00,000 Sqft. (03 Basement + G.F + 21 Floors)",
     projectYear: "2022-Current",
     architect: "ADS Architect",
@@ -37,6 +92,7 @@ const industriallist = [
       "4 BHK spacious and luxurious apartments, the architectural design and modern amenities that Oeuvre-2 entails is remarkable.",
     segment: "Residential",
     client: "Madhav Oeuvre-2 LLP - Madhav Group",
+    location: "Bodakdev, Amedabad",
     projectSize: "6,05,957 Sq. ft. (Four tower) (2B+GF+P-1+P-2+H.P,+22 Floors)",
     projectYear: "2022-Current",
     architect: "H M Architects",
@@ -49,6 +105,7 @@ const industriallist = [
     content: "4 and 5 BHK regal Appartments.",
     segment: "Residential",
     client: "Sarthi Prospace LLP- Venus Lifespace Creators",
+    location: "Bodakdev, Amedabad",
     projectSize: "8,89,160 Sq. ft.(2B+G+2P+HP+19 Floors)",
     projectYear: "2022-Current",
     architect: "H M Architects",
@@ -62,6 +119,7 @@ const industriallist = [
     content: "Sun Atmosphere are 2 to 3 BHK Appartments And Retail at Shela.",
     segment: "Residential",
     client: "Sun Realty",
+    location: "Shela, Ahmedabad",
     projectSize: "1,25,000 Sq. ft.(16 Blocks- 2B+G+14 Floors)",
     projectYear: "2022-Current",
     architect: "H M Architects",
@@ -69,19 +127,8 @@ const industriallist = [
     scope:
       "Civil Structure work for D Wall, RCC works, Block work, Internal plaster, External Plaster",
   },
-  {
-    src: "Sources/images/prouctlist/residential/ongoing/6.png",
-    title: "ALPHABET",
-    content: "4 BHK, 5 BHK class-apart lifestyle apartments",
-    segment: "Residential",
-    client: "Jaydeep Buildcon LLP",
-    projectSize: "1,00,000 Sq. ft.1 Building (B+G+9 Floors)",
-    projectYear: "2022-Current",
-    architect: "9th Street Architects",
-    consultant: "Bhoomi Consultants",
-    scope:
-      "Civil Structure work for RCC works, Block work, Internal plaster, External Plaster,Flooring, Painting, Door And Windows, Plumbing, Firefighting, Electrical,Lifts and all Finishing works.",
-  },
+];
+const industrialcompleted = [
   {
     src: "Sources/images/prouctlist/residential/ongoing/7.png",
     title: "THE WATERFALL",
@@ -90,13 +137,24 @@ const industriallist = [
     segment: "Residential",
     client: "Armaan Developer",
     projectSize: "4,55,000 Sqft.1 Building (4B+G+11 Floors)",
-    projectYear: "2022-Current",
+    projectYear: "2022",
     architect: "Scarlett Design",
     consultant: "Ducon Consultant Pvt Ltd",
     scope: "Civil Structure Work, Finishing And Services",
   },
-];
-const industrialcompleted = [
+  {
+    src: "Sources/images/prouctlist/residential/ongoing/6.png",
+    title: "ALPHABET",
+    content: "4 BHK, 5 BHK class-apart lifestyle apartments",
+    segment: "Residential",
+    client: "Jaydeep Buildcon LLP",
+    projectSize: "1,00,000 Sq. ft.1 Building (B+G+9 Floors)",
+    projectYear: "2022",
+    architect: "9th Street Architects",
+    consultant: "Bhoomi Consultants",
+    scope:
+      "Civil Structure work for RCC works, Block work, Internal plaster, External Plaster,Flooring, Painting, Door And Windows, Plumbing, Firefighting, Electrical,Lifts and all Finishing works.",
+  },
   {
     src: "Sources/images/prouctlist/residential/completed/1.png",
     title: "ARVIND AAVISHKAR",
@@ -324,6 +382,14 @@ const Residential = () => {
                                   Client:&nbsp;
                                 </span>
                                 {item.client}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Location:&nbsp;
+                                </span>
+                                {item.location}
                               </p>
                             </div>
                             <div className="pt-3">

@@ -28,6 +28,71 @@ const awardscard = [
     title: "Safety Award",
     des: "Received award/certificate from CQRA for achieving 1 million safe man hours without LTI at one 49 site",
   },
+  {
+    src: "Sources/images/awards/7.jpg",
+    title: "Safety Award",
+    des: "The Achievement of One Lakh safe man-hours without lost time injuiry (LTI)",
+  },
+  {
+    src: "Sources/images/awards/8.jpg",
+    title: "Safety Award",
+    des: "Achivement Award for construction health safety & Environment",
+  },
+  {
+    src: "Sources/images/awards/9.jpg",
+    title: "Safety Award",
+    des: "The Achivement of 1 million safe man-hours for their propjects ONE49 site",
+  },
+  {
+    src: "Sources/images/awards/10.jpg",
+    title: "Safety Award",
+    des: "The Achivement of Half million safe man-hours for their propjects ONE49 site",
+  },
+  {
+    src: "Sources/images/awards/11.jpg",
+    title: "Safety Award",
+    des: "The winning of ICI-UltraTech Outstanding Stucture Awards 2020 (Regional) in the category Indistrial Buildings",
+  },
+  {
+    src: "Sources/images/awards/12.jpg",
+    title: "Structure Award",
+    des: "Project “ICI” was awarded for Outstanding Structure Award 2020 at North Gujarat",
+  },
+  {
+    src: "Sources/images/awards/13.jpg",
+    title: "ISO Certificate 9001-2015",
+    des: "Successful completion of annual periodic audits",
+  },
+  {
+    src: "Sources/images/awards/14.jpg",
+    title: "ISO Certificate 45001-2018",
+    des: "Successful completion of annual periodic audits",
+  },
+  {
+    src: "Sources/images/awards/15.jpg",
+    title: "Safety Award",
+    des: "Project “UNICHARM” for Completing 1 Lakh safe man hours sanand site  ",
+  },
+  {
+    src: "Sources/images/awards/16.JPG",
+    title: "Structure Award",
+    des: "The winning of ICI-UltraTech Outstanding Stucture Awards 2020 (Regional) in the category Mass Housing",
+  },
+  {
+    src: "Sources/images/awards/17.JPG",
+    title: "Structure Award",
+    des: "Project “ICI” was awarded for Outstanding Structure Award 2020 in the category Mass housing",
+  },
+  {
+    src: "Sources/images/awards/18.JPG",
+    title: "Structure Award",
+    des: "Project “ICI-UltraTech” was awarded for Outstanding Structure Award 2020 in the category Mass housing",
+  },
+  {
+    src: "Sources/images/awards/19.JPG",
+    title: "Structure Award",
+    des: "Project “ICI-UltraTech” was awarded for Outstanding Structure Award 2020 in the category Mass housing",
+  },
 ];
 
 const Awards = () => {
@@ -77,7 +142,11 @@ const Awards = () => {
                       <Card className="awardcard">
                         <div className="has-text-centered service_icon">
                           <div>
-                            <Image src={item.src} alt="404 - Not Found" />
+                            <Image
+                              src={item.src}
+                              alt="404 - Not Found"
+                              style={{ height: "25vh", width: "100%" }}
+                            />
                           </div>
                         </div>
                         <div>

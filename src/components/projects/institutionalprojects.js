@@ -77,6 +77,7 @@ const institutionalprojectscompleted = [
       "Anand Niketan is a School having 50,000 Sqft built up area in Sughad, Ahmedabad with various facilities including Special Room, Sports Arenas & Activity Rooms.",
     segment: "Education",
     client: "Anand Niketan",
+    location: "Sanand, Ahmedabad",
     projectSize: "50,000 Sqft.",
     projectYear: "2015",
     architect: "Kakani Associates",
@@ -285,6 +286,14 @@ const Institutionalprojects = () => {
                                   Client:&nbsp;
                                 </span>
                                 {item.client}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Location:&nbsp;
+                                </span>
+                                {item.location}
                               </p>
                             </div>
                             <div className="pt-3">

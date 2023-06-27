@@ -5,6 +5,7 @@ import { url } from "../../constants/navhome";
 import Modal from "react-modal";
 import { IoMdContact } from "react-icons/io";
 import TextArea from "antd/lib/input/TextArea";
+import Clients from "../clients/clients";
 
 const customStyles = {
   content: {
@@ -84,11 +85,21 @@ const headeritemthree = [
   },
   {
     headname: "Form work",
-    headlink: url.commercial,
+    headlink: url.formwork,
   },
   {
     headname: "Technology",
-    headlink: url.industrial,
+    headlink: url.technology,
+  },
+];
+const headeritemfour = [
+  {
+    headname: "Our Clients",
+    headlink: url.ourclients,
+  },
+  {
+    headname: "Architect And Consultants",
+    headlink: url.architech,
   },
 ];
 
@@ -542,14 +553,51 @@ const Header = () => {
                 </div>
               </div>
 
-              <div className="header_wrapper">
+              <div className="navbar-item has-dropdown is-hoverable">
                 <Link
-                  className="navbar-item header_item hoverheader_item"
-                  to={url.clients}
-                  onClick={() => setIsActive(false)}
+                  onClick={() => {
+                    onProjectChange(!isProjectOpen);
+                  }}
+                  className="navbar-link header_item"
+                  style={{
+                    display: small && "inline-block",
+                  }}
                 >
                   Clients
                 </Link>
+                <div
+                  className="navbar-dropdown"
+                  style={{
+                    display: small
+                      ? isProjectOpen
+                        ? "table-caption"
+                        : "none"
+                      : undefined,
+                    maxWidth: small && isProjectOpen && "108px",
+                    boxSizing: small && isProjectOpen && "border-box",
+                    overflow: small ? "hidden" : undefined,
+                  }}
+                >
+                  {isDropDown &&
+                    headeritemfour.map((item, key) => {
+                      return (
+                        <Link
+                          className="navbar-item"
+                          to={item.headlink}
+                          key={key}
+                          onClick={() => {
+                            setIsActive(!isActive);
+                            setisDropDown(false);
+                            setTimeout(() => {
+                              setisDropDown(true);
+                            }, 100);
+                          }}
+                        >
+                          {item.headname}
+                        </Link>
+                      );
+                    })}
+                </div>
               </div>
               {/* <div className="header_wrapper">
                 <Link

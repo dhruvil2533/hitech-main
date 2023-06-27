@@ -5,9 +5,60 @@ import Header from "../header/header";
 const commerciallist = [
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    title: "Sharanam Square",
+    content: "...",
+    client: "Sharanam Square LLP",
+    location: "Khokhara, Ahmedabad",
+    projectSize: "275,000 Sq. ft.",
+    projectYear: "2022-Current",
+    architect: "99 Studio",
+    consultant: "Shreeji Consultant",
+    scope:
+      "Civil Construction with Finishing Work of commercial building of B+G+2 storey (2 Blocks).",
+  },
+  {
+    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    title: "Regalia",
+    content: "...",
+    client: "Nakshatra Infracon",
+    location: "GIFT City, Gandhinagar",
+    projectSize: "526,000 Sq. ft.",
+    projectYear: "2022-Current",
+    architect: "Neha Consultants",
+    consultant: "J W Consultants LLP",
+    scope: "Civil works, Masonry & Plaster, and Waterproofing.",
+  },
+  {
+    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    title: "The Profit",
+    content: "...",
+    client: "The Building Company",
+    location: "Adajan, Surat",
+    projectSize: "159,174 Sq. ft.",
+    projectYear: "2022-Current",
+    architect: "Tathastu",
+    consultant: "SNV Engineers",
+    scope:
+      "Construction of 02 Basement + G.F +10 levels of Commercial Building. RCC core and Shell work along with Masonry and Plaster",
+  },
+  {
+    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    title: "Flexone",
+    content: "...",
+    client: "Waystar Properties LLP",
+    location: "GIFT City, Gandhinagar",
+    projectSize: "563,000 Sq. ft.",
+    projectYear: "2022-Current",
+    architect: "Studio ARA",
+    consultant: "N K Shah Consulting LLP",
+    scope: "Civil Structure (Core & Shell) and Finishing works.",
+  },
+  {
+    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
     title: "SHARNAM METROLINK",
     content: "Commercial projects at Khokhara, Ahmedabad",
     client: "Sharnam Metrolinks LLP",
+    location: "Khokhara, Ahmedabad",
     projectSize:
       "4,91,000 Sq. ft. 7 Buildings (B+G+4 Floors) 2 Buildings (B+G+5 Floors)",
     projectYear: "2022-Current",
@@ -16,6 +67,8 @@ const commerciallist = [
     scope:
       "Civil Structure work for RCC works, Block work, Internal Plaster, External Plaster, Flooring,Waterproofing And Painting works",
   },
+];
+const commercialcompleted = [
   {
     src: "Sources/images/prouctlist/commercial/ongoing/2.png",
     title: "TORRENT POWER “B” STATION",
@@ -42,10 +95,11 @@ const commerciallist = [
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/4.png",
-    title: "TORRENT POWER LTD. NARANPURA",
+    title: "TORRENT POWER LTD. ",
     content:
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its HT PSC building and meter Lab building at Naranpura, Ahmedabad.",
     client: "Torrent Power Ltd",
+    location: "NARANPURA",
     projectSize: "1,70,000 SQFT.",
     projectYear: "2022-Current",
     architect: "Munjal Bhatt",
@@ -74,8 +128,6 @@ const commerciallist = [
     consultant: "-",
     scope: "Civil Structure Work with all services",
   },
-];
-const commercialcompleted = [
   {
     src: "Sources/images/prouctlist/commercial/completed/1.png",
     title: "AHMEDABAD ONE MALL-II",
@@ -327,12 +379,21 @@ const Commercial = () => {
                             Commercial
                           </p>
                         </div> */}
+
                             <div className="pt-3">
                               <p className="is-size-6">
                                 <span className="has-text-weight-semibold">
                                   Client:&nbsp;
                                 </span>
                                 {item.client}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Location:&nbsp;
+                                </span>
+                                {item.location}
                               </p>
                             </div>
                             <div className="pt-3">
@@ -419,6 +480,14 @@ const Commercial = () => {
                                   Client:&nbsp;
                                 </span>
                                 {item.client}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Location:&nbsp;
+                                </span>
+                                {item.location}
                               </p>
                             </div>
                             <div className="pt-3">

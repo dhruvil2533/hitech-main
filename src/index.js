@@ -25,6 +25,10 @@ import Gallery from "./components/gallery/gallery";
 import Careers from "./components/careers/careers";
 import Header1 from "./components/header/header1";
 import Machinery from "./components/Expertise/Machinery";
+import Formwork from "./components/Expertise/Formwork";
+import Technology from "./components/Expertise/Technology";
+import Ourclients from "./components/clients/Ourclients";
+import Architech from "./components/clients/Architect";
 
 const Main = () => {
   const path = useLocation().pathname;
@@ -55,6 +59,10 @@ const Main = () => {
         <Route path={url.gallery} element={<Gallery />} />
         <Route path={url.careers} element={<Careers />} />
         <Route path={url.machinery} element={<Machinery />} />
+        <Route path={url.formwork} element={<Formwork />} />
+        <Route path={url.technology} element={<Technology />} />
+        <Route path={url.ourclients} element={<Ourclients />} />
+        <Route path={url.architech} element={<Architech />} />
 
         <Route
           path={url.institutionalprojects}
