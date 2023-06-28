@@ -8,28 +8,20 @@ import { Carousel } from "react-responsive-carousel";
 import React, { useEffect, useState } from "react";
 import Header from "../header/header";
 
-const quality = [
-  { src: "Sources/images/standards/Quality/1.png" },
-  { src: "Sources/images/standards/Quality/2.png" },
-];
-const safety = [
-  { src: "Sources/images/standards/safety/1.png" },
-  { src: "Sources/images/standards/safety/2.png" },
-  { src: "Sources/images/standards/safety/3.png" },
-  { src: "Sources/images/standards/safety/4.png" },
-];
+const quality = [{ src: "Sources/images/standards/Quality/1.png" }];
+const safety = [{ src: "Sources/images/standards/safety/1.png" }];
 const safetytwo = [
-  { src: "Sources/images/standards/safety/5.png" },
+  // { src: "Sources/images/standards/safety/5.png" },
   { src: "Sources/images/standards/safety/6.png" },
-  { src: "Sources/images/standards/safety/7.png" },
-  { src: "Sources/images/standards/safety/8.png" },
+  // { src: "Sources/images/standards/safety/7.png" },
+  // { src: "Sources/images/standards/safety/8.png" },
 ];
 const training = [
-  { src: "Sources/images/standards/traning/1.png" },
-  { src: "Sources/images/standards/traning/2.png" },
-  { src: "Sources/images/standards/traning/3.png" },
+  // { src: "Sources/images/standards/traning/1.png" },
+  // { src: "Sources/images/standards/traning/2.png" },
+  // { src: "Sources/images/standards/traning/3.png" },
   { src: "Sources/images/standards/traning/4.png" },
-  { src: "Sources/images/standards/traning/5.png" },
+  // { src: "Sources/images/standards/traning/5.png" },
 ];
 
 const Standards = () => {
@@ -140,36 +132,17 @@ const Standards = () => {
               <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
 
               <Col xxl={11} lg={11} md={24} sm={24} xs={24} className="my-auto">
-                <div>
-                  <Carousel
-                    swipeable
-                    autoPlay
-                    infiniteLoop={true}
-                    emulateTouch={true}
-                    showArrows={false}
-                    showThumbs={false}
-                    showStatus={false}
-                    interval={1000}
-                    stopOnHover
-                  >
-                    {quality.map((item, key) => {
-                      return (
-                        <div style={{ height: "100%" }}>
-                          <img
-                            src={item.src}
-                            alt="404 - Not Given"
-                            style={{ height: "100%", width: "100%" }}
-                          />
-                        </div>
-                      );
-                    })}
-
-                    {/* {machinery.map((item, key) => {
-                        return <img src={item.src} alt="404 - Not Given" />;
-                      })} 
-                    </div>*/}
-                  </Carousel>
-                </div>
+                {quality.map((item, key) => {
+                  return (
+                    <div style={{ height: "100%" }}>
+                      <img
+                        src={item.src}
+                        alt="404 - Not Given"
+                        style={{ height: "100%", width: "100%" }}
+                      />
+                    </div>
+                  );
+                })}
               </Col>
             </Row>
           </div>
@@ -190,34 +163,22 @@ const Standards = () => {
                   className="my-auto"
                 >
                   <div>
-                    <Carousel
-                      swipeable
-                      autoPlay
-                      infiniteLoop={true}
-                      emulateTouch={true}
-                      showArrows={false}
-                      showThumbs={false}
-                      showStatus={false}
-                      interval={1000}
-                      stopOnHover
-                    >
-                      {safety.map((item, key) => {
-                        return (
-                          <div style={{ height: "100%" }}>
-                            <img
-                              src={item.src}
-                              alt="404 - Not Given"
-                              style={{ height: "100%", width: "100%" }}
-                            />
-                          </div>
-                        );
-                      })}
+                    {safety.map((item, key) => {
+                      return (
+                        <div style={{ height: "100%" }}>
+                          <img
+                            src={item.src}
+                            alt="404 - Not Given"
+                            style={{ height: "100%", width: "100%" }}
+                          />
+                        </div>
+                      );
+                    })}
 
-                      {/* {machinery.map((item, key) => {
+                    {/* {machinery.map((item, key) => {
                         return <img src={item.src} alt="404 - Not Given" />;
                       })} 
                     </div>*/}
-                    </Carousel>
                   </div>
                 </Col>
               )}
@@ -298,29 +259,17 @@ const Standards = () => {
               <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
               <Col xxl={11} lg={11} md={24} sm={24} xs={24} className="my-auto">
                 <div>
-                  <Carousel
-                    swipeable
-                    autoPlay
-                    infiniteLoop={true}
-                    emulateTouch={true}
-                    showArrows={false}
-                    showThumbs={false}
-                    showStatus={false}
-                    interval={1000}
-                    stopOnHover
-                  >
-                    {safetytwo.map((item, key) => {
-                      return (
-                        <div style={{ height: "100%" }}>
-                          <img
-                            src={item.src}
-                            alt="404 - Not Given"
-                            style={{ height: "100%", width: "100%" }}
-                          />
-                        </div>
-                      );
-                    })}
-                  </Carousel>
+                  {safetytwo.map((item, key) => {
+                    return (
+                      <div style={{ height: "100%" }}>
+                        <img
+                          src={item.src}
+                          alt="404 - Not Given"
+                          style={{ height: "100%", width: "100%" }}
+                        />
+                      </div>
+                    );
+                  })}
                 </div>
               </Col>
             </Row>
@@ -404,7 +353,7 @@ const Standards = () => {
                   className="my-auto"
                 >
                   <div>
-                    <Carousel
+                    {/* <Carousel
                       swipeable
                       autoPlay
                       infiniteLoop={true}
@@ -414,19 +363,19 @@ const Standards = () => {
                       showStatus={false}
                       interval={1000}
                       stopOnHover
-                    >
-                      {training.map((item, key) => {
-                        return (
-                          <div style={{ height: "100%" }}>
-                            <img
-                              src={item.src}
-                              alt="404 - Not Given"
-                              style={{ height: "100%", width: "100%" }}
-                            />
-                          </div>
-                        );
-                      })}
-                    </Carousel>
+                    > */}
+                    {training.map((item, key) => {
+                      return (
+                        <div style={{ height: "100%" }}>
+                          <img
+                            src={item.src}
+                            alt="404 - Not Given"
+                            style={{ height: "100%", width: "100%" }}
+                          />
+                        </div>
+                      );
+                    })}
+                    {/* </Carousel> */}
                   </div>
                 </Col>
               </Row>

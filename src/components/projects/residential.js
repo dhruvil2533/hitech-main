@@ -31,6 +31,34 @@ const industriallist = [
       "Construction of 02 Basement+ G.F + 2 Podium+ HP + 20 floors of Residential Building. ",
   },
   {
+    // src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    title: "Secuirty Housing for RIL",
+    content: "...",
+    segment: "Residential",
+    client: "Reliance Industries Ltd.",
+    location: "Moti Khavdi, Jamnagar",
+    projectSize: "115,000 Sq. ft.",
+    projectYear: "2022-Current",
+    architect: "PVDRS",
+    consultant: "PVDRS",
+    scope:
+      "Civil works for RCC Core and Shell , waterproofing, masonry, all in-building MEP, interior finishing works",
+  },
+  {
+    // src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    title: "Secuirty Housing for RIL",
+    content: "...",
+    segment: "Residential",
+    client: "Reliance Industries Ltd.",
+    location: "Moti Khavdi, Jamnagar",
+    projectSize: "36,338 Sq. ft.",
+    projectYear: "2021-Current",
+    architect: "PVDRS",
+    consultant: "PVDRS",
+    scope:
+      "Civil works for RCC Core and Shell , waterproofing, masonry, all in-building MEP, interior finishing works",
+  },
+  {
     src: "Sources/images/prouctlist/residential/ongoing/1.png",
     title: "Celeste@Godrej",
     content: "...",
@@ -148,12 +176,13 @@ const industrialcompleted = [
     content: "4 BHK, 5 BHK class-apart lifestyle apartments",
     segment: "Residential",
     client: "Jaydeep Buildcon LLP",
+    location: "Bhat, Gandhinagar",
     projectSize: "1,00,000 Sq. ft.1 Building (B+G+9 Floors)",
     projectYear: "2022",
     architect: "9th Street Architects",
     consultant: "Bhoomi Consultants",
     scope:
-      "Civil Structure work for RCC works, Block work, Internal plaster, External Plaster,Flooring, Painting, Door And Windows, Plumbing, Firefighting, Electrical,Lifts and all Finishing works.",
+      "Civil works for  Earthwork, Civil Structural Work, Block Masonry and Plaster ",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/1.png",
@@ -173,11 +202,13 @@ const industrialcompleted = [
     content:
       "Welcome to a new perspective to city living in Ahmedabad through Community, Central Park, Club, Homes, Penthouse etc.",
     client: "Shilp Developers - Sun Builders",
+    location: "Ambli, Ahmedabad",
     projectSize: " 8,41,464 Sq. ft. (2B+G+22 Floors)",
     projectYear: "2020",
     architect: "Placekinesis Associates",
     consultant: "Setu Infrastructure",
-    scope: "Civil Structure Work with Finishing And Services",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work, Plumbing and Electrical work, and Finishing Works of Residential Buildings of 2B+G+22 Storey (3 Blocks) and Commercial Building 2B+G+20 Storey.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/3.png",
@@ -185,11 +216,13 @@ const industrialcompleted = [
     content:
       "Indraprasth Gulmohar is a name that will make the difference between elite and everyone else.",
     client: "Deep Group",
+    location: "Vastrapur, Ahmedabad",
     projectSize: "5,00,000 Sqft. 3 Buildings (2B+G+14 Floors)",
     projectYear: "2019",
     architect: "Hiren Patel Architects",
     consultant: "Setu Infrastructure",
-    scope: "Civil Structure Work And Finishing",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Residential Building of 2B+G+14 storey (3 Blocks). ",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/4.png",
@@ -197,11 +230,13 @@ const industrialcompleted = [
     content:
       "For the first time in Gujarat, Quintessentially, the world’s leading luxury lifestyle concierge service is now at ‘The Banyan’.",
     client: "Suryam Group",
+    location: "Ashok Vatika, Bodakev, Ahmedabad",
     projectSize: "  2,10,000 Sqft. 2 Buildings (B+G+12 Floors)",
     projectYear: "2018",
     architect: "Design Module",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work And Finishing",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work, Waterproofing and Finishing Works of Residential Building of B+G+12 Storey (2 Block).",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/5.png",
@@ -209,11 +244,13 @@ const industrialcompleted = [
     content:
       "ONE49, an iconic high-rise residential development is one of the most sought after neighborhoods in Ahmedabad today.",
     client: "Amaya Properties Group",
+    location: "Ambli, Ahmedabad",
     projectSize: "4,00,000 Sqft. 1 Building (2B+G+19 Floors)",
     projectYear: "2018",
     architect: "ONG AND ONGS",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work And Finishing",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Residential Building of 2B+G+19 Storey.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/6.png",
@@ -221,11 +258,13 @@ const industrialcompleted = [
     content:
       "The project offers residential units with top class specifications that meet the expectations of the lifestyle of the urban.",
     client: "Shilp Developers",
+    location: "Bodakdev, Ahmedabad",
     projectSize: "1,25,000 Sqft. 1 Building (1B+G+13 Floors)",
     projectYear: "2017",
     architect: "MODO Designs",
     consultant: "Umang Patel",
-    scope: "Civil Structure Work, Finishing And Services",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work, MEPF work, and Finishing Works of Residential Building of B+G+13 Storey.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/7.png",
@@ -233,12 +272,14 @@ const industrialcompleted = [
     content:
       "Yash Arian is a project with several modern amenities.It comes with a total of 204 spacious and luxurious apartments.",
     client: "Yash Arian Infra LLP",
+    location: "Memnagar, Ahmedabad",
     projectSize:
       "4,50,000 Sqft. 2 Residential Buildings (2B+G+14 Floors) 1 Commercial Building (2B+G+4 Floors)",
     projectYear: "2017",
     architect: "Design Studio",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of 2B+G+4 Storey and of Residential Building 2B+G+14 Storey (2 Blocks).",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/8.png",
@@ -246,6 +287,7 @@ const industrialcompleted = [
     content:
       "A 2,10,000 Sqft project to help nearly 1200 families living in the slums of Amraiwadi with a one-BHK flat with good drainage and supply of drinking water.",
     client: "H N Safal",
+    location: "Amraiwadi, Ahmedabad",
     projectSize: "2,10,000 Sqft.",
     projectYear: "2015",
     architect: "Design Module",
@@ -258,11 +300,13 @@ const industrialcompleted = [
     content:
       "The Applewoods township consists of 400 luxurious bungalows accommodated in a plush green environment occupied with open garden spaces, parks and lakes.",
     client: "Goyal Safal Developers",
+    location: "Shela, Ahmedabad",
     projectSize: "9,00,000 Sqft. 10 Buildings (B+G+16 Floors)",
     projectYear: "2013",
     architect: "Apurva Amin",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work And Finishing",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Residential Building of B+G+16 Storey (10 Blocks).",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/10.png",
@@ -270,6 +314,7 @@ const industrialcompleted = [
     content:
       "Shalvik Shukan by Aakar Developers offers a total of 132 well-planned and world class residential units with top line specifications.",
     client: "Aakar Developers",
+    location: "Vavol, Gandhinagar",
     projectSize: "3,00,000 Sqft.",
     projectYear: "2013",
     architect: "Neha Consultants",
@@ -282,6 +327,7 @@ const industrialcompleted = [
     content:
       "Shalvik Homes by Aakar Developers offers 53 residential bungalows with common plots and play area.",
     client: "Aakar Developers",
+    location: "Vavol, Gandhinagar",
     projectSize: "1,00,000 Sqft.",
     projectYear: "2010",
     architect: "Consultants",
@@ -476,6 +522,14 @@ const Residential = () => {
                                   Client:&nbsp;
                                 </span>
                                 {item.client}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Location:&nbsp;
+                                </span>
+                                {item.location}
                               </p>
                             </div>
                             <div className="pt-3">

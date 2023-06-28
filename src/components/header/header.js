@@ -47,7 +47,7 @@ const headeritemone = [
     headlink: url.standards,
   },
   {
-    headname: "Awards",
+    headname: "Awards & Certifications",
     headlink: url.award,
   },
   {

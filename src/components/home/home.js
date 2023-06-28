@@ -75,9 +75,9 @@ const carousel = [
 ];
 const imagegallery = [
   {
-    src: "Sources/images/gallery/1.png",
-    title: "lounge",
-    des: "Relationships are the only thing that matter business in life.",
+    src: "Sources/images/gallery/6.png",
+    title: "Entrance lounge",
+    des: "In the entrance lounge dreams take flight and anticipation fills the air.",
   },
   {
     src: "Sources/images/gallery/2.png",
@@ -99,15 +99,16 @@ const imagegallery = [
     title: "",
     des: "Hitech Projects celebrated 25 successful years of its entrepreneurial journey of growth in the construction industry by moving into a spacious new office.",
   },
+
   {
-    src: "Sources/images/gallery/6.png",
-    title: "Entrance lounge",
-    des: "",
+    src: "Sources/images/gallery/1.png",
+    title: "Executive lounge",
+    des: "Relationships are the only thing that matter business in life.",
   },
   {
     src: "Sources/images/gallery/7.png",
     title: "workspace",
-    des: "",
+    des: "In your workspace, surround yourself with objects that bring you joy and ignite your creativity.",
   },
   {
     src: "Sources/images/gallery/8.png",

@@ -87,6 +87,7 @@ const commercialcompleted = [
     content:
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center, TSD Workshop, Plug point and other applied work at 'E' station premises, Varachha Surat.",
     client: "Torrent Power Ltd",
+    location: "Varachha, Surat",
     projectSize: "50,000 SQFT.",
     projectYear: "2022-Current",
     architect: "Munjal Bhatt",
@@ -135,11 +136,13 @@ const commercialcompleted = [
       "Ahmedabad One mall (Nexus Malls, A group of Blackstone), is the city's iconic shopping destination and it entered into constructing phase2 building with wellknown F&B and Retail brands.",
     segment: "Corporate",
     client: "Ruchi Malls Pvt. Ltd.",
+    location: "Vastrapur, Ahmedabad",
     projectSize: " 2,00,000 Sqft. 1 Building (2B+G+4 Floors)",
     projectYear: "2022",
     architect: "Bentel Associates",
     consultant: "TPC Technical Projects Consultants",
-    scope: "Demolition , Retrofitting and Civil Work",
+    scope:
+      "Civil work, Masonary & Plaster work Demolition, Fasteners, Re bar grouting, Strengthening of columns, expansion joints, Temporary back propping, RCC & Civil works, Fabrication work, Structural Steel",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/2.png",
@@ -148,12 +151,14 @@ const commercialcompleted = [
       "KP Epitome is a commercial development, providing perfectly built work spaces and commercial shops having 3 towers of 2B+G+14 And 8 towers of 2B+G+3.",
     segment: "Commercial",
     client: "Kish Developers",
+    location: "Makarba, Ahmedabad",
     projectSize:
       "6,50,000 Sqft. 2 Buildings (2B+G+14 Floors) 8 Buildings (2B+G+3 Floors)",
     projectYear: "2021",
     architect: "99 Studio",
     consultant: "P Cube Consultant",
-    scope: "Civil Work",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building of 2B+G+14 Storey (2 Blocks) & G+3 Storey (8 Blocks). ",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/3.png",
@@ -162,11 +167,13 @@ const commercialcompleted = [
       "Sun Westbank is one of the commercial developments offering spacious and skillfully designed office spaces and commercial shops.",
     segment: "Commercial",
     client: "Nirguna Infrastructure LLP",
+    location: "Ashram Rd, Ahmedabad",
     projectSize: "6,50,000 Sqft. 2 Buildings (3B+G+13 Floors)",
     projectYear: "2021",
     architect: "HM Architect",
     consultant: "SETU Infrastructure",
-    scope: "Civil Work",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work, MEPF work, Waterproofing and Finishing Works of Residential Building of 3B+G+13 Storey (2 Block).",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/4.png",
@@ -175,11 +182,13 @@ const commercialcompleted = [
       "A world class business centre designed to harness opportunities with its 3 Towers comprising of 1B+G+4 measuring upto a total of 2,80,000 sq ft.",
     segment: "Commercial",
     client: "Sharnam Solitaire LLP",
+    location: "Khokhara, Ahmedabad",
     projectSize: "2,25,000 Sqft. 3 Buildings (B+G+4 Floors)",
     projectYear: "2021",
     architect: "99 Studio",
     consultant: "Millimeter Designs",
-    scope: "Civil Work with Finishes",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (3 Blocks).",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/5.png",
@@ -188,6 +197,7 @@ const commercialcompleted = [
       "A world class business centre designed to harness opportunities with its five Towers comprising of 2B+G+4 measuring upto a total of 4,25,000 sq ft.",
     segment: "Commercial",
     client: "Sharanam Smartspace LLP",
+    location: "Amraiwadi, Ahmedabad",
     projectSize: "4,25,000 Sqft. 4 Buildings (B+G+4 Floors)",
     projectYear: "2019",
     architect: "99 studio",
@@ -201,11 +211,13 @@ const commercialcompleted = [
       "Westgate brings all the goodness from the heavenly powers to its occupants, a 20 storey building with 70 mt. height, 8 high speed Mitsubishi lifts and ample car parking.",
     segment: "Commercial",
     client: "Aadhan Builders Pvt Ltd.",
+    location: "SG Highway, Ahmedabad",
     projectSize: "4,85,000 Sqft. 1 Building (3B+G+23 Floors)",
     projectYear: "2019",
     architect: "ADS Architects Pvt Ltd",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of 3B+G+23 Storey.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/7.png",
@@ -214,11 +226,13 @@ const commercialcompleted = [
       "Shivalik Shilp II, a magnificient architecture for the city is a perfect commercial place near Keshavbaug, Ahmedabad having 588 sqft of offices and 2289 sqft of showrooms.",
     segment: "Commercial",
     client: "Shilp Developers",
+    location: "Vastrapur, Ahmedabad",
     projectSize: "4,72,000 Sqft. 1 Building (3B+G+13 Floors)",
     projectYear: "2019",
     architect: "INI Design Studio",
     consultant: "Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work And Finishing",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building of 3B+G+13 Storey ",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/8.png",
@@ -227,11 +241,13 @@ const commercialcompleted = [
       "Experience a fully furnished business center enabled with the best of form and function, to deliver everything you need.",
     segment: "Commercial",
     client: "NCLP Infracon LLP",
+    location: "Vastrapur, Ahmedabad",
     projectSize: "6,00,000 Sqft. 2 Buildings (3B+G+13 Floors)",
     projectYear: "2018",
     architect: "ADS Architect Pvt Ltd",
     consultant: "Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work, Masonry And Plaster",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building of 3B+G+13 Storey (2 Blocks) ",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/9.png",
@@ -240,11 +256,13 @@ const commercialcompleted = [
       "Spread across two towers, Westgate Business Bay is a sought-after commercial project loaded with all the conveniences.",
     segment: "Commercial",
     client: "Aadhan Builders Pvt Ltd.",
+    location: "SG Highway, Makarba, Ahmedabad",
     projectSize: "5,36,000 Sqft. 1 Building (2B+G+16 Floors)",
     projectYear: "2018",
     architect: "ADS Architect Pvt Ltd",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of 2B+G+16 Storey and G+14.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/10.png",
@@ -267,11 +285,28 @@ const commercialcompleted = [
       "Well designed by H N Safal, Sumel 8 shelters 11 high rise towers with 1983 units that are highly impressive.",
     segment: "Commercial",
     client: "H N Safal",
+    location: "Rakhial, Ahmedabad",
     projectSize: "16,00,000 Sqft. 11 Commercial buildings (B+G+5 Floors)",
     projectYear: "2017",
     architect: "ADS Architects Pvt Ltd",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work, Finishing And Services",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+5 Storey (11 Blocks).",
+  },
+  {
+    // src: "Sources/images/prouctlist/commercial/completed/11.png",
+    title: "SUMEL Business Park V9",
+    content:
+      "Well designed by H N Safal, Sumel 8 shelters 11 high rise towers with 1983 units that are highly impressive.",
+    segment: "Commercial",
+    client: "H N Safal",
+    location: "Asarva, Ahmedabad",
+    projectSize: "16,00,000 Sqft. 11 Commercial buildings (B+G+5 Floors)",
+    projectYear: "2014",
+    architect: "ADS Architects Pvt Ltd",
+    consultant: "N.K. Shah Consulting Engineers LLP",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (9 Blocks).",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/12.png",
@@ -280,11 +315,42 @@ const commercialcompleted = [
       "Conceptualized by True Value Nirman, West Gate, Ahmedabad, Gujarat offers a total of 273 fully functional commercial offices with ultra-modern facilities.",
     segment: "Commercial",
     client: "Aadhan Builders Pvt Ltd",
+    location: "SG Highway, Ahmedabad",
     projectSize: "5,00,000 Sqft.",
     projectYear: "2014",
     architect: "ADS Architects Pvt Ltd",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of B+G+23 Storey and B+G+14 Storey.",
+  },
+  {
+    // src: "Sources/images/prouctlist/commercial/completed/12.png",
+    title: "SUMEL BUSINESS PARK IV 5 ",
+    content: "...",
+    segment: "Commercial",
+    client: "Aadhan Builders Pvt Ltd",
+    location: "Saraspur, Ahmedabad",
+    projectSize: "5,00,000 Sqft.",
+    projectYear: "2014",
+    architect: "ADS Architects Pvt Ltd",
+    consultant: "N.K. Shah Consulting Engineers LLP",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (5 Blocks).",
+  },
+
+  {
+    // src: "Sources/images/prouctlist/commercial/completed/12.png",
+    title: "Mondeal Business Park",
+    content: "...",
+    segment: "Commercial",
+    client: "Aadhan Builders Pvt Ltd",
+    location: "SG Highway, Ahmedabad",
+    projectSize: "5,00,000 Sqft.",
+    projectYear: "2011",
+    architect: "ADS Architects Pvt Ltd",
+    consultant: "N.K. Shah Consulting Engineers LLP",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building.",
   },
 ];
 

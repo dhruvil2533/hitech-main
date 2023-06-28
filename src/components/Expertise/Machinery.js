@@ -3,12 +3,12 @@ import { Col, Row, Space } from "antd";
 import { Carousel } from "react-responsive-carousel";
 import Header from "../header/header";
 const machinery = [
-  { src: "Sources/images/expertise/Machinery/1.png" },
-  { src: "Sources/images/expertise/Machinery/2.png" },
+  // { src: "Sources/images/expertise/Machinery/1.png" },
+  // { src: "Sources/images/expertise/Machinery/2.png" },
   { src: "Sources/images/expertise/Machinery/3.png" },
-  { src: "Sources/images/expertise/Machinery/4.png" },
-  { src: "Sources/images/expertise/Machinery/5.png" },
-  { src: "Sources/images/expertise/Machinery/6.png" },
+  // { src: "Sources/images/expertise/Machinery/4.png" },
+  // { src: "Sources/images/expertise/Machinery/5.png" },
+  // { src: "Sources/images/expertise/Machinery/6.png" },
 ];
 
 const Machinery = () => {
@@ -61,7 +61,7 @@ const Machinery = () => {
                   xs={24}
                   className="my-auto"
                 >
-                  <Carousel
+                  {/* <Carousel
                     swipeable
                     autoPlay
                     infiniteLoop={true}
@@ -71,30 +71,158 @@ const Machinery = () => {
                     showStatus={false}
                     interval={1000}
                     stopOnHover
-                  >
-                    {machinery.map((item, key) => {
-                      return (
-                        <div style={{ height: "100%" }}>
-                          <img
-                            src={item.src}
-                            alt="404 - Not Given"
-                            style={{ height: "100%" }}
-                          />
-                        </div>
-                      );
-                    })}
+                  > */}
+                  {machinery.map((item, key) => {
+                    return (
+                      <div style={{ height: "100%" }}>
+                        <img
+                          src={item.src}
+                          alt="404 - Not Given"
+                          style={{ height: "100%" }}
+                        />
+                      </div>
+                    );
+                  })}
 
-                    {/* {machinery.map((item, key) => {
+                  {/* {machinery.map((item, key) => {
                         return <img src={item.src} alt="404 - Not Given" />;
                       })} 
                     </div>*/}
-                  </Carousel>
+                  {/* </Carousel> */}
                 </Col>
               </Row>
             </div>
           </div>
         </div>
         <div className="section_padding"></div>
+      </section>
+      <section className="section-4">
+        <div className="container">
+          <Row style={{ display: "flex", justifyContent: "center" }}>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img src="Sources/images/expertise/machinary2/1.png" alt="" />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Tower
+                      <br />
+                      Crane
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img src="Sources/images/expertise/machinary2/2.png" alt="" />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Boom <br />
+                      Placer
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img src="Sources/images/expertise/machinary2/3.png" alt="" />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Batching
+                      <br /> Plant
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img src="Sources/images/expertise/machinary2/4.png" alt="" />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Soil&nbsp;
+                      <br />
+                      Machine
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img src="Sources/images/expertise/machinary2/5.png" alt="" />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Transit <br />
+                      Mixer
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+          </Row>
+        </div>
       </section>
     </>
   );
