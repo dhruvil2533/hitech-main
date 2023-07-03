@@ -1838,7 +1838,7 @@ hr.footerhr {
   .ant-col-xxl-6 {
     display: block;
     flex: 8 11 87%;
-    max-width: 33%;
+    max-width: 25%;
   }
 }
 @media (min-width: 992px) {

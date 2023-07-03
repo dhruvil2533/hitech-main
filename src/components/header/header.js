@@ -6,6 +6,7 @@ import Modal from "react-modal";
 import { IoMdContact } from "react-icons/io";
 import TextArea from "antd/lib/input/TextArea";
 import Clients from "../clients/clients";
+import img1 from "./hitech_logo.png";
 
 const customStyles = {
   content: {
@@ -506,6 +507,11 @@ const Header = () => {
                     })}
                 </div>
               </div>
+              {/* <div className="navbar-item has-dropdown is-hoverable">
+                <Link to="/">
+                  <img src={img1} alt="" />
+                </Link>
+              </div> */}
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
                   onClick={() => {
