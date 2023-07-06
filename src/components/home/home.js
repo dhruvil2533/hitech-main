@@ -238,7 +238,11 @@ const Home = () => {
                 xs={24}
                 className="my-auto about_content"
               >
-                <div style={{ padding: "50px" }}>
+                <div
+                  style={{
+                    padding: width > 1024 ? "50px" : "0px",
+                  }}
+                >
                   <div className="sectional_heading">
                     <p className="is-size-2 has-text-weight-semibold pt-3">
                       We are&nbsp;

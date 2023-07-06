@@ -112,7 +112,7 @@ const Ourclients = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/a3.jpg"
+        src="Sources/images/our_client/clients.JPG"
         alt="404 -Not Given"
         className="about_img"
         //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}

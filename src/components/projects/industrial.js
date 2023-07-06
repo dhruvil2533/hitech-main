@@ -288,7 +288,7 @@ const Industrial = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/c.jpg"
+        src="Sources/images/prouctlist/industrial/industrial.JPG"
         alt="404 -Not Given"
         className="about_img"
       />

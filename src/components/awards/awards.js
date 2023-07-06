@@ -99,7 +99,7 @@ const Awards = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/a5.jpg"
+        src="Sources/images/awards/awards.JPG"
         alt="404 -Not Given"
         className="about_img"
         //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}

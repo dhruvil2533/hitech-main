@@ -107,6 +107,8 @@ const headeritemfour = [
 const Header = () => {
   const [isProjectOpen, setIsProjectOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [isExpertiseOpen, setIsExpertiseOpen] = useState(false);
+  const [isClientOpen, setIsClientOpen] = useState(false);
   const [isDropDown, setisDropDown] = useState(true);
 
   const onProjectChange = (value) => {
@@ -117,6 +119,14 @@ const Header = () => {
   const onAboutChange = (value) => {
     if (value === true) setIsProjectOpen(false);
     setIsAboutOpen(value);
+  };
+  const onExpertiseChange = (value) => {
+    if (value === true) setIsClientOpen(false);
+    setIsExpertiseOpen(value);
+  };
+  const onClientChange = (value) => {
+    if (value === true) setIsExpertiseOpen(false);
+    setIsClientOpen(value);
   };
 
   // Sticky Menu Area
@@ -402,8 +412,8 @@ const Header = () => {
                 width: width >= 1024 ? "50%" : "90%",
                 display: "flex",
                 justifyContent: "center",
-                fontSize: width < 525 && "14px",
-                marginLeft: width > 1024 ? "50%" : "5%",
+                fontSize: width < 525 && "12px",
+                marginLeft: width > 1024 ? "50%" : "6%",
               }}
             >
               <div className="navbar-item has-dropdown is-hoverable">
@@ -464,7 +474,7 @@ const Header = () => {
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
                   onClick={() => {
-                    onProjectChange(!isProjectOpen);
+                    onExpertiseChange(!isExpertiseOpen);
                   }}
                   className="navbar-link header_item"
                   style={{
@@ -562,7 +572,7 @@ const Header = () => {
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
                   onClick={() => {
-                    onProjectChange(!isProjectOpen);
+                    onClientChange(!isClientOpen);
                   }}
                   className="navbar-link header_item"
                   style={{

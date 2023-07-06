@@ -99,7 +99,7 @@ const Whoweare = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/a3.jpg"
+        src="Sources/images/whoarewe/whoarewe.JPG"
         alt="404 -Not Given"
         className="about_img"
         //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
@@ -118,7 +118,8 @@ const Whoweare = () => {
                   md={24}
                   sm={24}
                   xs={24}
-                  className="my-auto about_content px-6"
+                  className="my-auto about_content "
+                  style={{ padding: width > 1024 ? "20px" : "0px" }}
                 >
                   <div>
                     <div className="sectional_heading">

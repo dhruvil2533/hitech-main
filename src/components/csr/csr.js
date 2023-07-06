@@ -14,7 +14,7 @@ const Csr = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/CSR-Amendment-Rules-2022.jpg"
+        src="Sources/images/csr/CSR.JPG"
         alt="404 -Not Given"
         className="about_img"
         // style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
