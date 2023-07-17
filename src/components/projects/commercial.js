@@ -4,7 +4,7 @@ import Header from "../header/header";
 
 const commerciallist = [
   {
-    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    src: "Sources/images/prouctlist/commercial/ongoing/1-1.jpeg",
     title: "Sharanam Square",
     content: "...",
     client: "Sharanam Square LLP",
@@ -17,7 +17,7 @@ const commerciallist = [
       "Civil Construction with Finishing Work of commercial building of B+G+2 storey (2 Blocks).",
   },
   {
-    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    src: "Sources/images/prouctlist/commercial/ongoing/1-3.png",
     title: "Regalia",
     content: "...",
     client: "Nakshatra Infracon",
@@ -29,7 +29,7 @@ const commerciallist = [
     scope: "Civil works, Masonry & Plaster, and Waterproofing.",
   },
   {
-    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    src: "Sources/images/prouctlist/commercial/ongoing/1-1.JPG",
     title: "The Profit",
     content: "...",
     client: "The Building Company",
@@ -42,7 +42,7 @@ const commerciallist = [
       "Construction of 02 Basement + G.F +10 levels of Commercial Building. RCC core and Shell work along with Masonry and Plaster",
   },
   {
-    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    src: "Sources/images/prouctlist/commercial/ongoing/1-4.png",
     title: "Flexone",
     content: "...",
     client: "Waystar Properties LLP",
@@ -54,7 +54,7 @@ const commerciallist = [
     scope: "Civil Structure (Core & Shell) and Finishing works.",
   },
   {
-    src: "Sources/images/prouctlist/commercial/ongoing/1.png",
+    src: "Sources/images/prouctlist/commercial/ongoing/1-5.jpeg",
     title: "SHARNAM METROLINK",
     content: "Commercial projects at Khokhara, Ahmedabad",
     client: "Sharnam Metrolinks LLP",
@@ -69,66 +69,67 @@ const commerciallist = [
   },
 ];
 const commercialcompleted = [
-  {
-    src: "Sources/images/prouctlist/commercial/ongoing/2.png",
-    title: "TORRENT POWER “B” STATION",
-    content:
-      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center (PSC), Customer service (CS), Plug point and other applied work at 'B' station premises, Katargam Surat.",
-    client: "Torrent Power Ltd",
-    projectSize: "1,11,000 SQFT.",
-    projectYear: "2022-Current",
-    architect: "Munjal Bhatt",
-    consultant: "S3M Design Consultants LLP",
-    scope: "Civil Structure Work",
-  },
-  {
-    src: "Sources/images/prouctlist/commercial/ongoing/3.png",
-    title: "TORRENT POWER 'E' STATION",
-    content:
-      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center, TSD Workshop, Plug point and other applied work at 'E' station premises, Varachha Surat.",
-    client: "Torrent Power Ltd",
-    location: "Varachha, Surat",
-    projectSize: "50,000 SQFT.",
-    projectYear: "2022-Current",
-    architect: "Munjal Bhatt",
-    consultant: "S3M Design Consultants LLP",
-    scope: "Civil Structure Work",
-  },
-  {
-    src: "Sources/images/prouctlist/commercial/ongoing/4.png",
-    title: "TORRENT POWER LTD. ",
-    content:
-      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its HT PSC building and meter Lab building at Naranpura, Ahmedabad.",
-    client: "Torrent Power Ltd",
-    location: "NARANPURA",
-    projectSize: "1,70,000 SQFT.",
-    projectYear: "2022-Current",
-    architect: "Munjal Bhatt",
-    consultant: "Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work with all services",
-  },
-  {
-    src: "Sources/images/prouctlist/commercial/ongoing/5.png",
-    title: "TORRENT POWER LTD. ODHAV",
-    content:
-      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its PSC building And Plug point building at Odhav.",
-    client: "Torrent Power Ltd",
-    projectSize: "1,10,000 SQFT.",
-    projectYear: "2022-Current",
-    architect: "Munjal Bhatt",
-    consultant: " Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work with all services",
-  },
-  {
-    src: "Sources/images/prouctlist/commercial/ongoing/6.png",
-    title: "WEST GATE 'E' BLOCK",
-    client: "AADHAN BUILDERS LLP.",
-    projectSize: "35,000 SQFT. (3B+GF +07 Floors)",
-    projectYear: "2022-Current",
-    architect: "ADS Architects Pvt Ltd",
-    consultant: "-",
-    scope: "Civil Structure Work with all services",
-  },
+  // {
+  //   src: "Sources/images/prouctlist/commercial/ongoing/2.png",
+  //   title: "TORRENT POWER “B” STATION",
+  //   content:
+  //     "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center (PSC), Customer service (CS), Plug point and other applied work at 'B' station premises, Katargam Surat.",
+  //   client: "Torrent Power Ltd",
+  //   projectSize: "1,11,000 SQFT.",
+  //   projectYear: "2022-Current",
+  //   architect: "Munjal Bhatt",
+  //   consultant: "S3M Design Consultants LLP",
+  //   scope: "Civil Structure Work",
+  // },
+  // {
+  //   src: "Sources/images/prouctlist/commercial/ongoing/3.png",
+  //   title: "TORRENT POWER 'E' STATION",
+  //   content:
+  //     "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center, TSD Workshop, Plug point and other applied work at 'E' station premises, Varachha Surat.",
+  //   client: "Torrent Power Ltd",
+  //   location: "Varachha, Surat",
+  //   projectSize: "50,000 SQFT.",
+  //   projectYear: "2022-Current",
+  //   architect: "Munjal Bhatt",
+  //   consultant: "S3M Design Consultants LLP",
+  //   scope: "Civil Structure Work",
+  // },
+  // {
+  //   src: "Sources/images/prouctlist/commercial/ongoing/4.png",
+  //   title: "TORRENT POWER LTD. ",
+  //   content:
+  //     "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its HT PSC building and meter Lab building at Naranpura, Ahmedabad.",
+  //   client: "Torrent Power Ltd",
+  //   location: "NARANPURA",
+  //   projectSize: "1,70,000 SQFT.",
+  //   projectYear: "2022-Current",
+  //   architect: "Munjal Bhatt",
+  //   consultant: "Ducon Consultant Pvt Ltd",
+  //   scope: "Civil Structure Work with all services",
+  // },
+  // {
+  //   src: "Sources/images/prouctlist/commercial/ongoing/5.png",
+  //   title: "TORRENT POWER LTD.",
+  //   content:
+  //     "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its PSC building And Plug point building at Odhav.",
+  //   client: "Torrent Power Ltd",
+  //   location:"Odhav, Gujarat",
+  //   projectSize: "1,10,000 SQFT.",
+  //   projectYear: "2022-Current",
+  //   architect: "Munjal Bhatt",
+  //   consultant: " Ducon Consultant Pvt Ltd",
+  //   scope: "Civil Structure Work with all services",
+  // },
+  // {
+  //   src: "Sources/images/prouctlist/commercial/ongoing/6.png",
+  //   title: "WEST GATE 'E' BLOCK",
+  //   client: "AADHAN BUILDERS LLP.",
+  //   projectSize: "35,000 SQFT. (3B+GF +07 Floors)",
+  //   projectYear: "2022-Current",
+  //   architect: "ADS Architects Pvt Ltd",
+  //   consultant: "-",
+  //   scope: "Civil Structure Work with all services",
+  // },
   {
     src: "Sources/images/prouctlist/commercial/completed/1.png",
     title: "AHMEDABAD ONE MALL-II",
@@ -161,7 +162,7 @@ const commercialcompleted = [
       "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building of 2B+G+14 Storey (2 Blocks) & G+3 Storey (8 Blocks). ",
   },
   {
-    src: "Sources/images/prouctlist/commercial/completed/3.png",
+    src: "Sources/images/prouctlist/commercial/completed/13.JPG",
     title: "SUN WEST BANK",
     content:
       "Sun Westbank is one of the commercial developments offering spacious and skillfully designed office spaces and commercial shops.",
@@ -176,7 +177,7 @@ const commercialcompleted = [
       "Civil Construction work of RCC Frame, Block Masonry Plaster work, MEPF work, Waterproofing and Finishing Works of Residential Building of 3B+G+13 Storey (2 Block).",
   },
   {
-    src: "Sources/images/prouctlist/commercial/completed/4.png",
+    src: "Sources/images/prouctlist/commercial/completed/14.JPG",
     title: "SHARNAM SOLITAIRE",
     content:
       "A world class business centre designed to harness opportunities with its 3 Towers comprising of 1B+G+4 measuring upto a total of 2,80,000 sq ft.",
@@ -205,7 +206,7 @@ const commercialcompleted = [
     scope: "Civil Structure Work And Finishing",
   },
   {
-    src: "Sources/images/prouctlist/commercial/completed/6.png",
+    src: "Sources/images/prouctlist/commercial/completed/6.JPG",
     title: "WESTGATE D BLOCK",
     content:
       "Westgate brings all the goodness from the heavenly powers to its occupants, a 20 storey building with 70 mt. height, 8 high speed Mitsubishi lifts and ample car parking.",
@@ -293,23 +294,23 @@ const commercialcompleted = [
     scope:
       "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+5 Storey (11 Blocks).",
   },
+  // {
+  //   src: "Sources/images/prouctlist/commercial/completed/11.png",
+  //   title: "SUMEL Business Park V9",
+  //   content:
+  //     "Well designed by H N Safal, Sumel 8 shelters 11 high rise towers with 1983 units that are highly impressive.",
+  //   segment: "Commercial",
+  //   client: "H N Safal",
+  //   location: "Asarva, Ahmedabad",
+  //   projectSize: "16,00,000 Sqft. 11 Commercial buildings (B+G+5 Floors)",
+  //   projectYear: "2014",
+  //   architect: "ADS Architects Pvt Ltd",
+  //   consultant: "N.K. Shah Consulting Engineers LLP",
+  //   scope:
+  //     "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (9 Blocks).",
+  // },
   {
-    // src: "Sources/images/prouctlist/commercial/completed/11.png",
-    title: "SUMEL Business Park V9",
-    content:
-      "Well designed by H N Safal, Sumel 8 shelters 11 high rise towers with 1983 units that are highly impressive.",
-    segment: "Commercial",
-    client: "H N Safal",
-    location: "Asarva, Ahmedabad",
-    projectSize: "16,00,000 Sqft. 11 Commercial buildings (B+G+5 Floors)",
-    projectYear: "2014",
-    architect: "ADS Architects Pvt Ltd",
-    consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (9 Blocks).",
-  },
-  {
-    src: "Sources/images/prouctlist/commercial/completed/12.png",
+    src: "Sources/images/prouctlist/commercial/completed/12.JPG",
     title: "WESTGATE",
     content:
       "Conceptualized by True Value Nirman, West Gate, Ahmedabad, Gujarat offers a total of 273 fully functional commercial offices with ultra-modern facilities.",
@@ -323,35 +324,35 @@ const commercialcompleted = [
     scope:
       "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of B+G+23 Storey and B+G+14 Storey.",
   },
-  {
-    // src: "Sources/images/prouctlist/commercial/completed/12.png",
-    title: "SUMEL BUSINESS PARK IV 5 ",
-    content: "...",
-    segment: "Commercial",
-    client: "Aadhan Builders Pvt Ltd",
-    location: "Saraspur, Ahmedabad",
-    projectSize: "5,00,000 Sqft.",
-    projectYear: "2014",
-    architect: "ADS Architects Pvt Ltd",
-    consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (5 Blocks).",
-  },
+  // {
+  //   src: "Sources/images/prouctlist/commercial/completed/12.png",
+  //   title: "SUMEL BUSINESS PARK IV 5 ",
+  //   content: "...",
+  //   segment: "Commercial",
+  //   client: "Aadhan Builders Pvt Ltd",
+  //   location: "Saraspur, Ahmedabad",
+  //   projectSize: "5,00,000 Sqft.",
+  //   projectYear: "2014",
+  //   architect: "ADS Architects Pvt Ltd",
+  //   consultant: "N.K. Shah Consulting Engineers LLP",
+  //   scope:
+  //     "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (5 Blocks).",
+  // },
 
-  {
-    // src: "Sources/images/prouctlist/commercial/completed/12.png",
-    title: "Mondeal Business Park",
-    content: "...",
-    segment: "Commercial",
-    client: "Aadhan Builders Pvt Ltd",
-    location: "SG Highway, Ahmedabad",
-    projectSize: "5,00,000 Sqft.",
-    projectYear: "2011",
-    architect: "ADS Architects Pvt Ltd",
-    consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building.",
-  },
+  // {
+  //   src: "Sources/images/prouctlist/commercial/completed/12.png",
+  //   title: "Mondeal Business Park",
+  //   content: "...",
+  //   segment: "Commercial",
+  //   client: "Aadhan Builders Pvt Ltd",
+  //   location: "SG Highway, Ahmedabad",
+  //   projectSize: "5,00,000 Sqft.",
+  //   projectYear: "2011",
+  //   architect: "ADS Architects Pvt Ltd",
+  //   consultant: "N.K. Shah Consulting Engineers LLP",
+  //   scope:
+  //     "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building.",
+  // },
 ];
 
 const Commercial = () => {

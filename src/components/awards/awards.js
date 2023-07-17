@@ -4,12 +4,22 @@ import Header from "../header/header";
 
 const awardscard = [
   {
-    src: "Sources/images/awards/3.png",
+    src: "Sources/images/awards/13.jpg",
+    title: "ISO Certificate 9001-2015",
+    des: "Successful completion of annual periodic audits",
+  },
+  {
+    src: "Sources/images/awards/14.jpg",
+    title: "ISO 45001 EHS Structure Certificate-2018",
+    des: "Successful completion of annual periodic audits",
+  },
+  {
+    src: "Sources/images/awards/Banyan.JPG",
     title: "Structure Award",
     des: "Project “THE BANYAN” was awarded for Outstanding Structure at State Level in Mass Housing category ( < 100)",
   },
   {
-    src: "Sources/images/awards/2.png",
+    src: "Sources/images/awards/High Temp.JPG",
     title: "Structure Award",
     des: "Project “HIGH TEMP FURNACES” was awarded for Outstanding Structure at Regional Level North Gujarat in Industrial category",
   },
@@ -58,16 +68,7 @@ const awardscard = [
     title: "Structure Award",
     des: "Project “ICI” was awarded for Outstanding Structure Award 2020 at North Gujarat",
   },
-  {
-    src: "Sources/images/awards/13.jpg",
-    title: "ISO Certificate 9001-2015",
-    des: "Successful completion of annual periodic audits",
-  },
-  {
-    src: "Sources/images/awards/14.jpg",
-    title: "ISO Certificate 45001-2018",
-    des: "Successful completion of annual periodic audits",
-  },
+  
   {
     src: "Sources/images/awards/15.jpg",
     title: "Safety Award",

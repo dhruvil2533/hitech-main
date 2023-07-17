@@ -112,20 +112,36 @@ const Header = () => {
   const [isDropDown, setisDropDown] = useState(true);
 
   const onProjectChange = (value) => {
-    if (value === true) setIsAboutOpen(false);
+    if (value === true) {
+      setIsAboutOpen(false);
+      setIsExpertiseOpen(false);
+      setIsClientOpen(false);
+    }
     setIsProjectOpen(value);
   };
 
   const onAboutChange = (value) => {
-    if (value === true) setIsProjectOpen(false);
+    if (value === true) {
+      setIsProjectOpen(false);
+      setIsExpertiseOpen(false);
+      setIsClientOpen(false);
+    }
     setIsAboutOpen(value);
   };
   const onExpertiseChange = (value) => {
-    if (value === true) setIsClientOpen(false);
+    if (value === true) {
+      setIsClientOpen(false);
+      setIsAboutOpen(false);
+      setIsClientOpen(false);
+    }
     setIsExpertiseOpen(value);
   };
   const onClientChange = (value) => {
-    if (value === true) setIsExpertiseOpen(false);
+    if (value === true) {
+      setIsExpertiseOpen(false);
+      setIsAboutOpen(false);
+      setIsClientOpen(false);
+    }
     setIsClientOpen(value);
   };
 
@@ -155,7 +171,7 @@ const Header = () => {
       setWidth(window.innerWidth);
     });
   }, []);
-  const onFinish = (formData) => {};
+  const onFinish = (formData) => { };
 
   const [isActives, setActive] = useState(false);
 
@@ -487,7 +503,7 @@ const Header = () => {
                   className="navbar-dropdown"
                   style={{
                     display: small
-                      ? isProjectOpen
+                      ? isExpertiseOpen
                         ? "table-caption"
                         : "none"
                       : undefined,
@@ -585,7 +601,7 @@ const Header = () => {
                   className="navbar-dropdown"
                   style={{
                     display: small
-                      ? isProjectOpen
+                      ? isClientOpen
                         ? "table-caption"
                         : "none"
                       : undefined,

@@ -75,7 +75,7 @@ const carousel = [
 ];
 const imagegallery = [
   {
-    src: "Sources/images/gallery/6.png",
+    src: "Sources/images/gallery/1.png",
     title: "Entrance lounge",
     des: "In the entrance lounge dreams take flight and anticipation fills the air.",
   },
@@ -101,7 +101,7 @@ const imagegallery = [
   },
 
   {
-    src: "Sources/images/gallery/1.png",
+    src: "Sources/images/gallery/6.png",
     title: "Executive lounge",
     des: "Relationships are the only thing that matter business in life.",
   },

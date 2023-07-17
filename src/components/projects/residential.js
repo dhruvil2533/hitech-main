@@ -4,20 +4,20 @@ import Header from "../header/header";
 
 const industriallist = [
   {
-    src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    src: "Sources/images/prouctlist/residential/ongoing/1-4.png",
     title: "Aranyam",
     content: "...",
     segment: "Residential",
     client: "Aaryan Developers",
     location: "Shilaj, Ahmedabad",
-    projectSize: "- Sq. ft.",
+    projectSize: "1,861,168 Sq. ft.",
     projectYear: "2023-Current",
     architect: "AAA Architects",
     consultant: "HNBS Associates",
     scope: "RCC Frame works, Block work, Plaster work",
   },
   {
-    src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    src: "Sources/images/prouctlist/residential/ongoing/2.JPG",
     title: "The Bellagio",
     content: "...",
     segment: "Residential",
@@ -30,36 +30,36 @@ const industriallist = [
     scope:
       "Construction of 02 Basement+ G.F + 2 Podium+ HP + 20 floors of Residential Building. ",
   },
+  // {
+  //   // src: "Sources/images/prouctlist/residential/ongoing/1.png",
+  //   title: "Secuirty Housing for RIL",
+  //   content: "...",
+  //   segment: "Residential",
+  //   client: "Reliance Industries Ltd.",
+  //   location: "Moti Khavdi, Jamnagar",
+  //   projectSize: "115,000 Sq. ft.",
+  //   projectYear: "2022-Current",
+  //   architect: "PVDRS",
+  //   consultant: "PVDRS",
+  //   scope:
+  //     "Civil works for RCC Core and Shell , waterproofing, masonry, all in-building MEP, interior finishing works",
+  // },
+  // {
+  //   src: "Sources/images/prouctlist/residential/ongoing/1.png",
+  //   title: "Secuirty Housing for RIL",
+  //   content: "...",
+  //   segment: "Residential",
+  //   client: "Reliance Industries Ltd.",
+  //   location: "Moti Khavdi, Jamnagar",
+  //   projectSize: "36,338 Sq. ft.",
+  //   projectYear: "2021-Current",
+  //   architect: "PVDRS",
+  //   consultant: "PVDRS",
+  //   scope:
+  //     "Civil works for RCC Core and Shell , waterproofing, masonry, all in-building MEP, interior finishing works",
+  // },
   {
-    // src: "Sources/images/prouctlist/residential/ongoing/1.png",
-    title: "Secuirty Housing for RIL",
-    content: "...",
-    segment: "Residential",
-    client: "Reliance Industries Ltd.",
-    location: "Moti Khavdi, Jamnagar",
-    projectSize: "115,000 Sq. ft.",
-    projectYear: "2022-Current",
-    architect: "PVDRS",
-    consultant: "PVDRS",
-    scope:
-      "Civil works for RCC Core and Shell , waterproofing, masonry, all in-building MEP, interior finishing works",
-  },
-  {
-    // src: "Sources/images/prouctlist/residential/ongoing/1.png",
-    title: "Secuirty Housing for RIL",
-    content: "...",
-    segment: "Residential",
-    client: "Reliance Industries Ltd.",
-    location: "Moti Khavdi, Jamnagar",
-    projectSize: "36,338 Sq. ft.",
-    projectYear: "2021-Current",
-    architect: "PVDRS",
-    consultant: "PVDRS",
-    scope:
-      "Civil works for RCC Core and Shell , waterproofing, masonry, all in-building MEP, interior finishing works",
-  },
-  {
-    src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    src: "Sources/images/prouctlist/residential/ongoing/1-2.png",
     title: "Celeste@Godrej",
     content: "...",
     segment: "Residential",
@@ -72,7 +72,7 @@ const industriallist = [
     scope: "Civil works RCC Core Structure along with Masonry & Plaster",
   },
   {
-    src: "Sources/images/prouctlist/residential/ongoing/1.png",
+    src: "Sources/images/prouctlist/residential/ongoing/1-3.png",
     title: "Ikaria - Easy Living",
     content: "...",
     segment: "Residential",
@@ -84,21 +84,7 @@ const industriallist = [
     consultant: "N K Shah Consulting LLP",
     scope: "Civil Structure (Core & Shell) and Finishing works.",
   },
-  {
-    src: "Sources/images/prouctlist/residential/ongoing/1.png",
-    title: "RELIANCE",
-    content:
-      "Security Staff Housing Complex project at Jamnagar-LC 01, LC 04 and LC 10",
-    segment: "Residential",
-    client: "Reliance Industries Ltd",
-    location: "Moti Khavdi, Jamnagar",
-    projectSize: "3,40,900 Sq. ft. (G+2 Floors)",
-    projectYear: "2022-Current",
-    architect: "PVDRS, Ahmedabad",
-    consultant: "PVDRS, Ahmedabad",
-    scope:
-      "Civil Structure work for RCC Core and Shell, Waterproofing, Masonry, all in-building MEP, interior finishing works",
-  },
+  
   {
     src: "Sources/images/prouctlist/residential/ongoing/2.png",
     title: "GHARANA",
@@ -158,12 +144,28 @@ const industriallist = [
 ];
 const industrialcompleted = [
   {
+    src: "Sources/images/prouctlist/residential/completed/12.jpeg",
+    title: "Security Staff Housing",
+    content:
+      "Security Staff Housing Complex project at Jamnagar-LC 01, LC 04 and LC 10",
+    segment: "Residential",
+    client: "Reliance Industries Ltd",
+    location: "Jamnagar",
+    projectSize: "281,000 Sq. ft.",
+    projectYear: "2020-2023",
+    architect: "PVDRS, Ahmedabad",
+    consultant: "PVDRS, Ahmedabad",
+    scope:
+      "Civil Structure work for RCC Core and Shell, Waterproofing, Masonry, all in-building MEP, interior finishing works",
+  },
+  {
     src: "Sources/images/prouctlist/residential/ongoing/7.png",
     title: "THE WATERFALL",
     content:
       "The waterfall project by Armaan Infrastucture is a high-end luxurious apartment scheme constructed at Ambli Road",
     segment: "Residential",
     client: "Armaan Developer",
+    location:"Ambli, Ahmedabad",
     projectSize: "4,55,000 Sqft.1 Building (4B+G+11 Floors)",
     projectYear: "2022",
     architect: "Scarlett Design",
@@ -172,7 +174,7 @@ const industrialcompleted = [
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/6.png",
-    title: "ALPHABET",
+    title: "ALPHABET A",
     content: "4 BHK, 5 BHK class-apart lifestyle apartments",
     segment: "Residential",
     client: "Jaydeep Buildcon LLP",
@@ -190,6 +192,7 @@ const industrialcompleted = [
     content:
       "Arvind Aavishkaar is a residential development constructed by Arvind Smartspaces.",
     client: "Arvind Smartspaces",
+    location:"Naroda, Ahmedabad",
     projectSize: "6,10,000 Sqft. 6 Buildings (B+G+14 Floors)",
     projectYear: "2022",
     architect: "Jagrut And Partners LLP",
@@ -253,7 +256,7 @@ const industrialcompleted = [
       "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Residential Building of 2B+G+19 Storey.",
   },
   {
-    src: "Sources/images/prouctlist/residential/completed/6.png",
+    src: "Sources/images/prouctlist/residential/completed/6.JPG",
     title: "SUN EVOQ",
     content:
       "The project offers residential units with top class specifications that meet the expectations of the lifestyle of the urban.",
@@ -295,7 +298,7 @@ const industrialcompleted = [
     scope: "Civil Structure Work, Finishing And Services",
   },
   {
-    src: "Sources/images/prouctlist/residential/completed/9.png",
+    src: "Sources/images/prouctlist/residential/completed/9.JPG",
     title: "APPLEWOODS",
     content:
       "The Applewoods township consists of 400 luxurious bungalows accommodated in a plush green environment occupied with open garden spaces, parks and lakes.",

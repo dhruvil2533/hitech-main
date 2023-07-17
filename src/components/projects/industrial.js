@@ -4,8 +4,8 @@ import Header from "../header/header";
 
 const industriallist = [
   {
-    src: "Sources/images/prouctlist/industrial/ongoing/1.jpg",
-    title: "Torrent B station",
+    src: "Sources/images/prouctlist/industrial/ongoing/1-2.jpeg",
+    title: "TORRENT POWER “B” STATION",
     segment: "Industrial",
     client: "Torrent Power Ltd",
     location: "Katargam, Surat",
@@ -15,41 +15,17 @@ const industriallist = [
     projectYear: "2022-Current",
     scope: "Civil, Plumbing and Finishing works for Torrent B station",
   },
-  {
-    src: "Sources/images/prouctlist/industrial/ongoing/1.jpg",
-    title: "TORRENT POWER 66 KV SS",
-    segment: "Industrial",
-    client: "Torrent Power Ltd",
-    // location: "Vastadevdi, Katargam, Surat.",
-    architect: "SQFT",
-    consultant: "S3M Design Consultants LLP",
-    projectSize: "160,000  Sqft.",
-    projectYear: "2022-Current",
-    scope:
-      "Plug Point, PSC and VCB building, outdoor store facility including civil and finishing work.",
-  },
+ 
 ];
 const industrialcompleted = [
-  {
-    src: "Sources/images/prouctlist/industrial/ongoing/3.jpg",
-    title: "TSKS",
-    segment: "Industrial",
-    client: "Torrent Power Ltd",
-    // location: "Vastadevdi, Katargam, Surat.",
-    architect: "Munjul Bhatt",
-    consultant: "S3M Design Consultants LLP",
-    projectSize: "75,000 Sqft.",
-    projectYear: "2022-Current",
-    scope:
-      // "Civil Works for Proposed GIS & VCB Control room building Plugpoint and Other allied work at 66KV Katargaam Station",
-      "Plug Point, PSC and GIS building, Transformer yard including civil and finishing work.",
-  },
+
   {
     src: "Sources/images/prouctlist/industrial/completed/1.png",
-    title: "TORRENT DHOLERA SIR",
+    title: "TORRENT SUBSTATION",
     content:
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its 400KV and 200KV GIS building at Dholera.",
     client: "Torrent Power Ltd",
+    location:"Dholera, Gujarat",
     segment: "Industrial",
     projectSize: "75,000 Sqft.",
     projectYear: "2022",
@@ -78,6 +54,7 @@ const industrialcompleted = [
       "Harsha Engineering opened its new plant of 50,000 Sqft designed by VMS Engineering.",
     segment: "Industrial",
     client: "Harsha Engineers Ltd.",
+    location:"Chandgodar, Ahmedabad",
     projectSize: " 50,000 Sqft.",
     projectYear: "2019",
     architect: "VMS Engineering And Design Services Pvt. Ltd.",
@@ -133,26 +110,27 @@ const industrialcompleted = [
       "Plant designed for the Press Shop And Weld Shop, equipped with presses up to 1200 ton capacity and a total built up area of 7,800 m2.",
     segment: "Automotive",
     client: "JBM Auto System Pvt. Ltd.",
+    location:"Sanand, Gujarat",
     projectSize: "2,00,000 Sqft.",
     projectYear: "2015",
     architect: "VMS Engineering Consultant",
     consultant: "VMS Engineering Consultant",
     scope: "Civil Structure Work, Finishing And Services",
   },
-  {
-    // src: "Sources/images/prouctlist/industrial/completed/7.png",
-    title: " Ford Vendor Park",
-    content:
-      "Plant designed for the Press Shop And Weld Shop, equipped with presses up to 1200 ton capacity and a total built up area of 7,800 m2.",
-    segment: "Automotive",
-    client: "JBM Auto System Pvt. Ltd.",
-    location: "Sanand, Ahmedabad",
-    projectSize: "2,00,000 Sqft.",
-    projectYear: "2015",
-    architect: "VMS Engineering Consultant",
-    consultant: "VMS Engineering Consultant",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
-  },
+  // {
+  //   src: "Sources/images/prouctlist/industrial/completed/7.png",
+  //   title: " Ford Vendor Park",
+  //   content:
+  //     "Plant designed for the Press Shop And Weld Shop, equipped with presses up to 1200 ton capacity and a total built up area of 7,800 m2.",
+  //   segment: "Automotive",
+  //   client: "JBM Auto System Pvt. Ltd.",
+  //   location: "Sanand, Ahmedabad",
+  //   projectSize: "2,00,000 Sqft.",
+  //   projectYear: "2015",
+  //   architect: "VMS Engineering Consultant",
+  //   consultant: "VMS Engineering Consultant",
+  //   scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+  // },
   {
     src: "Sources/images/prouctlist/industrial/completed/8.png",
     title: "URMIN PRODUCTS PVT LTD.",
@@ -209,20 +187,7 @@ const industrialcompleted = [
     consultant: "Chhaya Consulting Engineers",
     scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
   },
-  {
-    src: "Sources/images/prouctlist/industrial/completed/12.png",
-    title: "ANAND AUTOMOTIVE SYS",
-    content:
-      "Building a 40,000 sq ft plant in Sanand, Gujarat of the leading manufacturers and suppliers of Automotive Systems and Components, Anand Automotive Pvt Ltd.",
-    segment: "Automotive",
-    client: "Anand Automotive System",
-    location: "Sanand, Gujarat",
-    projectSize: "37,000 SQFT.",
-    projectYear: "2009-2010",
-    architect: "Kaushal Sheth And Associates",
-    consultant: "Kaushal Sheth And Associates",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
-  },
+  
   {
     src: "Sources/images/prouctlist/industrial/completed/13.png",
     title: "TATA NANO WELD SHOP",
@@ -278,6 +243,71 @@ const industrialcompleted = [
     architect: "CivTech Consultants",
     consultant: "CivTech Consultants",
     scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+  },
+  //  {
+  //   src: "Sources/images/prouctlist/commercial/ongoing/2.png",
+  //   title: "TORRENT POWER “B” STATION",
+  //   content:
+  //     "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center (PSC), Customer service (CS), Plug point and other applied work at 'B' station premises, Katargam Surat.",
+  //   client: "Torrent Power Ltd",
+  //   projectSize: "1,11,000 SQFT.",
+  //   projectYear: "2022-Current",
+  //   architect: "Munjal Bhatt",
+  //   consultant: "S3M Design Consultants LLP",
+  //   scope: "Civil Structure Work",
+  // },
+
+  // {
+  //   src: "Sources/images/prouctlist/industrial/ongoing/1-2.jpeg",
+  //   title: "TORRENT POWER 66 KV SS",
+  //   segment: "Industrial",
+  //   client: "Torrent Power Ltd",
+  //   location: "Katargam, Surat",
+  //   architect: "SQFT",
+  //   consultant: "S3M Design Consultants LLP",
+  //   projectSize: "160,000  Sqft.",
+  //   projectYear: "2022-Current",
+  //   scope:
+  //     "Plug Point, PSC and VCB building, outdoor store facility including civil and finishing work.",
+  // },
+  {
+    src: "Sources/images/prouctlist/industrial/completed/17.JPG",
+    title: "TORRENT POWER 'E' STATION",
+    content:
+      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center, TSD Workshop, Plug point and other applied work at 'E' station premises, Varachha Surat.",
+    client: "Torrent Power Ltd",
+    location: "Varachha, Surat",
+    projectSize: "50,000 SQFT.",
+    projectYear: "2022-Current",
+    architect: "Munjal Bhatt",
+    consultant: "S3M Design Consultants LLP",
+    scope: "Civil Structure Work",
+  },
+  {
+    src: "Sources/images/prouctlist/commercial/ongoing/4.png",
+    title: "TORRENT POWER LTD. ",
+    content:
+      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its HT PSC building and meter Lab building at Naranpura, Ahmedabad.",
+    client: "Torrent Power Ltd",
+    location: "NARANPURA",
+    projectSize: "1,70,000 SQFT.",
+    projectYear: "2022-Current",
+    architect: "Munjal Bhatt",
+    consultant: "Ducon Consultant Pvt Ltd",
+    scope: "Civil Structure Work with all services",
+  },
+  {
+    src: "Sources/images/prouctlist/commercial/ongoing/5.png",
+    title: "TORRENT POWER LTD.",
+    content:
+      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its PSC building And Plug point building at Odhav.",
+    client: "Torrent Power Ltd",
+    location:"Odhav, Gujarat",
+    projectSize: "1,10,000 SQFT.",
+    projectYear: "2022-Current",
+    architect: "Munjal Bhatt",
+    consultant: " Ducon Consultant Pvt Ltd",
+    scope: "Civil Structure Work with all services",
   },
 ];
 

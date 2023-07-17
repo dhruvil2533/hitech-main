@@ -1834,7 +1834,7 @@ hr.footerhr {
   max-height: 80vh;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 2000px) {
   .ant-col-xxl-6 {
     display: block;
     flex: 8 11 87%;
@@ -1847,4 +1847,10 @@ hr.footerhr {
     flex: 6 0 13.666667%;
     max-width: 16.666667%;
   }
+}
+
+.propertylist_image img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }

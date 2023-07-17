@@ -5,54 +5,63 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header from "../header/header";
+import "./expertise.css";
 
 const machinerytwo = [
   { src: "Sources/images/expertise/Machinerytwo/1.png" },
-  { src: "Sources/images/expertise/Machinerytwo/2.png" },
-  { src: "Sources/images/expertise/Machinerytwo/3.png" },
-  { src: "Sources/images/expertise/Machinerytwo/4.png" },
-  { src: "Sources/images/expertise/Machinerytwo/5.png" },
+  // { src: "Sources/images/expertise/Machinerytwo/2.png" },
+  // { src: "Sources/images/expertise/Machinerytwo/3.png" },
+  // { src: "Sources/images/expertise/Machinerytwo/4.png" },
+  // { src: "Sources/images/expertise/Machinerytwo/5.png" },
 ];
 export const galleryImages = [
   {
     rows: 1,
     cols: 2,
     src: "Sources/images/expertise/formwork/1.png",
+    title:"Demo"
   },
   {
     rows: 1,
     cols: 1,
     src: "Sources/images/expertise/formwork/5.png",
+    title:"Demo"
   },
   {
     rows: 2,
     cols: 1,
     src: "Sources/images/expertise/formwork/4.png",
+    title:"Demo"
   },
   {
     rows: 1,
     cols: 2,
     src: "Sources/images/expertise/formwork/2.png",
+    title:"Demo"
   },
   {
     rows: 1,
     cols: 2,
     src: "Sources/images/expertise/formwork/3.png",
+    title:"Demo"
   },
   {
     rows: 1,
     cols: 1,
     src: "Sources/images/expertise/formwork/6.png",
+    title:"Demo"
   },
   {
     rows: 1,
     cols: 1,
     src: "Sources/images/expertise/formwork/7.png",
+    title:"Demo"
   },
   {
     rows: 1,
     cols: 1,
     src: "Sources/images/expertise/formwork/8.png",
+    title:"Demo"
   },
 ];
 
@@ -109,10 +118,11 @@ const Formwork = () => {
         </div>
         <div className="container-fluid mt-3">
           <div>
-            <ImageList cols={cols} className="Py-4">
+            <ImageList cols={cols} className="Py-4 img">
               {galleryImages.map((item, key) => {
                 let style = item.style || {};
                 return (
+                  
                   <ImageListItem
                     rows={item.rows}
                     cols={item.cols}
@@ -124,6 +134,7 @@ const Formwork = () => {
                       alt={item.alt || "404 - Not Found"}
                       style={{ ...style }}
                     />
+                    <p className="overlay">{item.title}</p>
                   </ImageListItem>
                 );
               })}
@@ -138,7 +149,14 @@ const Formwork = () => {
           <Row style={{ display: "flex", justifyContent: "center" }}>
             <Col xxl={12} lg={12} md={12} sm={24} xs={24} className="my-auto">
               <div>
-                <Slider {...settings}>
+                {machinerytwo.map((item, key) => {
+                    return (
+                      <div>
+                        <img src={item.src} alt="404 - Not Given" />
+                      </div>
+                    );
+                  })}
+                {/* <Slider {...settings}>
                   {machinerytwo.map((item, key) => {
                     return (
                       <div>
@@ -146,7 +164,7 @@ const Formwork = () => {
                       </div>
                     );
                   })}
-                </Slider>
+                </Slider> */}
               </div>
             </Col>
             <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>

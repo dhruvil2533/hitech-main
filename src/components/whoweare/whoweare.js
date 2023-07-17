@@ -504,7 +504,7 @@ const Whoweare = () => {
                             <div>
                               <p className="is-size-6 has-text-black mt-3">
                                 Executed various industrial projects for Jekson
-                                Hydraulics & logistic hub for Safexpress.
+                                Hydraulics & logistic hub for Safexpress
                               </p>
                             </div>
                           </div>
@@ -572,8 +572,8 @@ const Whoweare = () => {
                             <div>
                               <p className="is-size-6 has-text-black mt-3">
                                 Association with leading real estate developer
-                                H.N.Saral. <br />5 million sqft built for them
-                                over the years for their various large scale
+                                H.N.Saral. 5 million sqft built for them over
+                                the years for their various large scale
                                 projects.
                               </p>
                             </div>
@@ -609,7 +609,7 @@ const Whoweare = () => {
                             <p className="is-size-6 has-text-black mt-3">
                               Moved to 3000 sqft office premises. Associated
                               with True Value for execution of Ahmedabad's first
-                              22 storey commercial complex. West Cate 2 million
+                              22 storey commercial complex. West Gate 2 million
                               sqft built for them over the years. Procured 1st
                               tower crane.
                             </p>
@@ -644,9 +644,8 @@ const Whoweare = () => {
                             <div>
                               <p className="is-size-6 has-text-black mt-3">
                                 Digital transformation initiative taken for
-                                <br />
                                 development of Enterprise Resource Planning
-                                (ERP) tool with inhouse IT team.
+                                (ERP) tool with inhouse IT team
                               </p>
                             </div>
                           </div>
@@ -674,7 +673,8 @@ const Whoweare = () => {
                           <div>
                             <div>
                               <img
-                                src="Sources/images/milestone/8.png"
+                                style={{ height: "30vh" }}
+                                src="Sources/images/prouctlist/residential/completed/6.JPG"
                                 alt="404 - Not Given"
                               />
                             </div>
@@ -717,7 +717,7 @@ const Whoweare = () => {
                                 Association with Sharanam group for their
                                 various commercial projects.
                                 <br /> 1.5 million sqft built for them in
-                                Several years.
+                                Several years
                               </p>
                             </div>
                           </div>
@@ -815,7 +815,8 @@ const Whoweare = () => {
                           <div>
                             <div>
                               <img
-                                src="Sources/images/milestone/12.png"
+                                style={{ width: "200px" }}
+                                src="Sources/images/whoarewe/12.jpeg"
                                 alt="404 - Not Given"
                               />
                             </div>
@@ -855,7 +856,7 @@ const Whoweare = () => {
                             <div>
                               <p className="is-size-6 has-text-black mt-3">
                                 Moved to state of the art office premises of
-                                25000 sqft.
+                                25000 sqft
                               </p>
                             </div>
                           </div>
@@ -864,6 +865,40 @@ const Whoweare = () => {
                     </Col>
                   </Row>
                 </div>
+              </div>
+            </div>
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div>
+                <p className="is-size-4 timeline_year">2023</p>
+                <Row>
+                  <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
+                    <div className="space-align-container">
+                      <div className="space-align-block">
+                        <Space
+                          align="center"
+                          direction="horizontal"
+                          className="mile_box"
+                        >
+                          {/* center1 */}
+                          <div>
+                            <div>
+                              <img
+                                src="Sources/images/milestone/12.png"
+                                alt="404 - Not Given"
+                              />
+                            </div>
+                            <p className="is-size-6 has-text-black mt-3">
+                              Started projects with Reliance IndutriesLtd at
+                              Jamnagar. Added concrete boom placer in the feet
+                              of P&M equipment.
+                            </p>
+                          </div>
+                        </Space>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
               </div>
             </div>
           </div>

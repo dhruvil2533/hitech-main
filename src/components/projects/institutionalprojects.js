@@ -2,50 +2,25 @@ import { Col, Image, Row } from "antd";
 import React, { useState } from "react";
 import Header from "../header/header";
 
-// const institutionalprojectslist = [
-//   {
-//     src: "Sources/images/prouctlist/Institutional_projects/ongoing/1.png",
-//     title: "JITO HOSTEL",
-//     content:
-//       "Hostel building work for Jain International Trade organisation-An Educational Trust",
-//     segment: "Residential",
-//     client: "JITO Ahmedabad Educational Trust",
-//     projectSize: "37,200 Sq. ft. ( B+G+5 Floors)",
-//     projectYear: "2022-Current",
-//     architect: "PVDRS, Ahmedabad",
-//     consultant: "P-CUBE Consultant",
-//     scope: "Civil Structure work for RCC Core and Shell work",
-//   },
-//   {
-//     src: "Sources/images/prouctlist/Institutional_projects/ongoing/2.png",
-//     title: "MUSEUM KOBA",
-//     content:
-//       "The Museum- Samrat Samprati Sangrahalaya of Shri Mahavir Jain Aradhana Kendra,Koba preserves and nourishes the rare heritage of Jain Art and architecture",
-//     segment: "Corporate",
-//     client: "Shri Mahavir Jain Aradhana Kendra, Koba (SMJAK Trust)",
-//     projectSize: "1,00,000 Sqft.",
-//     projectYear: "2022-Current",
-//     architect: "SJK Architects",
-//     consultant: "Global Engineering Services",
-//     scope: "RCC, Masonary, Plaster",
-//   },
-// ];
-const institutionalprojectscompleted = [
+const institutionalprojectslist = [
   {
-    src: "Sources/images/prouctlist/Institutional_projects/ongoing/1.png",
-    title: "JITO HOSTEL",
+    src: "Sources/images/prouctlist/Institutional_projects/ongoing/1-1.JPG",
+    title: "ANAND NIKETAN SCHOOL",
     content:
-      "Hostel building work for Jain International Trade organisation-An Educational Trust",
-    segment: "Residential",
-    client: "JITO Ahmedabad Educational Trust",
-    location: "CG Road, Ahmedabad",
-    projectSize: "37,200 Sq. ft. ( B+G+5 Floors)",
-    projectYear: "2022",
-    architect: "PVDRS, Ahmedabad",
-    consultant: "P-CUBE Consultant",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Residential Building of B+G+5 storey. ",
-  },
+      "Anand Niketan is a School having 50,000 Sqft built up area in Sughad, Ahmedabad with various facilities including Special Room, Sports Arenas & Activity Rooms.",
+    segment: "Education",
+    client: "Utthan Sewa Trust",
+    location: "Sanand, Ahmedabad",
+    projectSize: "349,062",
+    projectYear: "2022 ",
+    architect: "Kakani Associates",
+    consultant: "DELF Consulting Engineers (India) Private Limited",
+    scope: "Civil works, Masonry & Plaster, Printing, Flooring and Waterproofing",
+  }
+ 
+];
+const institutionalprojectscompleted = [
+ 
   {
     src: "Sources/images/prouctlist/Institutional_projects/ongoing/2.png",
     title: "MUSEUM KOBA",
@@ -61,7 +36,7 @@ const institutionalprojectscompleted = [
     scope: "Civil, Structural and Finishing works for Museum Building",
   },
   {
-    src: "Sources/images/prouctlist/Institutional_projects/completed/1.png",
+    src: "Sources/images/prouctlist/Institutional_projects/completed/lubi corporate.JPG",
     title: "LUBI CORPORATE",
     content: "Corporate office at Tragad, Ahmedabad",
     segment: "Corporate",
@@ -73,6 +48,21 @@ const institutionalprojectscompleted = [
     consultant: "KMH Engineering",
     scope:
       "Civil Construction work of RCC Frame, Block Masonry Plaster works of Corporate House of 2B+G+7 Storey.",
+  },
+  {
+    src: "Sources/images/prouctlist/Institutional_projects/ongoing/1.png",
+    title: "JITO HOSTEL",
+    content:
+      "Hostel building work for Jain International Trade organisation-An Educational Trust",
+    segment: "Residential",
+    client: "JITO Ahmedabad Educational Trust",
+    location: "CG Road, Ahmedabad",
+    projectSize: "37,200 Sq. ft. ( B+G+5 Floors)",
+    projectYear: "2022",
+    architect: "PVDRS, Ahmedabad",
+    consultant: "P-CUBE Consultant",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Residential Building of B+G+5 storey. ",
   },
   {
     src: "Sources/images/prouctlist/Institutional_projects/completed/2.png",
@@ -102,25 +92,12 @@ const institutionalprojectscompleted = [
     scope:
       "RCC Frame Str. B+G+4 Stories Civil work including excavation and back filling, RCC, Brick work, and Plaster work for Hospital Building.",
   },
-  {
-    src: "Sources/images/prouctlist/Institutional_projects/completed/4.png",
-    title: "PAREKHS HOSPITAL",
-    content:
-      "Parekhs Hospital is one of leading hospitals located in Ahmedabad, Gujarat with an area of 30,000 Sq Ft designed by Alpa Kamdar and Snehal Mehta.",
-    segment: "Healthcare",
-    client: "Dr Ketu Parekh",
-    location: "Shyamal Cross Rd, Ahmedabad",
-    projectSize: "30,000 SQFT.",
-    projectYear: "2006",
-    architect: "Alap Kamdar",
-    consultant: "Alap Kamdar",
-    scope: "Civil Structure & Finishing Work",
-  },
+ 
 ];
 
 const Institutionalprojects = () => {
-  const [isOngoing, setIsOngoing] = useState(false);
-  const [isCompleted, setIsCompleted] = useState(true);
+  const [isOngoing, setIsOngoing] = useState(true);
+  const [isCompleted, setIsCompleted] = useState(false);
 
   return (
     <>
@@ -138,7 +115,7 @@ const Institutionalprojects = () => {
             </p>
             <div>
               <Row>
-                {/* <Col>
+                <Col>
                 <p
                   className="is-size-5 has-text-weight-semibold blue_color mb-2 is-uppercase ongoing-projects"
                   onClick={() => {
@@ -151,7 +128,7 @@ const Institutionalprojects = () => {
                 >
                   Ongoing
                 </p>
-              </Col> */}
+              </Col>
                 <Col>
                   <p
                     className="is-size-5 has-text-weight-semibold blue_color mb-2 is-uppercase completed-projects"
@@ -257,6 +234,100 @@ const Institutionalprojects = () => {
           </div> */}
 
             <div>
+
+            <Row>
+                {isOngoing &&
+                  institutionalprojectslist.map((item, key) => {
+                    return (
+                      <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                        <div
+                          className="property_list"
+                          style={{ minHeight: "650px" }}
+                        >
+                          <div className="propertylist_image">
+                            <Image src={item.src} alt="404 - Not Given" />
+                          </div>
+
+                          <div className="propertylist_content p-4">
+                            <div className="pt-2">
+                              <p className="is-size-4 has-text-centered blue_color has-text-weight-semibold">
+                                {item.title}
+                              </p>
+                            </div>
+                            {/* <div className="pt-3">
+                            <p className="is-size-6">{item.content}</p>
+                          </div>
+                          <div className="pt-3">
+                            <p className="is-size-6">
+                              <span className="has-text-weight-semibold">
+                                Segment:&nbsp;
+                              </span>
+                              {item.segment}
+                            </p>
+                          </div> */}
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Client:&nbsp;
+                                </span>
+                                {item.client}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Location:&nbsp;
+                                </span>
+                                {item.location}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Project Size:&nbsp;
+                                </span>
+                                {item.projectSize}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Project Year:&nbsp;
+                                </span>
+                                {item.projectYear}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Architect:&nbsp;
+                                </span>
+                                {item.architect}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Str. Consultant:&nbsp;
+                                </span>
+                                {item.consultant}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Scope:&nbsp;
+                                </span>
+                                {item.scope}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </Col>
+                    );
+                  })}
+              </Row>
+
               <Row>
                 {isCompleted &&
                   institutionalprojectscompleted.map((item, key) => {
