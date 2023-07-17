@@ -4,7 +4,7 @@ import Header from "../header/header";
 
 const institutionalprojectslist = [
   {
-    src: "Sources/images/prouctlist/Institutional_projects/ongoing/1-1.JPG",
+    src: "Sources/images/prouctlist/Institutional_projects/ongoing/1-1.jpg",
     title: "ANAND NIKETAN SCHOOL",
     content:
       "Anand Niketan is a School having 50,000 Sqft built up area in Sughad, Ahmedabad with various facilities including Special Room, Sports Arenas & Activity Rooms.",
@@ -15,12 +15,11 @@ const institutionalprojectslist = [
     projectYear: "2022 ",
     architect: "Kakani Associates",
     consultant: "DELF Consulting Engineers (India) Private Limited",
-    scope: "Civil works, Masonry & Plaster, Printing, Flooring and Waterproofing",
-  }
- 
+    scope:
+      "Civil works, Masonry & Plaster, Printing, Flooring and Waterproofing",
+  },
 ];
 const institutionalprojectscompleted = [
- 
   {
     src: "Sources/images/prouctlist/Institutional_projects/ongoing/2.png",
     title: "MUSEUM KOBA",
@@ -36,7 +35,7 @@ const institutionalprojectscompleted = [
     scope: "Civil, Structural and Finishing works for Museum Building",
   },
   {
-    src: "Sources/images/prouctlist/Institutional_projects/completed/lubi corporate.JPG",
+    src: "Sources/images/prouctlist/Institutional_projects/completed/lubi corporate.jpg",
     title: "LUBI CORPORATE",
     content: "Corporate office at Tragad, Ahmedabad",
     segment: "Corporate",
@@ -92,7 +91,6 @@ const institutionalprojectscompleted = [
     scope:
       "RCC Frame Str. B+G+4 Stories Civil work including excavation and back filling, RCC, Brick work, and Plaster work for Hospital Building.",
   },
- 
 ];
 
 const Institutionalprojects = () => {
@@ -116,19 +114,19 @@ const Institutionalprojects = () => {
             <div>
               <Row>
                 <Col>
-                <p
-                  className="is-size-5 has-text-weight-semibold blue_color mb-2 is-uppercase ongoing-projects"
-                  onClick={() => {
-                    setIsCompleted(false);
-                    setIsOngoing(true);
-                  }}
-                  style={{
-                    borderBottom: isOngoing ? "2px solid #0d2e61" : "none",
-                  }}
-                >
-                  Ongoing
-                </p>
-              </Col>
+                  <p
+                    className="is-size-5 has-text-weight-semibold blue_color mb-2 is-uppercase ongoing-projects"
+                    onClick={() => {
+                      setIsCompleted(false);
+                      setIsOngoing(true);
+                    }}
+                    style={{
+                      borderBottom: isOngoing ? "2px solid #0d2e61" : "none",
+                    }}
+                  >
+                    Ongoing
+                  </p>
+                </Col>
                 <Col>
                   <p
                     className="is-size-5 has-text-weight-semibold blue_color mb-2 is-uppercase completed-projects"
@@ -234,8 +232,7 @@ const Institutionalprojects = () => {
           </div> */}
 
             <div>
-
-            <Row>
+              <Row>
                 {isOngoing &&
                   institutionalprojectslist.map((item, key) => {
                     return (

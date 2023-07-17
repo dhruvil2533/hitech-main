@@ -15,17 +15,15 @@ const industriallist = [
     projectYear: "2022-Current",
     scope: "Civil, Plumbing and Finishing works for Torrent B station",
   },
- 
 ];
 const industrialcompleted = [
-
   {
     src: "Sources/images/prouctlist/industrial/completed/1.png",
     title: "TORRENT SUBSTATION",
     content:
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its 400KV and 200KV GIS building at Dholera.",
     client: "Torrent Power Ltd",
-    location:"Dholera, Gujarat",
+    location: "Dholera, Gujarat",
     segment: "Industrial",
     projectSize: "75,000 Sqft.",
     projectYear: "2022",
@@ -54,7 +52,7 @@ const industrialcompleted = [
       "Harsha Engineering opened its new plant of 50,000 Sqft designed by VMS Engineering.",
     segment: "Industrial",
     client: "Harsha Engineers Ltd.",
-    location:"Chandgodar, Ahmedabad",
+    location: "Chandgodar, Ahmedabad",
     projectSize: " 50,000 Sqft.",
     projectYear: "2019",
     architect: "VMS Engineering And Design Services Pvt. Ltd.",
@@ -110,7 +108,7 @@ const industrialcompleted = [
       "Plant designed for the Press Shop And Weld Shop, equipped with presses up to 1200 ton capacity and a total built up area of 7,800 m2.",
     segment: "Automotive",
     client: "JBM Auto System Pvt. Ltd.",
-    location:"Sanand, Gujarat",
+    location: "Sanand, Gujarat",
     projectSize: "2,00,000 Sqft.",
     projectYear: "2015",
     architect: "VMS Engineering Consultant",
@@ -187,7 +185,7 @@ const industrialcompleted = [
     consultant: "Chhaya Consulting Engineers",
     scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
   },
-  
+
   {
     src: "Sources/images/prouctlist/industrial/completed/13.png",
     title: "TATA NANO WELD SHOP",
@@ -271,7 +269,7 @@ const industrialcompleted = [
   //     "Plug Point, PSC and VCB building, outdoor store facility including civil and finishing work.",
   // },
   {
-    src: "Sources/images/prouctlist/industrial/completed/17.JPG",
+    src: "Sources/images/prouctlist/industrial/completed/17.jpg",
     title: "TORRENT POWER 'E' STATION",
     content:
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center, TSD Workshop, Plug point and other applied work at 'E' station premises, Varachha Surat.",
@@ -302,7 +300,7 @@ const industrialcompleted = [
     content:
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its PSC building And Plug point building at Odhav.",
     client: "Torrent Power Ltd",
-    location:"Odhav, Gujarat",
+    location: "Odhav, Gujarat",
     projectSize: "1,10,000 SQFT.",
     projectYear: "2022-Current",
     architect: "Munjal Bhatt",

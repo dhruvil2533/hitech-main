@@ -162,7 +162,7 @@ const commercialcompleted = [
       "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building of 2B+G+14 Storey (2 Blocks) & G+3 Storey (8 Blocks). ",
   },
   {
-    src: "Sources/images/prouctlist/commercial/completed/13.JPG",
+    src: "Sources/images/prouctlist/commercial/completed/13.jpg",
     title: "SUN WEST BANK",
     content:
       "Sun Westbank is one of the commercial developments offering spacious and skillfully designed office spaces and commercial shops.",
@@ -177,7 +177,7 @@ const commercialcompleted = [
       "Civil Construction work of RCC Frame, Block Masonry Plaster work, MEPF work, Waterproofing and Finishing Works of Residential Building of 3B+G+13 Storey (2 Block).",
   },
   {
-    src: "Sources/images/prouctlist/commercial/completed/14.JPG",
+    src: "Sources/images/prouctlist/commercial/completed/14.jpg",
     title: "SHARNAM SOLITAIRE",
     content:
       "A world class business centre designed to harness opportunities with its 3 Towers comprising of 1B+G+4 measuring upto a total of 2,80,000 sq ft.",
@@ -206,7 +206,7 @@ const commercialcompleted = [
     scope: "Civil Structure Work And Finishing",
   },
   {
-    src: "Sources/images/prouctlist/commercial/completed/6.JPG",
+    src: "Sources/images/prouctlist/commercial/completed/6.jpg",
     title: "WESTGATE D BLOCK",
     content:
       "Westgate brings all the goodness from the heavenly powers to its occupants, a 20 storey building with 70 mt. height, 8 high speed Mitsubishi lifts and ample car parking.",
@@ -310,7 +310,7 @@ const commercialcompleted = [
   //     "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (9 Blocks).",
   // },
   {
-    src: "Sources/images/prouctlist/commercial/completed/12.JPG",
+    src: "Sources/images/prouctlist/commercial/completed/12.jpg",
     title: "WESTGATE",
     content:
       "Conceptualized by True Value Nirman, West Gate, Ahmedabad, Gujarat offers a total of 273 fully functional commercial offices with ultra-modern facilities.",
