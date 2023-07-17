@@ -17,7 +17,7 @@ const industriallist = [
     scope: "RCC Frame works, Block work, Plaster work",
   },
   {
-    src: "Sources/images/prouctlist/residential/ongoing/2.JPG",
+    src: "Sources/images/prouctlist/residential/ongoing/2.jpg",
     title: "The Bellagio",
     content: "...",
     segment: "Residential",
@@ -84,7 +84,7 @@ const industriallist = [
     consultant: "N K Shah Consulting LLP",
     scope: "Civil Structure (Core & Shell) and Finishing works.",
   },
-  
+
   {
     src: "Sources/images/prouctlist/residential/ongoing/2.png",
     title: "GHARANA",
@@ -165,7 +165,7 @@ const industrialcompleted = [
       "The waterfall project by Armaan Infrastucture is a high-end luxurious apartment scheme constructed at Ambli Road",
     segment: "Residential",
     client: "Armaan Developer",
-    location:"Ambli, Ahmedabad",
+    location: "Ambli, Ahmedabad",
     projectSize: "4,55,000 Sqft.1 Building (4B+G+11 Floors)",
     projectYear: "2022",
     architect: "Scarlett Design",
@@ -192,7 +192,7 @@ const industrialcompleted = [
     content:
       "Arvind Aavishkaar is a residential development constructed by Arvind Smartspaces.",
     client: "Arvind Smartspaces",
-    location:"Naroda, Ahmedabad",
+    location: "Naroda, Ahmedabad",
     projectSize: "6,10,000 Sqft. 6 Buildings (B+G+14 Floors)",
     projectYear: "2022",
     architect: "Jagrut And Partners LLP",
@@ -298,7 +298,7 @@ const industrialcompleted = [
     scope: "Civil Structure Work, Finishing And Services",
   },
   {
-    src: "Sources/images/prouctlist/residential/completed/9.JPG",
+    src: "Sources/images/prouctlist/residential/completed/9.jpg",
     title: "APPLEWOODS",
     content:
       "The Applewoods township consists of 400 luxurious bungalows accommodated in a plush green environment occupied with open garden spaces, parks and lakes.",

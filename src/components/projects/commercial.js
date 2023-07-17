@@ -29,7 +29,7 @@ const commerciallist = [
     scope: "Civil works, Masonry & Plaster, and Waterproofing.",
   },
   {
-    src: "Sources/images/prouctlist/commercial/ongoing/1-1.JPG",
+    src: "Sources/images/prouctlist/commercial/ongoing/1-1.jpg",
     title: "The Profit",
     content: "...",
     client: "The Building Company",
@@ -54,7 +54,7 @@ const commerciallist = [
     scope: "Civil Structure (Core & Shell) and Finishing works.",
   },
   {
-    src: "Sources/images/prouctlist/commercial/ongoing/1-5.jpeg",
+    src: "Sources/images/prouctlist/commercial/ongoing/1-5.JPEG",
     title: "SHARNAM METROLINK",
     content: "Commercial projects at Khokhara, Ahmedabad",
     client: "Sharnam Metrolinks LLP",
