@@ -34,20 +34,7 @@ const institutionalprojectscompleted = [
     consultant: "Global Engineering Services",
     scope: "Civil, Structural and Finishing works for Museum Building",
   },
-  {
-    src: "Sources/images/prouctlist/Institutional_projects/completed/lubi corporate.jpg",
-    title: "LUBI CORPORATE",
-    content: "Corporate office at Tragad, Ahmedabad",
-    segment: "Corporate",
-    client: "Lubi Industries LLP",
-    location: "Tragad, Ahmedabad",
-    projectSize: "1,68,400 Sq. ft. (2B+G+7 Floors)",
-    projectYear: "2022",
-    architect: "DSP Design Associates",
-    consultant: "KMH Engineering",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Corporate House of 2B+G+7 Storey.",
-  },
+
   {
     src: "Sources/images/prouctlist/Institutional_projects/ongoing/1.png",
     title: "JITO HOSTEL",
@@ -62,6 +49,20 @@ const institutionalprojectscompleted = [
     consultant: "P-CUBE Consultant",
     scope:
       "Civil Construction work of RCC Frame, Block Masonry Plaster works of Residential Building of B+G+5 storey. ",
+  },
+  {
+    src: "Sources/images/prouctlist/Institutional_projects/completed/lubi corporate.jpg",
+    title: "LUBI CORPORATE",
+    content: "Corporate office at Tragad, Ahmedabad",
+    segment: "Corporate",
+    client: "Lubi Industries LLP",
+    location: "Tragad, Ahmedabad",
+    projectSize: "1,68,400 Sq. ft. (2B+G+7 Floors)",
+    projectYear: "2022",
+    architect: "DSP Design Associates",
+    consultant: "KMH Engineering",
+    scope:
+      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Corporate House of 2B+G+7 Storey.",
   },
   {
     src: "Sources/images/prouctlist/Institutional_projects/completed/2.png",

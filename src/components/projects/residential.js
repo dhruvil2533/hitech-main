@@ -5,7 +5,7 @@ import Header from "../header/header";
 const industriallist = [
   {
     src: "Sources/images/prouctlist/residential/ongoing/1-4.png",
-    title: "Aranyam",
+    title: "ARANYAM",
     content: "...",
     segment: "Residential",
     client: "Aaryan Developers",
@@ -17,8 +17,8 @@ const industriallist = [
     scope: "RCC Frame works, Block work, Plaster work",
   },
   {
-    src: "Sources/images/prouctlist/residential/ongoing/2.jpg",
-    title: "The Bellagio",
+    src: "Sources/images/prouctlist/residential/ongoing/2-2.jpg",
+    title: "THE BELLAGIO",
     content: "...",
     segment: "Residential",
     client: "Palak Group",
@@ -60,7 +60,7 @@ const industriallist = [
   // },
   {
     src: "Sources/images/prouctlist/residential/ongoing/1-2.png",
-    title: "Celeste@Godrej",
+    title: "CELESTE@GODREG",
     content: "...",
     segment: "Residential",
     client: "Shree Siddhi Group",
@@ -73,7 +73,7 @@ const industriallist = [
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/1-3.png",
-    title: "Ikaria - Easy Living",
+    title: "IKARIA - EASY LIVING",
     content: "...",
     segment: "Residential",
     client: "Alinea Properties LLP",
@@ -101,7 +101,7 @@ const industriallist = [
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/3.png",
-    title: "OEUVRE - 2",
+    title: "OEUVRE-2",
     content:
       "4 BHK spacious and luxurious apartments, the architectural design and modern amenities that Oeuvre-2 entails is remarkable.",
     segment: "Residential",
@@ -111,7 +111,8 @@ const industriallist = [
     projectYear: "2022-Current",
     architect: "H M Architects",
     consultant: "Setu Infrastructure",
-    scope: "Setu Infrastructure",
+    scope:
+      "Construction of residential building with material having 2 no of Basement (with 107 stores with plaster) + G.F. +P-1+P-2+H.P-+ Typical 22 floors as below considerations including parapet terrace cabin, water tank (UGWT & OHWT).",
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/4.png",
@@ -145,7 +146,7 @@ const industriallist = [
 const industrialcompleted = [
   {
     src: "Sources/images/prouctlist/residential/completed/12.jpeg",
-    title: "Security Staff Housing",
+    title: "SECURITY STAFF HOUSING",
     content:
       "Security Staff Housing Complex project at Jamnagar-LC 01, LC 04 and LC 10",
     segment: "Residential",

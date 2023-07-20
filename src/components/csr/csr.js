@@ -43,21 +43,7 @@ const Csr = () => {
                   Malnutrition related awareness and nutrition grocery kit
                   distribution.
                 </li>
-                <Row style={{ display: "flex", justifyContent: "center" }}>
-                  <Col
-                    xxl={12}
-                    lg={12}
-                    md={12}
-                    sm={24}
-                    xs={24}
-                    // style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <div className="my-5">
-                      {/* <iframe width="100%" height="500px" src={item.src}></iframe> */}
-                      <img src="Sources/images/csr/Untitled.png"></img>
-                    </div>
-                  </Col>
-                </Row>
+
                 <li>
                   Support for Gramsetu (Meghraj, Arravali District) initiative
                   by Dreams Foundation.
@@ -69,6 +55,40 @@ const Csr = () => {
                 </li>
                 <br />
                 <li>Support for stray animal welfare.</li>
+                <Row style={{ display: "flex", justifyContent: "center" }}>
+                  {/* <Col
+                    xxl={12}
+                    lg={12}
+                    md={12}
+                    sm={24}
+                    xs={24}
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <div className="my-5">
+                      <iframe width="100%" height="500px" src={item.src}></iframe>
+                      <img src="Sources/images/csr/Untitled.png"></img>
+                    </div>
+                  </Col> */}
+
+                  <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
+                    <img src="Sources/images/csr/1.jpg" />
+                  </Col>
+                  <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
+                    <img src="Sources/images/csr/2.jpeg" />
+                  </Col>
+                  <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
+                    <img src="Sources/images/csr/3.jpeg" />
+                  </Col>
+                  <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
+                    <img src="Sources/images/csr/4.jpeg" />
+                  </Col>
+                  <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
+                    <img src="Sources/images/csr/5.jpeg" />
+                  </Col>
+                  <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
+                    <img src="Sources/images/csr/6.jpeg" />
+                  </Col>
+                </Row>
               </div>
             </div>
           </div>

@@ -5,9 +5,9 @@ import Header from "../header/header";
 const commerciallist = [
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1-1.jpeg",
-    title: "Sharanam Square",
+    title: "SHARANAM SQUARE",
     content: "...",
-    client: "Sharanam Square LLP",
+    client: "SHARANAM SQUARE LLP",
     location: "Khokhara, Ahmedabad",
     projectSize: "275,000 Sq. ft.",
     projectYear: "2022-Current",
@@ -18,7 +18,7 @@ const commerciallist = [
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1-3.png",
-    title: "Regalia",
+    title: "REGALIA",
     content: "...",
     client: "Nakshatra Infracon",
     location: "GIFT City, Gandhinagar",
@@ -30,7 +30,7 @@ const commerciallist = [
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1-1.jpg",
-    title: "The Profit",
+    title: "THE PROFIT",
     content: "...",
     client: "The Building Company",
     location: "Adajan, Surat",
@@ -43,7 +43,7 @@ const commerciallist = [
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1-4.png",
-    title: "Flexone",
+    title: "FLEXONE",
     content: "...",
     client: "Waystar Properties LLP",
     location: "GIFT City, Gandhinagar",
@@ -197,7 +197,7 @@ const commercialcompleted = [
     content:
       "A world class business centre designed to harness opportunities with its five Towers comprising of 2B+G+4 measuring upto a total of 4,25,000 sq ft.",
     segment: "Commercial",
-    client: "Sharanam Smartspace LLP",
+    client: "SHARANAM SMART SPACE LLP",
     location: "Amraiwadi, Ahmedabad",
     projectSize: "4,25,000 Sqft. 4 Buildings (B+G+4 Floors)",
     projectYear: "2019",

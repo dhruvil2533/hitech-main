@@ -1,21 +1,21 @@
 import React from "react";
 import { Col, Row, Space } from "antd";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import Header from "../header/header";
-const machinery = [
-  // { src: "Sources/images/expertise/Machinery/1.png" },
-  // { src: "Sources/images/expertise/Machinery/2.png" },
-  // { src: "Sources/images/expertise/Machinery/3.png" },
-  // { src: "Sources/images/expertise/Machinery/4.png" },
-  // { src: "Sources/images/expertise/Machinery/5.png" },
-  // { src: "Sources/images/expertise/Machinery/6.png" },
-];
+// const machinery = [
+//   // { src: "Sources/images/expertise/Machinery/1.png" },
+//   // { src: "Sources/images/expertise/Machinery/2.png" },
+//   // { src: "Sources/images/expertise/Machinery/3.png" },
+//   // { src: "Sources/images/expertise/Machinery/4.png" },
+//   // { src: "Sources/images/expertise/Machinery/5.png" },
+//   // { src: "Sources/images/expertise/Machinery/6.png" },
+// ];
 
 const Machinery = () => {
   return (
     <>
       <img
-        src="Sources/images/bg/a3.jpg"
+        src="Sources/images/bg/Residential (14).png"
         alt="404 -Not Given"
         className="about_img"
         //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}

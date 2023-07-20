@@ -18,6 +18,45 @@ const industriallist = [
 ];
 const industrialcompleted = [
   {
+    src: "Sources/images/prouctlist/industrial/completed/17.jpg",
+    title: "TORRENT POWER 'E' STATION",
+    content:
+      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center, TSD Workshop, Plug point and other applied work at 'E' station premises, Varachha Surat.",
+    client: "Torrent Power Ltd",
+    location: "Varachha, Surat",
+    projectSize: "50,000 SQFT.",
+    projectYear: "2022-Current",
+    architect: "Munjal Bhatt",
+    consultant: "S3M Design Consultants LLP",
+    scope: "Civil Structure Work",
+  },
+  {
+    src: "Sources/images/prouctlist/commercial/ongoing/4.png",
+    title: "TORRENT POWER LTD. ",
+    content:
+      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its HT PSC building and meter Lab building at Naranpura, Ahmedabad.",
+    client: "Torrent Power Ltd",
+    location: "NARANPURA",
+    projectSize: "1,70,000 SQFT.",
+    projectYear: "2022-Current",
+    architect: "Munjal Bhatt",
+    consultant: "Ducon Consultant Pvt Ltd",
+    scope: "Civil Structure Work with all services",
+  },
+  {
+    src: "Sources/images/prouctlist/commercial/ongoing/5.png",
+    title: "TORRENT POWER LTD.",
+    content:
+      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its PSC building And Plug point building at Odhav.",
+    client: "Torrent Power Ltd",
+    location: "Odhav, Gujarat",
+    projectSize: "1,10,000 SQFT.",
+    projectYear: "2022-Current",
+    architect: "Munjal Bhatt",
+    consultant: " Ducon Consultant Pvt Ltd",
+    scope: "Civil Structure Work with all services",
+  },
+  {
     src: "Sources/images/prouctlist/industrial/completed/1.png",
     title: "TORRENT SUBSTATION",
     content:
@@ -268,45 +307,6 @@ const industrialcompleted = [
   //   scope:
   //     "Plug Point, PSC and VCB building, outdoor store facility including civil and finishing work.",
   // },
-  {
-    src: "Sources/images/prouctlist/industrial/completed/17.jpg",
-    title: "TORRENT POWER 'E' STATION",
-    content:
-      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center, TSD Workshop, Plug point and other applied work at 'E' station premises, Varachha Surat.",
-    client: "Torrent Power Ltd",
-    location: "Varachha, Surat",
-    projectSize: "50,000 SQFT.",
-    projectYear: "2022-Current",
-    architect: "Munjal Bhatt",
-    consultant: "S3M Design Consultants LLP",
-    scope: "Civil Structure Work",
-  },
-  {
-    src: "Sources/images/prouctlist/commercial/ongoing/4.png",
-    title: "TORRENT POWER LTD. ",
-    content:
-      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its HT PSC building and meter Lab building at Naranpura, Ahmedabad.",
-    client: "Torrent Power Ltd",
-    location: "NARANPURA",
-    projectSize: "1,70,000 SQFT.",
-    projectYear: "2022-Current",
-    architect: "Munjal Bhatt",
-    consultant: "Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work with all services",
-  },
-  {
-    src: "Sources/images/prouctlist/commercial/ongoing/5.png",
-    title: "TORRENT POWER LTD.",
-    content:
-      "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its PSC building And Plug point building at Odhav.",
-    client: "Torrent Power Ltd",
-    location: "Odhav, Gujarat",
-    projectSize: "1,10,000 SQFT.",
-    projectYear: "2022-Current",
-    architect: "Munjal Bhatt",
-    consultant: " Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work with all services",
-  },
 ];
 
 const Industrial = () => {

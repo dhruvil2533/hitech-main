@@ -14,12 +14,12 @@ const awardscard = [
     des: "Successful completion of annual periodic audits",
   },
   {
-    src: "Sources/images/awards/Banyan.JPG",
+    src: "Sources/images/awards/Banyan.jpg",
     title: "Structure Award",
     des: "Project “THE BANYAN” was awarded for Outstanding Structure at State Level in Mass Housing category ( < 100)",
   },
   {
-    src: "Sources/images/awards/High Temp.JPG",
+    src: "Sources/images/awards/High Temp.jpg",
     title: "Structure Award",
     des: "Project “HIGH TEMP FURNACES” was awarded for Outstanding Structure at Regional Level North Gujarat in Industrial category",
   },
@@ -59,7 +59,7 @@ const awardscard = [
     des: "The Achivement of Half million safe man-hours for their propjects ONE49 site",
   },
   {
-    src: "Sources/images/awards/11.jpg",
+    src: "Sources/images/awards/11.JPG",
     title: "Safety Award",
     des: "The winning of ICI-UltraTech Outstanding Stucture Awards 2020 (Regional) in the category Indistrial Buildings",
   },
@@ -68,7 +68,7 @@ const awardscard = [
     title: "Structure Award",
     des: "Project “ICI” was awarded for Outstanding Structure Award 2020 at North Gujarat",
   },
-  
+
   {
     src: "Sources/images/awards/15.jpg",
     title: "Safety Award",
@@ -90,7 +90,7 @@ const awardscard = [
     des: "Project “ICI-UltraTech” was awarded for Outstanding Structure Award 2020 in the category Mass housing",
   },
   {
-    src: "Sources/images/awards/19.JPG",
+    src: "Sources/images/awards/19.jpg",
     title: "Structure Award",
     des: "Project “ICI-UltraTech” was awarded for Outstanding Structure Award 2020 in the category Mass housing",
   },
