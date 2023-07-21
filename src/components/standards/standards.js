@@ -382,7 +382,7 @@ const Standards = () => {
                     <div style={{ height: "100%" }}>
                       <img
                         className="zoom"
-                        src={"Sources/images/standards/safety/5.jpg"}
+                        src={"Sources/images/standards/safety/Picture1.png"}
                         alt="404 - Not Given"
                         style={{
                           height: "100%",
@@ -399,7 +399,7 @@ const Standards = () => {
                     <div style={{ height: "100%" }}>
                       <img
                         className="zoom"
-                        src={"Sources/images/standards/safety/1-1.jpg"}
+                        src={"Sources/images/standards/safety/Picture2.png"}
                         alt="404 - Not Given"
                         style={{ height: "100%", width: "100%" }}
                       />
@@ -413,7 +413,7 @@ const Standards = () => {
                     <div style={{ height: "100%" }}>
                       <img
                         className="zoom"
-                        src={"Sources/images/standards/safety/6.jpg"}
+                        src={"Sources/images/standards/safety/Picture3.jpg"}
                         alt="404 - Not Given"
                         style={{ height: "100%", width: "100%" }}
                       />
@@ -429,7 +429,7 @@ const Standards = () => {
                     <div style={{ height: "100%" }}>
                       <img
                         className="zoom"
-                        src={"Sources/images/standards/safety/2.jpg"}
+                        src={"Sources/images/standards/safety/Picture4.jpg"}
                         alt="404 - Not Given"
                         style={{ height: "100%", width: "100%" }}
                       />
@@ -443,7 +443,7 @@ const Standards = () => {
                     <div style={{ height: "100%" }}>
                       <img
                         className="zoom"
-                        src={"Sources/images/standards/safety/3.jpg"}
+                        src={"Sources/images/standards/safety/Picture5.jpg"}
                         alt="404 - Not Given"
                         style={{ height: "100%", width: "100%" }}
                       />
@@ -457,7 +457,7 @@ const Standards = () => {
                     <div style={{ height: "100%" }}>
                       <img
                         className="zoom"
-                        src={"Sources/images/standards/safety/4.jpg"}
+                        src={"Sources/images/standards/safety/Picture6.png"}
                         alt="404 - Not Given"
                         style={{ height: "100%", width: "100%" }}
                       />
