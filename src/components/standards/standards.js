@@ -9,8 +9,24 @@ import React, { useEffect, useState } from "react";
 import Header from "../header/header";
 import "./s.css";
 
-const quality = [{ src: "Sources/images/standards/Quality/1.png" }];
+const quality = [
+  {
+    src1: "Sources/images/standards/Quality/1.jpg",
+    src2: "Sources/images/standards/Quality/2.jpg",
+    src3: "Sources/images/standards/Quality/3.jpg",
+    src4: "Sources/images/standards/Quality/7.jpg",
+    src5: "Sources/images/standards/Quality/5.jpg",
+    src6: "Sources/images/standards/Quality/8.jpg",
+  },
+];
 const safety = [{ src: "Sources/images/standards/safety/9.png" }];
+
+// import img1 from "../../../public/Sources/images/standards/Quality/1.jpg";
+// import img2 from "../../../public/Sources/images/standards/Quality/2.jpg";
+// import img3 from "../../../public/Sources/images/standards/Quality/3.jpg";
+// import img4 from "../../../public/Sources/images/standards/Quality/7.jpg";
+// import img5 from "../../../public/Sources/images/standards/Quality/5.jpg";
+// import img6 from "../../../public/Sources/images/standards/Quality/8.jpg";
 // const safetytwo = [
 //   // { src: "Sources/images/standards/safety/5.png" },
 //   { src: "Sources/images/standards/safety/6.png" },
@@ -140,7 +156,7 @@ const Standards = () => {
                         <div style={{ height: "100%" }}>
                           <img
                             className="zoom"
-                            src={item.src}
+                            src={item.src1}
                             alt="404 - Not Given"
                             style={{ height: "100%", width: "100%" }}
                           />
@@ -154,37 +170,7 @@ const Standards = () => {
                         <div style={{ height: "100%" }}>
                           <img
                             className="zoom"
-                            src={item.src}
-                            alt="404 - Not Given"
-                            style={{ height: "100%", width: "100%" }}
-                          />
-                        </div>
-                      );
-                    })}
-                  </Col>
-                </Row>
-                <Row className="mt-5">
-                  <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
-                    {quality.map((item, key) => {
-                      return (
-                        <div style={{ height: "100%" }}>
-                          <img
-                            className="zoom"
-                            src={item.src}
-                            alt="404 - Not Given"
-                            style={{ height: "100%", width: "100%" }}
-                          />
-                        </div>
-                      );
-                    })}
-                  </Col>
-                  <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
-                    {quality.map((item, key) => {
-                      return (
-                        <div style={{ height: "100%" }}>
-                          <img
-                            className="zoom"
-                            src={item.src}
+                            src={item.src2}
                             alt="404 - Not Given"
                             style={{ height: "100%", width: "100%" }}
                           />
@@ -200,7 +186,7 @@ const Standards = () => {
                         <div style={{ height: "100%" }}>
                           <img
                             className="zoom"
-                            src={item.src}
+                            src={item.src3}
                             alt="404 - Not Given"
                             style={{ height: "100%", width: "100%" }}
                           />
@@ -214,7 +200,37 @@ const Standards = () => {
                         <div style={{ height: "100%" }}>
                           <img
                             className="zoom"
-                            src={item.src}
+                            src={item.src4}
+                            alt="404 - Not Given"
+                            style={{ height: "100%", width: "100%" }}
+                          />
+                        </div>
+                      );
+                    })}
+                  </Col>
+                </Row>
+                <Row className="mt-5">
+                  <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
+                    {quality.map((item, key) => {
+                      return (
+                        <div style={{ height: "100%" }}>
+                          <img
+                            className="zoom"
+                            src={item.src5}
+                            alt="404 - Not Given"
+                            style={{ height: "100%", width: "100%" }}
+                          />
+                        </div>
+                      );
+                    })}
+                  </Col>
+                  <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
+                    {quality.map((item, key) => {
+                      return (
+                        <div style={{ height: "100%" }}>
+                          <img
+                            className="zoom"
+                            src={item.src6}
                             alt="404 - Not Given"
                             style={{ height: "100%", width: "100%" }}
                           />
