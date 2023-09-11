@@ -133,7 +133,7 @@ const Machinery = () => {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/2.png" alt="" />
+                <img src="Sources/images/expertise/machinary2/bp.jpg" alt="" />
                 <div className="service_line">
                   <h3
                     style={{ color: "#03446a" }}
@@ -181,16 +181,19 @@ const Machinery = () => {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/4.png" alt="" />
+                <img
+                  src="Sources/images/expertise/machinary2/DJI_0019.JPG"
+                  alt=""
+                />
                 <div className="service_line">
                   <h3
                     style={{ color: "#03446a" }}
                     className="has-text-centered"
                   >
                     <span>
-                      Soil&nbsp;
+                      RMC
                       <br />
-                      Machine
+                      Plant
                     </span>
                   </h3>
                   <a href="#"></a>
