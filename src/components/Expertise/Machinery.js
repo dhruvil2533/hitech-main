@@ -206,15 +206,18 @@ const Machinery = () => {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/5.png" alt="" />
+                <img
+                  src="Sources/images/expertise/machinary2/DJI_0039.JPG"
+                  alt=""
+                />
                 <div className="service_line">
                   <h3
                     style={{ color: "#03446a" }}
                     className="has-text-centered"
                   >
                     <span>
-                      Transit <br />
-                      Mixer
+                      Climbing <br />
+                      Boom Placer
                     </span>
                   </h3>
                   <a href="#"></a>
