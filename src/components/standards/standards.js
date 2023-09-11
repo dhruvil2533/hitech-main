@@ -252,7 +252,7 @@ const Standards = () => {
                           className="has-text-centered"
                         >
                           <span>
-                            Finshed <br />
+                            Finished <br />
                             Product
                           </span>
                         </h3>
