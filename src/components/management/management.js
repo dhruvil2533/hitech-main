@@ -75,13 +75,14 @@ const corevaluescard = [
   {
     icon: <BsGraphUp className="is-size-1" />,
     title: " CONTINUAL IMPROVEMENT",
-    des: "  We focus on optimizing every process in our company by focusing on those activities that generate the most value for our clients and stakeholders, while removing as many redundancies as possible. We continuously strive to improve our construction technology, our equipment, our standards of excellence , our process methodologies. We take continuous actions to build competence levels and skill sets of our people.",
+    des: "  We focus on optimizing every process in our company by focusing on those activities that generate the most value for our clients and stakeholders, while removing as many redundancies as possible. We continuously strive to improve our construction technology, our equipment, our standards of excellence and our process methodologies. ",
   },
   {
-    icon: <VscWorkspaceTrusted className="is-size-1" />,
-    title: "TRUST",
-    des: "We deliver what we have committed to our clients as per timelines and as per agreed quality and safety standards. Trust means we accept people for who they are and trust them to perform their role as required.",
+    icon: <DiStreamline className="is-size-1" />,
+    title: "SYSTEMIC APPROACH",
+    des: "All our actions are well planned, SOPs are defined, all business processes are streamlined, having integrated systems in place for all activities for smooth co-ordination between projects and functions. We incorporate proven practices, software supported systems and technology in all our functional processes. ",
   },
+  
   {
     icon: <BiDonateHeart className="is-size-1" />,
     title: "CARING",
@@ -93,10 +94,11 @@ const corevaluescard = [
     des: "Each and every one of us is willing to accept and own our individual responsibilities and account for our actions. At the same time we ensure that collectively as a team, we hold each and every member of the team responsible for their actions towards achievement of common goals.",
   },
   {
-    icon: <DiStreamline className="is-size-1" />,
-    title: "SYSTEMIC APPROACH",
-    des: "All our actions are well planned, standard operating practices are defined, all business processes are streamlined, having integrated systems in place for all activities for smooth co-ordination between projects and functions. We incorporate proven practices, software supported systems and technology in all our functional processes.",
+    icon: <VscWorkspaceTrusted className="is-size-1" />,
+    title: "TRUST",
+    des: "We deliver what we have committed to our clients as per timelines and as per agreed quality and safety standards. Trust means we accept people for who they are and trust them to perform their role as required.",
   },
+  
 ];
 
 const Management = () => {
@@ -252,15 +254,7 @@ const Management = () => {
                             {item.title}
                           </p>
                           <p className="is-size-5 has-text-left mt-4">
-                            We focus on optimizing every process in our company
-                            by focusing on those activities that generate the
-                            most value for our clients and stakeholders, while
-                            removing as many redundancies as possible. We
-                            continuously strive to improve our construction
-                            technology, our equipment, our standards of
-                            excellence , our process methodologies. We take
-                            continuous actions to build competence levels and
-                            skill sets of our people.
+                            {item.des}
                           </p>
                         </div>
                       </Card>

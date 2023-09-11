@@ -11,12 +11,12 @@ import "./s.css";
 
 const quality = [
   {
-    src1: "Sources/images/standards/Quality/1.jpg",
-    src2: "Sources/images/standards/Quality/2.jpg",
-    src3: "Sources/images/standards/Quality/3.jpg",
-    src4: "Sources/images/standards/Quality/7.jpg",
-    src5: "Sources/images/standards/Quality/5.jpg",
-    src6: "Sources/images/standards/Quality/8.jpg",
+    src1: "Sources/images/standards/Quality/1. On site checking.jpg",
+    src2: "Sources/images/standards/Quality/2. Slab Checking.jpg",
+    src3: "Sources/images/standards/Quality/3. Approval of work.jpg",
+    src4: "Sources/images/standards/Quality/4. Finshed Product.jpg",
+    src5: "Sources/images/standards/Quality/5. Material Testing.jpg",
+    src6: "Sources/images/standards/Quality/6. Testing training.jpg",
   },
 ];
 const safety = [{ src: "Sources/images/standards/safety/9.png" }];
@@ -78,7 +78,7 @@ const Standards = () => {
               </p>
             </div>
             <Row>
-              <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
+              <Col xxl={12} lg={12} md={24} sm={24} xs={24}>
                 <div>
                   <p className="has-text-left">
                     Hitech was among the first of companies of its type to
@@ -149,7 +149,174 @@ const Standards = () => {
               <Col xxl={1} lg={1} md={0} sm={0} xs={0}></Col>
 
               <Col xxl={11} lg={11} md={24} sm={24} xs={24}>
-                <Row>
+                <Row style={{ display: "flex", justifyContent: "center" }}>
+                  <Col
+                    xxl={12}
+                    lg={12}
+                    md={12}
+                    sm={24}
+                    xs={24}
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <figure className="figure m-3">
+                      <img
+                        src="Sources/images/standards/Quality/1. On site checking.jpg"
+                        style={{ height: "200px", width: "100%" }}
+                        alt=""
+                      />
+                      <div className="service_line">
+                        <h3
+                          style={{ color: "#03446a" }}
+                          className="has-text-centered"
+                        >
+                          <span>
+                            On site <br /> checking
+                          </span>
+                        </h3>
+                        <a href="#"></a>
+                      </div>
+                    </figure>
+                  </Col>
+                  <Col
+                    xxl={12}
+                    lg={12}
+                    md={12}
+                    sm={24}
+                    xs={24}
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <figure className="figure m-3">
+                      <img
+                        src="Sources/images/standards/Quality/2. Slab Checking.jpg"
+                        alt=""
+                        style={{ height: "200px", width: "100%" }}
+                      />
+                      <div className="service_line">
+                        <h3
+                          style={{ color: "#03446a" }}
+                          className="has-text-centered"
+                        >
+                          <span>
+                            Slab <br />
+                            Checking
+                          </span>
+                        </h3>
+                        <a href="#"></a>
+                      </div>
+                    </figure>
+                  </Col>
+                  <Col
+                    xxl={12}
+                    lg={12}
+                    md={12}
+                    sm={24}
+                    xs={24}
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <figure className="figure m-3">
+                      <img
+                        src="Sources/images/standards/Quality/3. Approval of work.jpg"
+                        alt=""
+                        style={{ height: "200px", width: "100%" }}
+                      />
+                      <div className="service_line">
+                        <h3
+                          style={{ color: "#03446a" }}
+                          className="has-text-centered"
+                        >
+                          <span>
+                            Approval <br /> of work
+                          </span>
+                        </h3>
+                        <a href="#"></a>
+                      </div>
+                    </figure>
+                  </Col>
+                  <Col
+                    xxl={12}
+                    lg={12}
+                    md={12}
+                    sm={24}
+                    xs={24}
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <figure className="figure m-3">
+                      <img
+                        src="Sources/images/standards/Quality/4. Finshed Product.jpg"
+                        alt=""
+                        style={{ height: "200px", width: "100%" }}
+                      />
+                      <div className="service_line">
+                        <h3
+                          style={{ color: "#03446a" }}
+                          className="has-text-centered"
+                        >
+                          <span>
+                            Finshed <br />
+                            Product
+                          </span>
+                        </h3>
+                        <a href="#"></a>
+                      </div>
+                    </figure>
+                  </Col>
+                  <Col
+                    xxl={12}
+                    lg={12}
+                    md={12}
+                    sm={24}
+                    xs={24}
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <figure className="figure m-3">
+                      <img
+                        src="Sources/images/standards/Quality/5. Material Testing.jpg"
+                        alt=""
+                        style={{ height: "200px", width: "100%" }}
+                      />
+                      <div className="service_line">
+                        <h3
+                          style={{ color: "#03446a" }}
+                          className="has-text-centered"
+                        >
+                          <span>
+                            Material <br />
+                            Testing
+                          </span>
+                        </h3>
+                        <a href="#"></a>
+                      </div>
+                    </figure>
+                  </Col>
+                  <Col
+                    xxl={12}
+                    lg={12}
+                    md={12}
+                    sm={24}
+                    xs={24}
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <figure className="figure m-3">
+                      <img
+                        src="Sources/images/standards/Quality/6. Testing training.jpg"
+                        alt=""
+                        style={{ height: "200px", width: "100%" }}
+                      />
+                      <div className="service_line">
+                        <h3
+                          style={{ color: "#03446a" }}
+                          className="has-text-centered"
+                        >
+                          <span>
+                            Testing <br /> training
+                          </span>
+                        </h3>
+                        <a href="#"></a>
+                      </div>
+                    </figure>
+                  </Col>
+                </Row>
+                {/* <Row>
                   <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
                     {quality.map((item, key) => {
                       return (
@@ -160,6 +327,8 @@ const Standards = () => {
                             alt="404 - Not Given"
                             style={{ height: "100%", width: "100%" }}
                           />
+
+                          <p className="overlay">Demo text</p>
                         </div>
                       );
                     })}
@@ -178,8 +347,8 @@ const Standards = () => {
                       );
                     })}
                   </Col>
-                </Row>
-                <Row className="mt-5">
+                </Row> */}
+                {/* <Row className="mt-5">
                   <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
                     {quality.map((item, key) => {
                       return (
@@ -208,8 +377,8 @@ const Standards = () => {
                       );
                     })}
                   </Col>
-                </Row>
-                <Row className="mt-5">
+                </Row> */}
+                {/* <Row className="mt-5">
                   <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
                     {quality.map((item, key) => {
                       return (
@@ -238,7 +407,7 @@ const Standards = () => {
                       );
                     })}
                   </Col>
-                </Row>
+                </Row> */}
 
                 {/* {quality.map((item, key) => {
                   return (
@@ -391,97 +560,184 @@ const Standards = () => {
               </Col>
             </Row> */}
 
-            <Row className="mt-5">
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                {quality.map((item, key) => {
-                  return (
-                    <div style={{ height: "100%" }}>
-                      <img
-                        className="zoom"
-                        src={"Sources/images/standards/safety/Picture1.png"}
-                        alt="404 - Not Given"
-                        style={{
-                          height: "100%",
-                          width: "100%",
-                        }}
-                      />
+            <div className="container" style={{ width: "70%" }}>
+              <Row className="mt-5">
+                <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                  <figure className="figure m-3">
+                    <img
+                      src="Sources/images/standards/safety/Entry.png"
+                      alt=""
+                      style={{ height: "250px", width: "100%" }}
+                    />
+                    <div className="service_line">
+                      <h3
+                        style={{ color: "#03446a" }}
+                        className="has-text-centered"
+                      >
+                        <span>Entry</span>
+                      </h3>
+                      <a href="#"></a>
                     </div>
-                  );
-                })}
-              </Col>
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                {quality.map((item, key) => {
-                  return (
-                    <div style={{ height: "100%" }}>
-                      <img
-                        className="zoom"
-                        src={"Sources/images/standards/safety/Picture2.png"}
-                        alt="404 - Not Given"
-                        style={{ height: "100%", width: "100%" }}
-                      />
+                  </figure>
+                  {/* <div style={{ height: "100%" }}>
+                    <img
+                      className="zoom"
+                      src={"Sources/images/standards/safety/Entry.png"}
+                      alt="404 - Not Given"
+                      style={{
+                        height: "100%",
+                        width: "100%",
+                      }}
+                    />
+                  </div> */}
+                </Col>
+                <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                  <figure className="figure m-3">
+                    <img
+                      src="Sources/images/standards/safety/Award.jpg"
+                      alt=""
+                      style={{ height: "250px", width: "100%" }}
+                    />
+                    <div className="service_line">
+                      <h3
+                        style={{ color: "#03446a" }}
+                        className="has-text-centered"
+                      >
+                        <span>Award</span>
+                      </h3>
+                      <a href="#"></a>
                     </div>
-                  );
-                })}
-              </Col>
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                {quality.map((item, key) => {
-                  return (
-                    <div style={{ height: "100%" }}>
-                      <img
-                        className="zoom"
-                        src={"Sources/images/standards/safety/Picture3.jpg"}
-                        alt="404 - Not Given"
-                        style={{ height: "100%", width: "100%" }}
-                      />
+                  </figure>
+                  {/* <div style={{ height: "100%" }}>
+                    <img
+                      className="zoom"
+                      src={"Sources/images/standards/safety/Award.jpg"}
+                      alt="404 - Not Given"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div> */}
+                </Col>
+                <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                  <figure className="figure m-3">
+                    <img
+                      src="Sources/images/standards/safety/Monthly EHS Inspection.jpg"
+                      alt=""
+                      style={{ height: "250px", width: "100%" }}
+                    />
+                    <div className="service_line">
+                      <h3
+                        style={{ color: "#03446a" }}
+                        className="has-text-centered"
+                      >
+                        <span>
+                          Monthly EHS <br /> Inspection
+                        </span>
+                      </h3>
+                      <a href="#"></a>
                     </div>
-                  );
-                })}
-              </Col>
-            </Row>
-            <Row className="mt-5">
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                {quality.map((item, key) => {
-                  return (
-                    <div style={{ height: "100%" }}>
-                      <img
-                        className="zoom"
-                        src={"Sources/images/standards/safety/Picture4.jpg"}
-                        alt="404 - Not Given"
-                        style={{ height: "100%", width: "100%" }}
-                      />
+                  </figure>
+                  {/* <div style={{ height: "100%" }}>
+                    <img
+                      className="zoom"
+                      src={
+                        "Sources/images/standards/safety/Monthly EHS Inspection.jpg"
+                      }
+                      alt="404 - Not Given"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div> */}
+                </Col>
+              </Row>
+              <Row className="mt-5">
+                <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                  <figure className="figure m-3">
+                    <img
+                      src="Sources/images/standards/safety/Motivational Program.jpg"
+                      alt=""
+                      style={{ height: "250px", width: "100%" }}
+                    />
+                    <div className="service_line">
+                      <h3
+                        style={{ color: "#03446a" }}
+                        className="has-text-centered"
+                      >
+                        <span>
+                          Motivational <br /> Program
+                        </span>
+                      </h3>
+                      <a href="#"></a>
                     </div>
-                  );
-                })}
-              </Col>
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                {quality.map((item, key) => {
-                  return (
-                    <div style={{ height: "100%" }}>
-                      <img
-                        className="zoom"
-                        src={"Sources/images/standards/safety/Picture5.jpg"}
-                        alt="404 - Not Given"
-                        style={{ height: "100%", width: "100%" }}
-                      />
+                  </figure>
+                  {/* <div style={{ height: "100%" }}>
+                    <img
+                      className="zoom"
+                      src={
+                        "Sources/images/standards/safety/Motivational Program.jpg"
+                      }
+                      alt="404 - Not Given"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div> */}
+                </Col>
+                <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                  <figure className="figure m-3">
+                    <img
+                      src="Sources/images/standards/safety/Road Safety.png"
+                      alt=""
+                      style={{ height: "250px", width: "100%" }}
+                    />
+                    <div className="service_line">
+                      <h3
+                        style={{ color: "#03446a" }}
+                        className="has-text-centered"
+                      >
+                        <span>
+                          Road <br />
+                          Safety
+                        </span>
+                      </h3>
+                      <a href="#"></a>
                     </div>
-                  );
-                })}
-              </Col>
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
-                {quality.map((item, key) => {
-                  return (
-                    <div style={{ height: "100%" }}>
-                      <img
-                        className="zoom"
-                        src={"Sources/images/standards/safety/Picture6.png"}
-                        alt="404 - Not Given"
-                        style={{ height: "100%", width: "100%" }}
-                      />
+                  </figure>
+                  {/* <div style={{ height: "100%" }}>
+                    <img
+                      className="zoom"
+                      src={"Sources/images/standards/safety/Road Safety.png"}
+                      alt="404 - Not Given"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div> */}
+                </Col>
+                <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
+                  <figure className="figure m-3">
+                    <img
+                      src="Sources/images/standards/safety/Assembly point.jpg"
+                      alt=""
+                      style={{ height: "250px", width: "100%" }}
+                    />
+                    <div className="service_line">
+                      <h3
+                        style={{ color: "#03446a" }}
+                        className="has-text-centered"
+                      >
+                        <span>
+                          Assembly <br /> Point
+                        </span>
+                      </h3>
+                      <a href="#"></a>
                     </div>
-                  );
-                })}
-              </Col>
-            </Row>
+                  </figure>
+                  {/* <div style={{ height: "100%" }}>
+                    <img
+                      className="zoom"
+                      src={"Sources/images/standards/safety/Assembly point.jpg"}
+                      alt="404 - Not Given"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div> */}
+                </Col>
+              </Row>
+            </div>
           </div>
           <div className="section_padding"></div>
         </section>
@@ -622,7 +878,9 @@ const Standards = () => {
                           <div style={{ height: "100%" }}>
                             <img
                               className="zoom"
-                              src={"Sources/images/standards/traning/7.jpg"}
+                              src={
+                                "Sources/images/standards/traning/Inhouse Training.jpg"
+                              }
                               alt="404 - Not Given"
                               style={{ height: "100%", width: "100%" }}
                             />
@@ -653,8 +911,8 @@ const Standards = () => {
                       })}
                     </Col>
                     <Col
-                      xxl={10}
-                      lg={10}
+                      xxl={11}
+                      lg={11}
                       md={12}
                       sm={24}
                       xs={24}

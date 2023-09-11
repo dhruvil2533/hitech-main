@@ -1,6 +1,7 @@
 import { Col, Row } from "antd";
 import React from "react";
 import Header from "../header/header";
+import YouTube from "react-youtube";
 
 const awardscard = [
   { src: "https://www.youtube.com/embed/YkmQBe1Lebk" },
@@ -34,16 +35,50 @@ const Csr = () => {
               </p>
               <div className="mt-5" style={{ marginLeft: "3%" }}>
                 <li>Education for construction worker children</li>
+                <YouTube videoId="YkmQBe1Lebk" />
+                <blockquote>
+                  <i>
+                    <b>
+                      <br />
+                      As their parents help to build the homes of our dreams...
+                      <br />
+                      we take a small step to help them build their own dreams.
+                      <br />
+                      <br />
+                    </b>
+                  </i>
+                </blockquote>
+                <YouTube videoId="vKRGP_M8uwU" />
                 <br />
-                <li>Regular medical, eye checkup camps at labour colonies .</li>
+                <li>
+                  Regular medical, eye checkup camps at labour colonies . <br />
+                  <img
+                    style={{ height: "300px", width: "auto" }}
+                    src="Sources/images/csr/Aids Awareness.jpeg"
+                    alt="img"
+                  />
+                </li>
+
                 <br />
-                <li>Workshops on AIDS, tobacco and alcohol awareness.</li>
+                <li>
+                  Workshops on AIDS, tobacco and alcohol awareness. <br />
+                  <img
+                    style={{ height: "300px", width: "auto" }}
+                    src="Sources/images/csr/Medical Checkup.jpeg"
+                    alt="img"
+                  />
+                </li>
+
                 <br />
                 <li>
                   Malnutrition related awareness and nutrition grocery kit
-                  distribution.
+                  distribution. <br />
+                  <img
+                    style={{ height: "300px", width: "auto" }}
+                    src="Sources/images/csr/Grocery kit.jpg"
+                    alt="img"
+                  />
                 </li>
-
                 <li>
                   Support for Gramsetu (Meghraj, Arravali District) initiative
                   by Dreams Foundation.
@@ -55,21 +90,7 @@ const Csr = () => {
                 </li>
                 <br />
                 <li>Support for stray animal welfare.</li>
-                <Row style={{ display: "flex", justifyContent: "center" }}>
-                  {/* <Col
-                    xxl={12}
-                    lg={12}
-                    md={12}
-                    sm={24}
-                    xs={24}
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <div className="my-5">
-                      <iframe width="100%" height="500px" src={item.src}></iframe>
-                      <img src="Sources/images/csr/Untitled.png"></img>
-                    </div>
-                  </Col> */}
-
+                {/* <Row style={{ display: "flex", justifyContent: "center" }}>
                   <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
                     <img src="Sources/images/csr/1.jpg" />
                   </Col>
@@ -88,7 +109,7 @@ const Csr = () => {
                   <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
                     <img src="Sources/images/csr/6.jpeg" />
                   </Col>
-                </Row>
+                </Row> */}
               </div>
             </div>
           </div>

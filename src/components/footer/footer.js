@@ -213,12 +213,12 @@ const Footer = () => {
                             <span className="pl-2">About Us</span>
                           </Link>
                         </li>
-                        <li className="footer_link">
+                        {/* <li className="footer_link">
                           <Link to={url.expertise} className="has-text-white">
                             <MdArrowForwardIos className="arrow_icon " />
                             <span className="pl-2">Expertise</span>
                           </Link>
-                        </li>
+                        </li> */}
                         <li className="footer_link">
                           <Link to={url.services} className="has-text-white">
                             <MdArrowForwardIos className="arrow_icon " />
