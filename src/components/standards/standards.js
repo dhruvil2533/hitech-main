@@ -565,7 +565,7 @@ const Standards = () => {
                 <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
                   <figure className="figure m-3">
                     <img
-                      src="Sources/images/standards/safety/Entry.png"
+                      src="Sources/images/standards/safety/01 Tool box talk.jpeg"
                       alt=""
                       style={{ height: "250px", width: "100%" }}
                     />
@@ -574,7 +574,7 @@ const Standards = () => {
                         style={{ color: "#03446a" }}
                         className="has-text-centered"
                       >
-                        <span>Entry</span>
+                        <span>Tool box talk</span>
                       </h3>
                       <a href="#"></a>
                     </div>
@@ -594,7 +594,7 @@ const Standards = () => {
                 <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
                   <figure className="figure m-3">
                     <img
-                      src="Sources/images/standards/safety/Award.jpg"
+                      src="Sources/images/standards/safety/02 Health checkup.jpeg"
                       alt=""
                       style={{ height: "250px", width: "100%" }}
                     />
@@ -603,7 +603,7 @@ const Standards = () => {
                         style={{ color: "#03446a" }}
                         className="has-text-centered"
                       >
-                        <span>Award</span>
+                        <span>Health checkup</span>
                       </h3>
                       <a href="#"></a>
                     </div>
@@ -620,7 +620,7 @@ const Standards = () => {
                 <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
                   <figure className="figure m-3">
                     <img
-                      src="Sources/images/standards/safety/Monthly EHS Inspection.jpg"
+                      src="Sources/images/standards/safety/03 Hyginic labour camp.jpeg"
                       alt=""
                       style={{ height: "250px", width: "100%" }}
                     />
@@ -630,7 +630,8 @@ const Standards = () => {
                         className="has-text-centered"
                       >
                         <span>
-                          Monthly EHS <br /> Inspection
+                          Hyginic
+                          <br /> labour camp
                         </span>
                       </h3>
                       <a href="#"></a>
@@ -652,7 +653,7 @@ const Standards = () => {
                 <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
                   <figure className="figure m-3">
                     <img
-                      src="Sources/images/standards/safety/Motivational Program.jpg"
+                      src="Sources/images/standards/safety/04 PPE's.jpg"
                       alt=""
                       style={{ height: "250px", width: "100%" }}
                     />
@@ -661,9 +662,7 @@ const Standards = () => {
                         style={{ color: "#03446a" }}
                         className="has-text-centered"
                       >
-                        <span>
-                          Motivational <br /> Program
-                        </span>
+                        <span>PPE's</span>
                       </h3>
                       <a href="#"></a>
                     </div>
@@ -682,7 +681,7 @@ const Standards = () => {
                 <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
                   <figure className="figure m-3">
                     <img
-                      src="Sources/images/standards/safety/Road Safety.png"
+                      src="Sources/images/standards/safety/05 Motivational Program.jpeg"
                       alt=""
                       style={{ height: "250px", width: "100%" }}
                     />
@@ -692,8 +691,7 @@ const Standards = () => {
                         className="has-text-centered"
                       >
                         <span>
-                          Road <br />
-                          Safety
+                          Motivational <br /> Program
                         </span>
                       </h3>
                       <a href="#"></a>
@@ -711,7 +709,7 @@ const Standards = () => {
                 <Col xxl={8} lg={8} md={12} sm={24} xs={24}>
                   <figure className="figure m-3">
                     <img
-                      src="Sources/images/standards/safety/Assembly point.jpg"
+                      src="Sources/images/standards/safety/06 Mock drill.jpeg"
                       alt=""
                       style={{ height: "250px", width: "100%" }}
                     />
@@ -720,9 +718,7 @@ const Standards = () => {
                         style={{ color: "#03446a" }}
                         className="has-text-centered"
                       >
-                        <span>
-                          Assembly <br /> Point
-                        </span>
+                        <span>Mock drill</span>
                       </h3>
                       <a href="#"></a>
                     </div>
