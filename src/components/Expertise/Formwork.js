@@ -164,64 +164,17 @@ const Formwork = () => {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/1.png" alt="" />
+                <img
+                  src="Sources/images/expertise/formwork/Handshet Alpha.png"
+                  alt=""
+                />
                 <div className="service_line">
                   <h3
                     style={{ color: "#03446a" }}
                     className="has-text-centered"
                   >
                     <span>
-                      Tower
-                      <br />
-                      Crane
-                    </span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/bp.jpg" alt="" />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>
-                      Boom <br />
-                      Placer
-                    </span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/3.png" alt="" />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>
-                      Batching
-                      <br /> Plant
+                      Handshet <br /> Alpha
                     </span>
                   </h3>
                   <a href="#"></a>
@@ -238,7 +191,7 @@ const Formwork = () => {
             >
               <figure className="figure m-3">
                 <img
-                  src="Sources/images/expertise/machinary2/DJI_0019.JPG"
+                  src="Sources/images/expertise/formwork/Eco- Speedy.png"
                   alt=""
                 />
                 <div className="service_line">
@@ -247,9 +200,8 @@ const Formwork = () => {
                     className="has-text-centered"
                   >
                     <span>
-                      RMC
-                      <br />
-                      Plant
+                      Eco <br />
+                      Speedy
                     </span>
                   </h3>
                   <a href="#"></a>
@@ -266,7 +218,57 @@ const Formwork = () => {
             >
               <figure className="figure m-3">
                 <img
-                  src="Sources/images/expertise/machinary2/DJI_0039.JPG"
+                  src="Sources/images/expertise/formwork/Eco- Speedy.png"
+                  alt=""
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>Ring Lock</span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Multi flex.jpg"
+                  alt=""
+                  style={{ height: "100%" }}
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>Multi flex</span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Material Lifter Final.jpg"
                   alt=""
                 />
                 <div className="service_line">
@@ -275,8 +277,7 @@ const Formwork = () => {
                     className="has-text-centered"
                   >
                     <span>
-                      Climbing <br />
-                      Boom Placer
+                      Material <br /> Lifter
                     </span>
                   </h3>
                   <a href="#"></a>
@@ -292,15 +293,18 @@ const Formwork = () => {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <figure className="figure m-3">
-                <img src="Sources/images/expertise/Machinery/3.png" alt="" />
+                <img
+                  src="Sources/images/expertise/formwork/Climbing Platform.jpg"
+                  alt=""
+                  style={{ height: "100%" }}
+                />
                 <div className="service_line">
                   <h3
                     style={{ color: "#03446a" }}
                     className="has-text-centered"
                   >
                     <span>
-                      Transit <br />
-                      Mixer
+                      Climbing <br /> Platform
                     </span>
                   </h3>
                   <a href="#"></a>
@@ -316,16 +320,43 @@ const Formwork = () => {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/1.png" alt="" />
+                <img
+                  src="Sources/images/expertise/formwork/Alpha deck 1.jpg"
+                  alt=""
+                  style={{ height: "100%" }}
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>Alpha deck</span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Standard Belex.png"
+                  alt=""
+                  style={{ height: "100%" }}
+                />
                 <div className="service_line">
                   <h3
                     style={{ color: "#03446a" }}
                     className="has-text-centered"
                   >
                     <span>
-                      Tower
-                      <br />
-                      Crane
+                      Standard <br /> Belex
                     </span>
                   </h3>
                   <a href="#"></a>
@@ -341,40 +372,17 @@ const Formwork = () => {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/bp.jpg" alt="" />
+                <img
+                  src="Sources/images/expertise/formwork/Alsina.jpeg"
+                  alt=""
+                  style={{ height: "100%" }}
+                />
                 <div className="service_line">
                   <h3
                     style={{ color: "#03446a" }}
                     className="has-text-centered"
                   >
-                    <span>
-                      Boom <br />
-                      Placer
-                    </span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/3.png" alt="" />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>
-                      Batching
-                      <br /> Plant
-                    </span>
+                    <span>Alsina</span>
                   </h3>
                   <a href="#"></a>
                 </div>
