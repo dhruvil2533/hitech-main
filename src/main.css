@@ -583,7 +583,7 @@ a.navbar-item.is-active,
   color: #fff;
   transition: all 0.5s;
   position: relative;
-
+  align-items: center;
   display: flex;
   transition: all 0.5s;
 }
@@ -1853,4 +1853,14 @@ hr.footerhr {
   width: 100%;
   aspect-ratio: 3/2;
   object-fit: contain;
+}
+@media (min-width: 1100px) and (max-width: 1500px) {
+  .management_card {
+    height: 400px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 3000px) {
+  .management_card {
+    height: 500px;
+  }
 }
