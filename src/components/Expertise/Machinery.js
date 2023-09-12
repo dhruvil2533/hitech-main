@@ -157,15 +157,14 @@ const Machinery = () => {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <figure className="figure m-3">
-                <img src="Sources/images/expertise/machinary2/3.png" alt="" />
+                <img src="Sources/images/expertise/machinary2/6.png" alt="" />
                 <div className="service_line">
                   <h3
                     style={{ color: "#03446a" }}
                     className="has-text-centered"
                   >
                     <span>
-                      Batching
-                      <br /> Plant
+                      Rope Suspended <br /> Platform
                     </span>
                   </h3>
                   <a href="#"></a>

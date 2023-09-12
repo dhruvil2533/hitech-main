@@ -80,9 +80,9 @@ const corevaluescard = [
   {
     icon: <DiStreamline className="is-size-1" />,
     title: "SYSTEMIC APPROACH",
-    des: "All our actions are well planned, SOPs are defined, all business processes are streamlined, having integrated systems in place for all activities for smooth co-ordination between projects and functions. We incorporate proven practices, software supported systems and technology in all our functional processes. ",
+    des: "All our actions are well planned, SOPs are defined, all business processes are streamlined, having integrated systems in place for all activities for smooth co-ordination between projects and functions. We incorporate proven practices, software supported systems and technology in all our functional processes.",
   },
-  
+
   {
     icon: <BiDonateHeart className="is-size-1" />,
     title: "CARING",
@@ -98,7 +98,6 @@ const corevaluescard = [
     title: "TRUST",
     des: "We deliver what we have committed to our clients as per timelines and as per agreed quality and safety standards. Trust means we accept people for who they are and trust them to perform their role as required.",
   },
-  
 ];
 
 const Management = () => {
