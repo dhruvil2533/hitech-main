@@ -20,8 +20,8 @@ const Machinery = () => {
         className="about_img"
         //style={{ marginLeft: window.innerWidth > 1355 ? "5%" : "" }}
       />
+      <Header />
       <section className="machinary mobile_margin">
-        <Header />
         <div className="section_padding"></div>
         <div className="container">
           <div>
