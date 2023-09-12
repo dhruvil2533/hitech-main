@@ -583,7 +583,7 @@ a.navbar-item.is-active,
   color: #fff;
   transition: all 0.5s;
   position: relative;
-  align-items: center;
+
   display: flex;
   transition: all 0.5s;
 }

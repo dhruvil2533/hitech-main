@@ -244,7 +244,10 @@ const Management = () => {
                       className="my-auto"
                       style={{ display: "flex", justifyContent: "center" }}
                     >
-                      <Card className="management_card">
+                      <Card
+                        className="management_card"
+                        style={{ height: "500px" }}
+                      >
                         <div className="has-text-centered management_icon">
                           {item.icon}
                         </div>
