@@ -165,84 +165,6 @@ const Formwork = () => {
             >
               <figure className="figure m-3">
                 <img
-                  src="Sources/images/expertise/formwork/Handshet Alpha.png"
-                  alt=""
-                />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>
-                      Handshet <br /> Alpha
-                    </span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img
-                  src="Sources/images/expertise/formwork/Eco- Speedy.png"
-                  alt=""
-                />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>
-                      Eco <br />
-                      Speedy
-                    </span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img
-                  src="Sources/images/expertise/formwork/Eco- Speedy.png"
-                  alt=""
-                />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>Ring Lock</span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img
                   src="Sources/images/expertise/formwork/Multi flex.jpg"
                   alt=""
                   style={{ height: "100%" }}
@@ -311,6 +233,84 @@ const Formwork = () => {
                 </div>
               </figure>
             </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Handshet Alpha.png"
+                  alt=""
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Handshet <br /> Alpha
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Ring Lock.png"
+                  alt=""
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>Ring Lock</span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Eco- Speedy.png"
+                  alt=""
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Eco <br />
+                      Speedy
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+
             <Col
               xxl={8}
               lg={8}
