@@ -488,7 +488,7 @@ const Footer = () => {
                     </a>
                     <a
                       className="has-text-white"
-                      href="https://www.instagram.com/hitechpplofficial/"
+                      href="https://www.instagram.com/hitech_pvt_ltd/?igshid=MzRlODBiNWFlZA%3D%3D"
                       target="blank"
                     >
                       <ImInstagram className="is-size-4 ml-3" />
