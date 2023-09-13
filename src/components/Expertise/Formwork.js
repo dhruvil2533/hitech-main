@@ -165,84 +165,6 @@ const Formwork = () => {
             >
               <figure className="figure m-3">
                 <img
-                  src="Sources/images/expertise/formwork/Multi flex.jpg"
-                  alt=""
-                  style={{ height: "100%" }}
-                />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>Multi flex</span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img
-                  src="Sources/images/expertise/formwork/Material Lifter Final.jpg"
-                  alt=""
-                />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>
-                      Material <br /> Lifter
-                    </span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img
-                  src="Sources/images/expertise/formwork/Climbing Platform.jpg"
-                  alt=""
-                  style={{ height: "100%" }}
-                />
-                <div className="service_line">
-                  <h3
-                    style={{ color: "#03446a" }}
-                    className="has-text-centered"
-                  >
-                    <span>
-                      Climbing <br /> Platform
-                    </span>
-                  </h3>
-                  <a href="#"></a>
-                </div>
-              </figure>
-            </Col>
-            <Col
-              xxl={8}
-              lg={8}
-              md={12}
-              sm={24}
-              xs={24}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <figure className="figure m-3">
-                <img
                   src="Sources/images/expertise/formwork/Handshet Alpha.png"
                   alt=""
                 />
@@ -336,6 +258,87 @@ const Formwork = () => {
                 </div>
               </figure>
             </Col>
+
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Material Lifter Final.jpg"
+                  alt=""
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Material <br /> Lifter
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Climbing Platform.jpg"
+                  alt=""
+                  style={{ height: "100%" }}
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>
+                      Climbing <br /> Platform
+                    </span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+
+            <Col
+              xxl={8}
+              lg={8}
+              md={12}
+              sm={24}
+              xs={24}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <figure className="figure m-3">
+                <img
+                  src="Sources/images/expertise/formwork/Multi flex.jpg"
+                  alt=""
+                  style={{ height: "100%" }}
+                />
+                <div className="service_line">
+                  <h3
+                    style={{ color: "#03446a" }}
+                    className="has-text-centered"
+                  >
+                    <span>Multi flex</span>
+                  </h3>
+                  <a href="#"></a>
+                </div>
+              </figure>
+            </Col>
+
             <Col
               xxl={8}
               lg={8}
