@@ -321,7 +321,7 @@ const Formwork = () => {
             >
               <figure className="figure m-3">
                 <img
-                  src="Sources/images/expertise/formwork/Alpha deck 1.jpg"
+                  src="Sources/images/expertise/formwork/Alpha dek 2.png"
                   alt=""
                   style={{ height: "100%" }}
                 />
