@@ -75,7 +75,7 @@ const Csr = () => {
                   distribution. <br />
                   <img
                     style={{ height: "300px", width: "auto" }}
-                    src="Sources/images/csr/Grocery kit.jpg"
+                    src="Sources/images/csr/Grocery Kit.jpg"
                     alt="img"
                   />
                 </li>
