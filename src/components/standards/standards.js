@@ -81,17 +81,19 @@ const Standards = () => {
               <Col xxl={12} lg={12} md={24} sm={24} xs={24}>
                 <div>
                   <p className="has-text-left">
-                    Hitech was among the first of companies of its type to
-                    achieve ISO 9001 Certification. Our success at being among
-                    the leaders in our industry is based on providing quality
-                    construction related services that exceed the needs of our
-                    customers. We achieve this success by providing an
-                    experienced and responsive team of professionals with a
-                    common goal to satisfy the customer. Our philosophy of
-                    continual Improvement is a vital element in our quest to be
-                    among the best. We continue to build upon a positive
-                    reputation in the construction industry, as we commit to
-                    quality servicing for our customers.
+                    Being among the first to achieve ISO 9001:2015
+                    Certification, Hitech sets the bar high for quality
+                    standards in construction services. Our success is rooted in
+                    a customer-centric approach, executed by a team of highly
+                    skilled professionals. We are steadfast in our commitment to
+                    continual improvement, a philosophy that keeps us at the
+                    forefront of the industry. Our reputation for quality is
+                    further bolstered by our comprehensive strategy that
+                    encompasses advanced processes, tools, and training aimed at
+                    enhancing quality issue identification and resolution. We
+                    also prioritize human factors that drive the achievement of
+                    'right the first time' quality, ensuring that our services
+                    consistently exceed customer expectations.
                   </p>
                   <div className="mt-4">
                     <li>
@@ -472,19 +474,18 @@ const Standards = () => {
               <Col xxl={12} lg={12} md={24} sm={24} xs={24} className="my-auto">
                 <div>
                   <p className="has-text-left">
-                    Hitech is dedicated to providing its employees and those of
-                    its contractors and subcontractors a safe working
-                    environment. The practice of diligence, good judgment and
-                    common sense by all project team members helps to create an
-                    environment in which the rate of incidents is substantially
-                    reduced. Since our foundation, we have been devoted to
-                    building a culture that promotes an injury-free environment.
-                    To do that, we have developed extensive training and
-                    education modules designed to minimize and eliminate
-                    personal injury, property damage and all associated costs.
-                    These ongoing programs provide our people and our partners
-                    with the knowledge and resources they need to keep
-                    themselves and each other safe.
+                    Safety is a cornerstone value at Hitech, and we are
+                    committed to offering a secure working environment for our
+                    employees as well as our contractors and subcontractors. By
+                    encouraging responsible behavior, good judgment, and due
+                    diligence, we have significantly reduced the rate of
+                    workplace incidents. From the very beginning, we have
+                    focused on creating a culture that aims for zero injuries.
+                    To realize this goal, we have implemented robust training
+                    modules that focus on preventing personal injury and
+                    property damage. These educational programs are continually
+                    updated to provide everyone involved with the resources
+                    necessary for maintaining safety.
                   </p>
                 </div>
               </Col>
@@ -746,18 +747,21 @@ const Standards = () => {
                 Training And Development
               </p>
               <p className="has-text-centered">
-                Increase competence through training on technical, managerial
-                and behavioural aspects
+                Focused on enhancing competence in technical, managerial, and
+                behavioral facets, Hitech regularly organizes training programs
+                aimed at all levels of the organization. Our objective is to
+                narrow the divide between existing proficiencies and the desired
+                skill sets. We maintain that ongoing training and development
+                are key to the continuous improvement of the organization's
+                overall performance. This commitment to development not only
+                benefits our internal team but also extends to fulfilling the
+                expectations of our external customers.
               </p>
             </div>
             <div>
-              <p className="has-text-left">
-                With the objective of filling gap between existing and desired
-                pool of knowledge, skills and competence, regular training
-                programmes are organised at all levels. We believe that with
-                training and development programmes overall performance of the
-                organization continually improves and hence its capability to
-                satisfy internal and external customers.
+              <p className="has-text-centered">
+                In summary, we consider 'Training and Development' to be an
+                endless journey towards excellence.
               </p>
               <p className="has-text-centered has-text-weight-semibold blue_color mt-5">
                 “Training and Development is a continual improvement procedure”

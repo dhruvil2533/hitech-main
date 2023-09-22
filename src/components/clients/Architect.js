@@ -69,6 +69,12 @@ const testimonial = [
     clientname: "Mr. Pilak Shah",
     clientdesignation: "Director, Harsha Engineers Ltd.",
   },
+  {
+    review:
+      "“We're happy with Hitech Projects Pvt Ltd for their exceptional work on the Shivalik Shilp 2 project. Their unwavering commitment to quality, safety, and punctuality, along with their teamwork and problem-solving skills, truly impressed us. Their internal monitoring system was key to the project's success. We wholeheartedly recommend Hitech for their outstanding contributions in the construction sector.”",
+    clientname: "Mr. Yash Brahmbhatt",
+    clientdesignation: "Founder and CEO, Shilp Group",
+  },
 ];
 const Architech = () => {
   const settings = {

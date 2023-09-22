@@ -19,7 +19,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Meta from "antd/lib/card/Meta";
-
+import img1 from "./images/quality.png";
+import img2 from "./images/team.png";
+import img3 from "./images/workforce.png";
+import img4 from "./images/construction.png";
+import img5 from "./images/completed-task.png";
+import img6 from "./images/building.png";
 import "./home.css";
 import { Carousel } from "react-responsive-carousel";
 import Header from "../header/header";
@@ -119,6 +124,38 @@ const imagegallery = [
     src: "Sources/images/gallery/9.png",
     title: "Training room",
     des: "Success in business requires: Training, Discipline, Hard Work",
+  },
+];
+const statslist = [
+  {
+    src: "Sources/images/achievements/quality.png",
+    title: "Years of Experience",
+    content: "25+",
+  },
+  {
+    src: "Sources/images/achievements/team.png",
+    title: "Team Members",
+    content: "500+",
+  },
+  {
+    src: "Sources/images/achievements/workforce.png",
+    title: "Workforce",
+    content: "3000+",
+  },
+  {
+    src: "Sources/images/achievements/construction.png",
+    title: "Total Constructed Area",
+    content: "25Mn+ Sqft",
+  },
+  {
+    src: "Sources/images/achievements/completed-task.png",
+    title: "Completed Projects",
+    content: "100+",
+  },
+  {
+    src: "Sources/images/achievements/building.png",
+    title: "Ongoing Projects",
+    content: "20+",
   },
 ];
 
@@ -292,7 +329,98 @@ const Home = () => {
           </div>
           <div className="section_padding"></div>
         </section>
+        <section className="home_achievements">
+          <p
+            className="is-size-2 has-text-weight-semibold has-text-centered mt-2"
+            style={{ color: "white" }}
+          >
+            Our Achievements
+          </p>
+          <Row
+            style={{ textAlign: "center", marginTop: "1rem" }}
+            className="container"
+          >
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img1} alt="" className="mb-4" />
 
+              <h6>Years of Experience</h6>
+              <h6>25+</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img2} alt="" className="mb-4" />
+              <h6> Team Members</h6>
+              <h6>500+</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img3} alt="" className="mb-4" />
+              <h6>Workforce</h6>
+              <h6>3000+</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img4} alt="" className="mb-4" />
+              <h6> Total Constructed Area</h6>
+              <h6>25Mn+ Sqft</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img5} alt="" className="mb-4" />
+              <h6>Completed Projects</h6>
+              <h6>100+</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img6} alt="" className="mb-4" />
+              <h6> Ongoing Projects</h6>
+              <h6>20+</h6>
+            </Col>
+          </Row>
+        </section>
         <section className="our_projects mobile_margin">
           <div className="section_padding"></div>
           <p
@@ -368,7 +496,6 @@ const Home = () => {
           </div>
           <div className="section_padding"></div>
         </section>
-
         <section>
           <div className="section_padding"></div>
           <div className="container">
@@ -407,7 +534,6 @@ const Home = () => {
           </div>
           <div className="section_padding"></div>
         </section>
-
         <section className="value_parameter">
           <div className="section_padding"></div>
           <div className="container">
@@ -463,7 +589,6 @@ const Home = () => {
           </div>
           <div className="section_padding"></div>
         </section>
-
         <section className="mobile_margin">
           <div className="section_padding"></div>
           <div className="container">

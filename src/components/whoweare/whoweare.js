@@ -128,15 +128,19 @@ const Whoweare = () => {
                       </p>
                     </div>
                     <p className=" pt-4">
-                      Established in 1996, Hitech Construction has steadily
-                      risen to become a premier construction company in
-                      Ahmedabad. Our unwavering commitment to excellence,
-                      customer satisfaction, and our strong focus on
-                      environmental, health, and safety (EHS) standards have
-                      earned us a reputation as one of the most efficient and
-                      reliable construction firms in the region. <br />
-                      At Hitech, we pride ourselves on our diverse portfolio,
-                      which encompasses:
+                      Since its inception in 1996, Hitech has been a cornerstone
+                      in Ahmedabad's construction industry. With certifications
+                      like ISO 9001:2015 and ISO 45001, we set the bar high for
+                      quality and safety. Our portfolio is diverse, covering
+                      industrial constructions, residential developments,
+                      commercial properties, and institutional buildings. We are
+                      honored to be classified as a 'AA' special category - I
+                      (Buildings) contractor by the Government of Gujarat. Our
+                      mission is to create enduring partnerships and
+                      transformative projects that stand as testaments to our
+                      commitment to excellence. We believe in not just building
+                      structures, but also in building relationships and
+                      communities.
                     </p>
                     <div className="mt-5">
                       {/* <li>
@@ -204,7 +208,7 @@ const Whoweare = () => {
               Our Achievements
             </p>
             {
-              <Row gutter={[8, 8]}>
+              <Row>
                 {statslist.map((item, key) => (
                   <Col xxl={6} xl={8} lg={12} md={12} sm={24} xs={24} key={key}>
                     <div className="property_list">
@@ -571,10 +575,9 @@ const Whoweare = () => {
                             </div>
                             <div>
                               <p className="is-size-6 has-text-black mt-3">
-                                Association with leading real estate developer
-                                H.N.Saral. 5 million sqft built for them over
-                                the years for their various large scale
-                                projects.
+                                2010 Association with leading real estate
+                                developer H.N.Safal. 5 million sqft built for
+                                them over the
                               </p>
                             </div>
                           </div>

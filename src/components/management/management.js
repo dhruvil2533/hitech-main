@@ -19,7 +19,7 @@ const coremanagment = [
     coredes: "Co-founder",
     coreedu: "(B.Tech, Civil, CEPT)",
     corepara:
-      "Having 29+ years of rich experience in management and execution of civil construction , he has utilized his expertise and innovative technologies to achieve excellent quality of works in every project within agreed time schedule. His integrity, knowledge and business ethics has taken this company to the remarkable position in construction industry. His responsiveness and the way to conduct the business is appreciable.",
+      "With a robust 29+ years of experience in civil construction management and execution, he has harnessed his specialized knowledge and innovative technologies to consistently deliver top-quality projects on time. His commitment to integrity, deep industry knowledge, and ethical business practices have been instrumental in securing the company's outstanding reputation in the construction field. His approach to business, marked by responsiveness, is highly commendable.",
   },
   {
     src: "Sources/images/management/team/2.png",
@@ -27,7 +27,7 @@ const coremanagment = [
     coredes: "Co-founder",
     coreedu: "(M.S, Civil, USA)",
     corepara:
-      "He is technically very competent and highly professional. Having more than 29+ years of experience in management and execution of civil construction, including 5 years of experience in USA. Armed with an international exposure of best practices and latest know-how, his dream has been to transform the perception of construction businesses in India by making Hitech the symbol of professional integrity.",
+      "With a technical prowess and high level of professionalism, he boasts over 29 years of experience in civil construction management and execution, including 5 transformative years in the USA. His international exposure to best practices and the latest methodologies fuels his ambition to elevate Hitech as a symbol of professional integrity in India's construction landscape. A strong proponent of technology, he is determined to utilize it to the maximum extent to innovate and advance the construction industry in India.",
   },
   // {
   //   src: "Sources/images/management/team/3.png",
@@ -43,7 +43,7 @@ const coremanagment = [
     coredes: "DGM",
     coreedu: "(B.E Civil)",
     corepara:
-      "He is having beyond 25+ years of rich experience in execution of residential, commercial and industrial civil construction. During his tenure he has worked with reputed companies like JMC, K Raheja corp., Arvind Group. etc. He is associated with Hitech since last six years. He is technically sound along with expertise to execute project in time as well as with good quality. His strong network helps company to enhance resources as well as fast mobilization of project.",
+      "With over 25 years of extensive experience in the civil construction sector, he has successfully executed a diverse portfolio of residential, commercial, and industrial projects. His tenure includes collaborations with reputable companies such as JMC, K Raheja Corp., and Arvind Group. As a key member of Hitech family, he has showcased technical proficiency, an ability to meet deadlines, and a commitment to quality. His well-established network has been a boon for the company, aiding in resource enhancement and rapid project mobilization.",
   },
   {
     src: "Sources/images/management/team/5.png",
@@ -51,7 +51,7 @@ const coremanagment = [
     coredes: "AGM",
     coreedu: "(B.E Civil)",
     corepara:
-      "He is having more than 23+ years of rich experience in execution of Industrial, Institutional and large scale high end residential projects. Each projects executed by him are monuments for our company. He is associated with Hitech since 2008. His knowledge and expertise of finishing creates a different benchmarks. His strong knowledge of project planning helps to complete all projects on time.",
+      "With an illustrious career spanning over 23 years, he has specialized in the execution of industrial, institutional, and large-scale high-end residential projects. Each project he has overseen stands as a testament to our company's excellence. A dedicated member of the Hitech team since 2008, his expertise in finishing sets new industry benchmarks. His profound understanding of project planning ensures the timely completion of all undertakings.",
   },
 ];
 const managementcard = [
@@ -180,12 +180,12 @@ const Management = () => {
                   className="my-auto"
                 >
                   <p className="has-text-left">
-                    Hitech's team shares the same common values as their
-                    clients: Service, Detail, Experience, Integrity, and
-                    Quality. Our team has been recognized as collaborators and
-                    individuals for excellence in construction, thought
-                    leadership, and professional growth. Without our team, we
-                    wouldn't be here today.
+                    Sharing a common ethos of Service, Detail, Experience,
+                    Integrity, and Quality with our clients, the Hitech team has
+                    been lauded for their collaborative spirit and individual
+                    excellence in construction, thought leadership, and career
+                    advancement. Their role is pivotal to Hitech's current
+                    position and ongoing success.
                   </p>
                   <br />
                   {/* <p className="has-text-left">

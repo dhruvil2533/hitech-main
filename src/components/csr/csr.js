@@ -28,10 +28,15 @@ const Csr = () => {
           <div className="container">
             <div>
               <p className="is-size-5 mt-3">
-                Hitech has always been a firm believer in giving back to the
-                community, and has therefore consistently committed resources to
-                doing its part for the welfare of the society. Below are some of
-                our corporate social responsibility initiatives.
+                Hitech takes its role as a socially responsible corporate
+                citizen seriously, with a strong commitment to contributing to
+                the well-being of the community. We allocate resources
+                diligently to make a meaningful impact on society. Our corporate
+                social responsibility (CSR) initiatives are designed to address
+                various societal needs, from education and healthcare to
+                environmental sustainability. These programs reflect our core
+                values and our dedication to making a positive difference in the
+                lives of those around us.
               </p>
               <div className="mt-5" style={{ marginLeft: "3%" }}>
                 <li>Education for construction worker children</li>
@@ -52,32 +57,32 @@ const Csr = () => {
                 <br />
                 <li>
                   Regular medical, eye checkup camps at labour colonies . <br />
-                  <img
+                  {/* <img
                     style={{ height: "300px", width: "auto" }}
                     src="Sources/images/csr/Aids Awareness.jpeg"
                     alt="img"
-                  />
+                  /> */}
                 </li>
 
                 <br />
                 <li>
                   Workshops on AIDS, tobacco and alcohol awareness. <br />
-                  <img
+                  {/* <img
                     style={{ height: "300px", width: "auto" }}
                     src="Sources/images/csr/Medical Checkup.jpeg"
                     alt="img"
-                  />
+                  /> */}
                 </li>
 
                 <br />
                 <li>
                   Malnutrition related awareness and nutrition grocery kit
                   distribution. <br />
-                  <img
+                  {/* <img
                     style={{ height: "300px", width: "auto" }}
                     src="Sources/images/csr/Grocery Kit.jpg"
                     alt="img"
-                  />
+                  /> */}
                 </li>
                 <li>
                   Support for Gramsetu (Meghraj, Arravali District) initiative
@@ -112,6 +117,189 @@ const Csr = () => {
                 </Row> */}
               </div>
             </div>
+          </div>
+          <div className="container">
+            <Row
+              style={{ display: "flex", justifyContent: "center" }}
+              className="csr_grid"
+            >
+              <Col
+                xxl={6}
+                lg={6}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <figure className="figure m-3">
+                  <img src="Sources/images/csr/CSR/1.png" alt="" />
+                  <div className="service_line">
+                    <h3
+                      style={{ color: "#03446a" }}
+                      className="has-text-centered"
+                    >
+                      <span>
+                        Education for construction <br /> workers children
+                      </span>
+                    </h3>
+                    <a href="#"></a>
+                  </div>
+                </figure>
+              </Col>
+              <Col
+                xxl={6}
+                lg={6}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <figure className="figure m-3">
+                  <img src="Sources/images/csr/CSR/2.png" alt="" />
+                  <div className="service_line">
+                    <h3
+                      style={{ color: "#03446a" }}
+                      className="has-text-centered"
+                    >
+                      <span>Regular health check-up camps </span>
+                    </h3>
+                    <a href="#"></a>
+                  </div>
+                </figure>
+              </Col>
+              <Col
+                xxl={6}
+                lg={6}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <figure className="figure m-3">
+                  <img src="Sources/images/csr/CSR/3.png" alt="" />
+                  <div className="service_line">
+                    <h3
+                      style={{ color: "#03446a" }}
+                      className="has-text-centered"
+                    >
+                      <span>Nutritional grocery kit distribution</span>
+                    </h3>
+                    <a href="#"></a>
+                  </div>
+                </figure>
+              </Col>
+
+              <Col
+                xxl={6}
+                lg={6}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <figure className="figure m-3">
+                  <img src="Sources/images/csr/CSR/4.png" alt="" />
+                  <div className="service_line">
+                    <h3
+                      style={{ color: "#03446a" }}
+                      className="has-text-centered"
+                    >
+                      <span>AIDS, Tobacco awareness camp</span>
+                    </h3>
+                    <a href="#"></a>
+                  </div>
+                </figure>
+              </Col>
+
+              <Col
+                xxl={6}
+                lg={6}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <figure className="figure m-3">
+                  <img src="Sources/images/csr/CSR/5.jpg" alt="" />
+                  <div className="service_line">
+                    <h3
+                      style={{ color: "#03446a" }}
+                      className="has-text-centered"
+                    >
+                      <span>Holistic village development</span>
+                    </h3>
+                    <a href="#"></a>
+                  </div>
+                </figure>
+              </Col>
+              <Col
+                xxl={6}
+                lg={6}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <figure className="figure m-3">
+                  <img src="Sources/images/csr/CSR/6.jpg" alt="" />
+                  <div className="service_line">
+                    <h3
+                      style={{ color: "#03446a" }}
+                      className="has-text-centered"
+                    >
+                      <span>
+                        Holistic Village Development - Women Empowerment
+                      </span>
+                    </h3>
+                    <a href="#"></a>
+                  </div>
+                </figure>
+              </Col>
+
+              <Col
+                xxl={6}
+                lg={6}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <figure className="figure m-3">
+                  <img src="Sources/images/csr/CSR/7.jpg" alt="" />
+                  <div className="service_line">
+                    <h3
+                      style={{ color: "#03446a" }}
+                      className="has-text-centered"
+                    >
+                      <span>Safe Haven for stray dogs</span>
+                    </h3>
+                    <a href="#"></a>
+                  </div>
+                </figure>
+              </Col>
+
+              <Col
+                xxl={6}
+                lg={6}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <figure className="figure m-3">
+                  <img src="Sources/images/csr/CSR/8.jpg" alt="" />
+                  <div className="service_line">
+                    <h3
+                      style={{ color: "#03446a" }}
+                      className="has-text-centered"
+                    >
+                      <span></span>
+                    </h3>
+                    <a href="#"></a>
+                  </div>
+                </figure>
+              </Col>
+            </Row>
           </div>
           <div className="section_padding"></div>
         </section>
