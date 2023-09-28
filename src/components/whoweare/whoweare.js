@@ -128,7 +128,7 @@ const Whoweare = () => {
                       </p>
                     </div>
                     <p className=" pt-4">
-                      Since its inception in 1996, Hitech has been a cornerstone
+                      {/* Since its inception in 1996, Hitech has been a cornerstone
                       in Ahmedabad's construction industry. With certifications
                       like ISO 9001:2015 and ISO 45001, we set the bar high for
                       quality and safety. Our portfolio is diverse, covering
@@ -137,6 +137,20 @@ const Whoweare = () => {
                       honored to be classified as a 'AA' special category - I
                       (Buildings) contractor by the Government of Gujarat. Our
                       mission is to create enduring partnerships and
+                      transformative projects that stand as testaments to our
+                      commitment to excellence. We believe in not just building
+                      structures, but also in building relationships and
+                      communities. */}
+                      Since its inception in 1996, Hitech has been a cornerstone
+                      in Ahmedabad's construction industry. With certifications
+                      like ISO 9001:2015 and ISO 45001, we set the bar high for
+                      quality and safety. Our portfolio is diverse, covering
+                      industrial constructions, residential developments,
+                      commercial properties, and institutional buildings. <br />
+                      <br />
+                      We are honored to be classified as a 'AA' special category
+                      - I (Buildings) contractor by the Government of Gujarat.
+                      Our mission is to create enduring partnerships and
                       transformative projects that stand as testaments to our
                       commitment to excellence. We believe in not just building
                       structures, but also in building relationships and
@@ -158,11 +172,11 @@ const Whoweare = () => {
                       trained professionals, Hitech is capable of responding to
                       complex challenges.
                     </li> */}
-                      <li>Industrial Structures</li>
+                      {/* <li>Industrial Structures</li>
                       <li>Residential Buildings</li>
                       <li>Commercial Buildings</li>
                       <li>Institutional &amp; Other Buildings</li>
-                      <br />
+                      <br /> */}
                     </div>
                     {/* Our dedication to delivering high-quality projects on time has
                   led to obtaining the ISO 9001 certification for quality
@@ -172,11 +186,11 @@ const Whoweare = () => {
                   recognized as a &#39;AA&#39; class special category - I
                   (Buildings) by the Govt. of Gujarat. <br /> */}
                     {/* <br /> */}
-                    We believe in forging lasting partnerships with our clients
+                    {/* We believe in forging lasting partnerships with our clients
                     to create landmark projects that contribute to long-term
                     progress and economic growth. Over the years, we have
                     successfully completed numerous extraordinary projects, many
-                    of which were groundbreaking in their own right.
+                    of which were groundbreaking in their own right. */}
                   </div>
                 </Col>
                 <Col
@@ -457,7 +471,7 @@ const Whoweare = () => {
               <div>
                 <p className="is-size-4 timeline_year">2003</p>
                 <Row>
-                  <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                  <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
                     <div className="space-align-container">
                       <div className="space-align-block">
                         <Space
@@ -491,7 +505,7 @@ const Whoweare = () => {
                 <p className="is-size-4 timeline_year">2007</p>
                 <div className="space-align-container">
                   <Row>
-                    <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                    <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
                       <div className="space-align-block">
                         <Space
                           align="center"
@@ -559,7 +573,7 @@ const Whoweare = () => {
                 <p className="is-size-4 timeline_year">2010</p>
                 <div className="space-align-container">
                   <Row>
-                    <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                    <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
                       <div className="space-align-block">
                         <Space
                           align="center"
@@ -575,9 +589,9 @@ const Whoweare = () => {
                             </div>
                             <div>
                               <p className="is-size-6 has-text-black mt-3">
-                                2010 Association with leading real estate
-                                developer H.N.Safal. 5 million sqft built for
-                                them over the
+                                Association with leading real estate developer
+                                H.N.Safal. 5 million sqft built for them over
+                                the
                               </p>
                             </div>
                           </div>
@@ -630,7 +644,7 @@ const Whoweare = () => {
                 <p className="is-size-4 timeline_year">2015</p>
                 <div className="space-align-container">
                   <Row>
-                    <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                    <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
                       <div className="space-align-block">
                         <Space
                           align="center"
@@ -701,7 +715,7 @@ const Whoweare = () => {
                 <p className="is-size-4 timeline_year">2017</p>
                 <div className="space-align-container">
                   <Row>
-                    <Col xxl={15} lg={17} md={24} sm={24} xs={24}>
+                    <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
                       <div className="space-align-block">
                         <Space
                           align="center"
@@ -717,10 +731,9 @@ const Whoweare = () => {
                             </div>
                             <div>
                               <p className="is-size-6 has-text-black mt-3">
-                                Association with Sharanam group for their
-                                various commercial projects.
-                                <br /> 1.5 million sqft built for them in
-                                Several years
+                                Association with Sharnam group for their
+                                commercial projects. 1.5 million sqft built for
+                                them in several years
                               </p>
                             </div>
                           </div>
@@ -790,7 +803,7 @@ const Whoweare = () => {
                               <p className="is-size-6 has-text-black mt-3">
                                 Won 3 ICI- Ultratech Awards at State & Regional
                                 level in different categories for outstanding
-                                structures.
+                                structures
                               </p>
                             </div>
                           </div>
@@ -842,7 +855,7 @@ const Whoweare = () => {
                 <p className="is-size-4 timeline_year">2022</p>
                 <div className="space-align-container">
                   <Row>
-                    <Col xxl={20} lg={17} md={24} sm={24} xs={24}>
+                    <Col xxl={12} lg={17} md={24} sm={24} xs={24}>
                       <div className="space-align-block">
                         <Space
                           align="center"
@@ -858,8 +871,9 @@ const Whoweare = () => {
                             </div>
                             <div>
                               <p className="is-size-6 has-text-black mt-3">
-                                Moved to state of the art office premises of
-                                25000 sqft
+                                Moved to state-of-the-art office premises of
+                                25,000 sqft at Westgate Business Bay, S. G.
+                                Highway
                               </p>
                             </div>
                           </div>
@@ -887,14 +901,13 @@ const Whoweare = () => {
                           <div>
                             <div>
                               <img
-                                src="Sources/images/milestone/12.png"
+                                src="Sources/images/prouctlist/commercial/ongoing/1-3.png"
                                 alt="404 - Not Given"
                               />
                             </div>
                             <p className="is-size-6 has-text-black mt-3">
-                              Started projects with Reliance IndutriesLtd at
-                              Jamnagar. Added concrete boom placer in the feet
-                              of P&M equipment.
+                              Begged several iconic projects like Regalia &
+                              Flexone at GIFT city, Gandhinagar.
                             </p>
                           </div>
                         </Space>

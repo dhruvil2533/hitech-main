@@ -84,6 +84,7 @@ const Csr = () => {
                     alt="img"
                   /> */}
                 </li>
+                <br />
                 <li>
                   Support for Gramsetu (Meghraj, Arravali District) initiative
                   by Dreams Foundation.
@@ -95,6 +96,7 @@ const Csr = () => {
                 </li>
                 <br />
                 <li>Support for stray animal welfare.</li>
+                <br />
                 {/* <Row style={{ display: "flex", justifyContent: "center" }}>
                   <Col xxl={6} lg={8} md={12} sm={24} xs={24} className="m-2">
                     <img src="Sources/images/csr/1.jpg" />
@@ -247,9 +249,7 @@ const Csr = () => {
                       style={{ color: "#03446a" }}
                       className="has-text-centered"
                     >
-                      <span>
-                        Holistic Village Development - Women Empowerment
-                      </span>
+                      <span>Women Empowerment</span>
                     </h3>
                     <a href="#"></a>
                   </div>
@@ -271,7 +271,7 @@ const Csr = () => {
                       style={{ color: "#03446a" }}
                       className="has-text-centered"
                     >
-                      <span>Safe Haven for stray dogs</span>
+                      <span>Holistic Village Development</span>
                     </h3>
                     <a href="#"></a>
                   </div>
@@ -293,7 +293,7 @@ const Csr = () => {
                       style={{ color: "#03446a" }}
                       className="has-text-centered"
                     >
-                      <span></span>
+                      <span>Safe Haven for stray dogs</span>
                     </h3>
                     <a href="#"></a>
                   </div>
