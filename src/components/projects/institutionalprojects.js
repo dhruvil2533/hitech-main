@@ -11,12 +11,13 @@ const institutionalprojectslist = [
     segment: "Education",
     client: "Utthan Sewa Trust",
     location: "Sanand, Ahmedabad",
-    projectSize: "349,062",
+    projectSize: "349,062 Sq. ft.",
+    projectDes: "8 Floors, 43 Meters",
     projectYear: "2022 ",
     architect: "Kakani Associates",
     consultant: "DELF Consulting Engineers (India) Private Limited",
     scope:
-      "Civil works, Masonry & Plaster, Printing, Flooring and Waterproofing",
+      "RCC Framework, Masonry ,Plaster,Flooring Work,Waterproofing Work, Painting Work.",
   },
 ];
 const institutionalprojectscompleted = [
@@ -28,11 +29,12 @@ const institutionalprojectscompleted = [
     segment: "Corporate",
     client: "Shri Mahavir Jain Aradhana Kendra, Koba (SMJAK Trust)",
     location: "Koba, Gandhinagar",
-    projectSize: "1,00,000 Sqft.",
+    projectSize: "1,00,000 Sq. ft.",
+    projectDes: "16 Meters",
     projectYear: "2022",
     architect: "SJK Architects",
     consultant: "Global Engineering Services",
-    scope: "Civil, Structural and Finishing works for Museum Building",
+    scope: "RCC Framework,Structural Work , Finishing Work.",
   },
 
   {
@@ -43,12 +45,12 @@ const institutionalprojectscompleted = [
     segment: "Residential",
     client: "JITO Ahmedabad Educational Trust",
     location: "CG Road, Ahmedabad",
-    projectSize: "37,200 Sq. ft. ( B+G+5 Floors)",
+    projectSize: "37,200 Sq. ft.",
+    projectDes: "5 Floors, 24 Meters",
     projectYear: "2022",
     architect: "PVDRS, Ahmedabad",
     consultant: "P-CUBE Consultant",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Residential Building of B+G+5 storey. ",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/Institutional_projects/completed/lubi corporate.jpg",
@@ -57,12 +59,12 @@ const institutionalprojectscompleted = [
     segment: "Corporate",
     client: "Lubi Industries LLP",
     location: "Tragad, Ahmedabad",
-    projectSize: "1,68,400 Sq. ft. (2B+G+7 Floors)",
+    projectSize: "1,68,400 Sq. ft.",
+    projectDes: "7 Floors, 36 Meters",
     projectYear: "2022",
     architect: "DSP Design Associates",
     consultant: "KMH Engineering",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Corporate House of 2B+G+7 Storey.",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/Institutional_projects/completed/2.png",
@@ -72,11 +74,12 @@ const institutionalprojectscompleted = [
     segment: "Education",
     client: "Anand Niketan",
     location: "Sindhu Bhavan road, Ahmedabad",
-    projectSize: "50,000 Sqft.",
+    projectSize: "50,000 Sq. ft.",
+    projectDes: "4 Floors, 20 Meters",
     projectYear: "2015",
     architect: "Kakani Associates",
     consultant: "Himanshu Parikh Consulting Engineers",
-    scope: "Civil Structure Work, Finishing & Services",
+    scope: "RCC Framework,Structural Work , Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/Institutional_projects/completed/3.png",
@@ -85,12 +88,12 @@ const institutionalprojectscompleted = [
     segment: "Healthcare",
     client: "Narayana Hrudalaya Hospital",
     location: "Rakhial, Ahmedabad",
-    projectSize: "2,00,000 Sqft.",
+    projectSize: "2,00,000 Sq. ft.",
+    projectDes: "4 Floors, 20 Meters",
     projectYear: "2011",
     architect: "Shapoorji Pallonji & Co. Ltd, Umesh & Co.",
     consultant: "Umesh & Co",
-    scope:
-      "RCC Frame Str. B+G+4 Stories Civil work including excavation and back filling, RCC, Brick work, and Plaster work for Hospital Building.",
+    scope: "Earthwork,RCC Framework,Masonry, Plaster.",
   },
 ];
 
@@ -290,6 +293,14 @@ const Institutionalprojects = () => {
                             <div className="pt-3">
                               <p className="is-size-6">
                                 <span className="has-text-weight-semibold">
+                                  Project Size:&nbsp;
+                                </span>
+                                {item.projectDes}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
                                   Project Year:&nbsp;
                                 </span>
                                 {item.projectYear}
@@ -378,6 +389,14 @@ const Institutionalprojects = () => {
                                   Project Size:&nbsp;
                                 </span>
                                 {item.projectSize}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Project Size:&nbsp;
+                                </span>
+                                {item.projectDes}
                               </p>
                             </div>
                             <div className="pt-3">

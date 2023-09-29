@@ -11,9 +11,10 @@ const industriallist = [
     location: "Katargam, Surat",
     architect: "Munjal Bhatt Architects",
     consultant: "S3M Design Consultants LLP",
-    projectSize: "111,000  Sqft.",
+    projectSize: "111,000  Sq. ft.",
+    projectDes: "30 Meters",
     projectYear: "2022-Current",
-    scope: "Civil, Plumbing and Finishing works for Torrent B station",
+    scope: "RCC Framework, Plumbing, Finishing Work.",
   },
 ];
 const industrialcompleted = [
@@ -24,11 +25,12 @@ const industrialcompleted = [
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its Power supply center, TSD Workshop, Plug point and other applied work at 'E' station premises, Varachha Surat.",
     client: "Torrent Power Ltd",
     location: "Varachha, Surat",
-    projectSize: "50,000 SQFT.",
+    projectSize: "50,000 Sq. ft.",
+    projectDes: "25.44 Meters",
     projectYear: "2022-Current",
     architect: "Munjal Bhatt",
     consultant: "S3M Design Consultants LLP",
-    scope: "Civil Structure Work",
+    scope: "RCC Framework, Plumbing, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/4.png",
@@ -37,11 +39,13 @@ const industrialcompleted = [
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its HT PSC building and meter Lab building at Naranpura, Ahmedabad.",
     client: "Torrent Power Ltd",
     location: "NARANPURA",
-    projectSize: "1,70,000 SQFT.",
+    projectSize: "1,70,000 Sq. ft.",
+    projectDes: "45 Meters",
+
     projectYear: "2022-Current",
     architect: "Munjal Bhatt",
     consultant: "Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work with all services",
+    scope: "RCC Framework, Plumbing, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/5.png",
@@ -50,11 +54,12 @@ const industrialcompleted = [
       "Torrent power, one of the largest integrated private sector power utilities in the country, is coming up with its PSC building And Plug point building at Odhav.",
     client: "Torrent Power Ltd",
     location: "Odhav, Gujarat",
-    projectSize: "1,10,000 SQFT.",
+    projectSize: "1,10,000 Sq. ft.",
+    projectDes: "25.44 Meters",
     projectYear: "2022-Current",
     architect: "Munjal Bhatt",
     consultant: " Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work with all services",
+    scope: "RCC Framework, Plumbing, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/1.png",
@@ -64,11 +69,12 @@ const industrialcompleted = [
     client: "Torrent Power Ltd",
     location: "Dholera, Gujarat",
     segment: "Industrial",
-    projectSize: "75,000 Sqft.",
+    projectSize: "75,000 Sq. ft.",
+    projectDes: "15 Meters",
     projectYear: "2022",
     architect: "Munjal Bhatt Architects",
     consultant: "TCS",
-    scope: "Civil And Structural Works with Electrical services",
+    scope: "Structural Work , RCC Framework , Electrical Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/2.png",
@@ -78,11 +84,13 @@ const industrialcompleted = [
     segment: "Industrial",
     client: "Finecure Pharmaceuticals Ltd",
     location: "Arvind Megapark, Changodar",
-    projectSize: "35,000 Sqft.",
+    projectSize: "35,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2019",
     architect: "N.K.Shah",
     consultant: "N.K.Shah",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/3.png",
@@ -92,11 +100,12 @@ const industrialcompleted = [
     segment: "Industrial",
     client: "Harsha Engineers Ltd.",
     location: "Chandgodar, Ahmedabad",
-    projectSize: " 50,000 Sqft.",
+    projectSize: " 50,000 Sq. ft.",
+    projectDes: "12 Meters",
     projectYear: "2019",
     architect: "VMS Engineering And Design Services Pvt. Ltd.",
     consultant: "VMS Engineering And Design Services Pvt. Ltd.",
-    scope: "Civil Structure Work, Finishing",
+    scope: "Structural Work RCC Framework, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/4.png",
@@ -106,11 +115,13 @@ const industrialcompleted = [
     segment: "Furnace Plant",
     client: " High Temp Furnaces Ltd",
     location: "Sanand, Gujarat",
-    projectSize: "1,00,000 Sqft.",
+    projectSize: "1,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2018",
     architect: "M/s VBT Consortium",
     consultant: "Base Engineering Services",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/5.png",
@@ -120,11 +131,13 @@ const industrialcompleted = [
     segment: "Automotive",
     client: "Technico Industries Ltd.",
     location: "Vanod, Surendranagar",
-    projectSize: "1,00,000 Sqft.",
+    projectSize: "1,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2018",
     architect: "S3M Design Consultants LLP",
     consultant: "S3M Design Consultants LLP",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/6.png",
@@ -134,11 +147,13 @@ const industrialcompleted = [
     segment: "Disposable Diaper Plant",
     client: "Kajima India Pvt Ltd",
     location: "Sanand, Gujarat",
-    projectSize: "7,00,000 Sqft.",
+    projectSize: "7,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2018",
     architect: "Kajima India Pvt Ltd.",
     consultant: "Kajima India Pvt Ltd.",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/7.png",
@@ -148,11 +163,13 @@ const industrialcompleted = [
     segment: "Automotive",
     client: "JBM Auto System Pvt. Ltd.",
     location: "Sanand, Gujarat",
-    projectSize: "2,00,000 Sqft.",
+    projectSize: "2,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2015",
     architect: "VMS Engineering Consultant",
     consultant: "VMS Engineering Consultant",
-    scope: "Civil Structure Work, Finishing And Services",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   // {
   //   src: "Sources/images/prouctlist/industrial/completed/7.png",
@@ -176,11 +193,13 @@ const industrialcompleted = [
     segment: "Food Industry",
     client: "Urmin Product Pvt. Ltd..",
     location: "Sari, Ahmedabad",
-    projectSize: "1,00,000 .",
+    projectSize: "1,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2017",
     architect: "Taknik Consultants, Ahmedabad",
     consultant: "Taknik Consultants",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/9.png",
@@ -190,11 +209,13 @@ const industrialcompleted = [
     segment: "Food Industry",
     client: "Urmin Product Pvt. Ltd..",
     location: "Bavla, Ahmedabad",
-    projectSize: "80,000 SQFT.",
+    projectSize: "80,000 Sq. ft.",
+    projectDes: "1 Floor",
     projectYear: "2016",
     architect: "Taknik Consultants, Ahmedabad",
     consultant: "Taknik Consultants",
-    scope: "Civil Structure Work, Finishing And Services",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/10.png",
@@ -204,11 +225,13 @@ const industrialcompleted = [
     segment: "Automotive",
     client: "Nirmiti Precision Pvt. Ltd..",
     location: "Sanand, Ahmedabad",
-    projectSize: "1,00,000 Sqft.",
+    projectSize: "1,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2016",
     architect: "L. J. Purani Architect, Ahmedabad",
     consultant: " L. J. Purani Architect",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/11.png",
@@ -218,11 +241,13 @@ const industrialcompleted = [
     segment: "Automotive",
     client: "Reliable Auto System Pvt. Ltd",
     location: "Sanand, Ahmedabad",
-    projectSize: "1,00,000 Sqft.",
+    projectSize: "1,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2016",
     architect: " M. R. Fegde And Associate, Nasik",
     consultant: "Chhaya Consulting Engineers",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
 
   {
@@ -232,12 +257,14 @@ const industrialcompleted = [
       "A high level of economy was achieved in the development of this project and was benchmarked by TATA Motors for similar projects in future.",
     segment: "Automotive",
     client: "TATA Motors",
-    projectSize: "2,50,000 Sqft.",
+    projectSize: "2,50,000 Sq. ft.",
+    projectDes: "-",
     location: "Sanand, Gujarat",
     projectYear: "2008",
     architect: "Tata Motors",
     consultant: "Tata Motors",
-    scope: " Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/14.png",
@@ -247,11 +274,13 @@ const industrialcompleted = [
     segment: "Hydraulic Plant",
     client: "Jekson Hydraulics",
     location: "Changodar, Ahmedabad",
-    projectSize: "70,000 Sqft.",
+    projectSize: "70,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2009",
     architect: "N.K. Shah Consulting Engineers LLP",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/15.png",
@@ -261,11 +290,13 @@ const industrialcompleted = [
     segment: " Mechanical Plant",
     client: "Harsha Engineers Pvt. Ltd",
     location: "Sanand, Gujarat",
-    projectSize: "22,000 Sqft.",
+    projectSize: "22,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2008",
     architect: "SMPS, Ahmedababad",
     consultant: "SMPS, Ahmedababad",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   {
     src: "Sources/images/prouctlist/industrial/completed/16.png",
@@ -275,11 +306,13 @@ const industrialcompleted = [
     segment: "Logistics Warehouse Plant",
     client: "Safexpress Warehouse",
     location: "Changodar, Ahmedabad",
-    projectSize: "75,000 Sqft.",
+    projectDes: "-",
+    projectSize: "75,000 Sq. ft.",
     projectYear: "2009",
     architect: "CivTech Consultants",
     consultant: "CivTech Consultants",
-    scope: "Civil, Structural, Finishing, Services and Infrastructural Work",
+    scope:
+      "Structural Work , RCC Framework , Finishing Work , Infrastructural Work.",
   },
   //  {
   //   src: "Sources/images/prouctlist/commercial/ongoing/2.png",
@@ -426,6 +459,14 @@ const Industrial = () => {
                             <div className="pt-3">
                               <p className="is-size-6">
                                 <span className="has-text-weight-semibold">
+                                  Project Size:&nbsp;
+                                </span>
+                                {item.projectDes}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
                                   Project Year:&nbsp;
                                 </span>
                                 {item.projectYear}
@@ -515,6 +556,14 @@ const Industrial = () => {
                                   Project Size:&nbsp;
                                 </span>
                                 {item.projectSize}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Project Size:&nbsp;
+                                </span>
+                                {item.projectDes}
                               </p>
                             </div>
                             <div className="pt-3">

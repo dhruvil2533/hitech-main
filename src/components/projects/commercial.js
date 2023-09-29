@@ -10,11 +10,11 @@ const commerciallist = [
     client: "SHARANAM SQUARE LLP",
     location: "Khokhara, Ahmedabad",
     projectSize: "275,000 Sq. ft.",
+    projectDes: "2 Floors, 12 Meters",
     projectYear: "2022-Current",
     architect: "99 Studio",
     consultant: "Shreeji Consultant",
-    scope:
-      "Civil Construction with Finishing Work of commercial building of B+G+2 storey (2 Blocks).",
+    scope: "RCC Framework, Masonry ,Plaster,Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1-3.png",
@@ -23,10 +23,11 @@ const commerciallist = [
     client: "Nakshatra Infracon",
     location: "GIFT City, Gandhinagar",
     projectSize: "526,000 Sq. ft.",
+    projectDes: "29 Floors, 122 Meters",
     projectYear: "2022-Current",
     architect: "Neha Consultants",
     consultant: "J W Consultants LLP",
-    scope: "Civil works, Masonry & Plaster, and Waterproofing.",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1-1.jpg",
@@ -35,11 +36,11 @@ const commerciallist = [
     client: "The Building Company",
     location: "Adajan, Surat",
     projectSize: "159,174 Sq. ft.",
+    projectDes: "10 Floors, 45 Meters",
     projectYear: "2022-Current",
     architect: "Tathastu",
     consultant: "SNV Engineers",
-    scope:
-      "Construction of 02 Basement + G.F +10 levels of Commercial Building. RCC core and Shell work along with Masonry and Plaster",
+    scope: " RCC Framework, Masonry,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1-4.png",
@@ -48,10 +49,11 @@ const commerciallist = [
     client: "Waystar Properties LLP",
     location: "GIFT City, Gandhinagar",
     projectSize: "563,000 Sq. ft.",
+    projectDes: "20 Floors, 90 Meters",
     projectYear: "2022-Current",
     architect: "Studio ARA",
     consultant: "N K Shah Consulting LLP",
-    scope: "Civil Structure (Core & Shell) and Finishing works.",
+    scope: " RCC Framework, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/commercial/ongoing/1-5.JPEG",
@@ -61,11 +63,11 @@ const commerciallist = [
     location: "Khokhara, Ahmedabad",
     projectSize:
       "4,91,000 Sq. ft. 7 Buildings (B+G+4 Floors) 2 Buildings (B+G+5 Floors)",
+    projectDes: "5 Floors, 22.5 Meters",
     projectYear: "2022-Current",
     architect: "99 Studio",
     consultant: "S3M Design Consultants LLP",
-    scope:
-      "Civil Structure work for RCC works, Block work, Internal Plaster, External Plaster, Flooring,Waterproofing And Painting works",
+    scope: "Structual Work, RCC Framework, Masonry ,Plaster , Painting.",
   },
 ];
 const commercialcompleted = [
@@ -138,12 +140,12 @@ const commercialcompleted = [
     segment: "Corporate",
     client: "Ruchi Malls Pvt. Ltd.",
     location: "Vastrapur, Ahmedabad",
-    projectSize: " 2,00,000 Sqft. 1 Building (2B+G+4 Floors)",
+    projectSize: " 2,00,000 Sq. ft.",
+    projectDes: "4 Floors, 15 Meters",
     projectYear: "2022",
     architect: "Bentel Associates",
     consultant: "TPC Technical Projects Consultants",
-    scope:
-      "Civil work, Masonary & Plaster work Demolition, Fasteners, Re bar grouting, Strengthening of columns, expansion joints, Temporary back propping, RCC & Civil works, Fabrication work, Structural Steel",
+    scope: "RCC Framework , Masonry, Plaster, Fabrication.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/2.png",
@@ -153,13 +155,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "Kish Developers",
     location: "Makarba, Ahmedabad",
-    projectSize:
-      "6,50,000 Sqft. 2 Buildings (2B+G+14 Floors) 8 Buildings (2B+G+3 Floors)",
+    projectSize: "6,50,000 Sq. ft.",
+    projectDes: "14 Floors, 45 Meters",
     projectYear: "2021",
     architect: "99 Studio",
-    consultant: "P Cube Consultant",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building of 2B+G+14 Storey (2 Blocks) & G+3 Storey (8 Blocks). ",
+    consultant: "P-Cube Consultant",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/13.jpg",
@@ -169,12 +170,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "Nirguna Infrastructure LLP",
     location: "Ashram Rd, Ahmedabad",
-    projectSize: "6,50,000 Sqft. 2 Buildings (3B+G+13 Floors)",
+    projectSize: "6,50,000 Sq. ft.",
+    projectDes: "13 Floors, 45 Meters",
     projectYear: "2021",
     architect: "HM Architect",
     consultant: "SETU Infrastructure",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work, MEPF work, Waterproofing and Finishing Works of Residential Building of 3B+G+13 Storey (2 Block).",
+    scope: "RCC Framework , Masonry , Plaster , MEP,Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/14.jpg",
@@ -184,12 +185,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "Sharnam Solitaire LLP",
     location: "Khokhara, Ahmedabad",
-    projectSize: "2,25,000 Sqft. 3 Buildings (B+G+4 Floors)",
+    projectSize: "2,25,000 Sq. ft.",
+    projectDes: "4 Floors, 26 Meters",
     projectYear: "2021",
     architect: "99 Studio",
     consultant: "Millimeter Designs",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+4 Storey (3 Blocks).",
+    scope: "RCC Framework, Masonry ,Plaster,Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/5.png",
@@ -199,11 +200,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "SHARANAM SMART SPACE LLP",
     location: "Amraiwadi, Ahmedabad",
-    projectSize: "4,25,000 Sqft. 4 Buildings (B+G+4 Floors)",
+    projectSize: "4,25,000 Sq. ft.",
+    projectDes: "4 Floors, 20 Meters",
     projectYear: "2019",
     architect: "99 studio",
     consultant: "Millimeter designs",
-    scope: "Civil Structure Work And Finishing",
+    scope: "RCC Framework,Structural Work , Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/6.jpg",
@@ -213,12 +215,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "Aadhan Builders Pvt Ltd.",
     location: "SG Highway, Ahmedabad",
-    projectSize: "4,85,000 Sqft. 1 Building (3B+G+23 Floors)",
+    projectSize: "4,85,000 Sq. ft.",
+    projectDes: "23 Floors, 70 Meters",
     projectYear: "2019",
     architect: "ADS Architects Pvt Ltd",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of 3B+G+23 Storey.",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/7.png",
@@ -228,12 +230,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "Shilp Developers",
     location: "Vastrapur, Ahmedabad",
-    projectSize: "4,72,000 Sqft. 1 Building (3B+G+13 Floors)",
+    projectSize: "4,72,000 Sq. ft.",
+    projectDes: "13 Floors, 48 Meters",
     projectYear: "2019",
     architect: "INI Design Studio",
     consultant: "Ducon Consultant Pvt Ltd",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building of 3B+G+13 Storey ",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/8.png",
@@ -243,12 +245,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "NCLP Infracon LLP",
     location: "Vastrapur, Ahmedabad",
-    projectSize: "6,00,000 Sqft. 2 Buildings (3B+G+13 Floors)",
+    projectSize: "6,00,000 Sq. ft.",
+    projectDes: "13 Floors, 48 Meters",
     projectYear: "2018",
     architect: "ADS Architect Pvt Ltd",
     consultant: "Ducon Consultant Pvt Ltd",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Commercial Building of 3B+G+13 Storey (2 Blocks) ",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/9.png",
@@ -258,12 +260,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "Aadhan Builders Pvt Ltd.",
     location: "SG Highway, Makarba, Ahmedabad",
-    projectSize: "5,36,000 Sqft. 1 Building (2B+G+16 Floors)",
+    projectSize: "5,36,000 Sq. ft.",
+    projectDes: "16 Floors, 54 Meters",
     projectYear: "2018",
     architect: "ADS Architect Pvt Ltd",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of 2B+G+16 Storey and G+14.",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/10.png",
@@ -272,12 +274,12 @@ const commercialcompleted = [
       "Yash Arian comes with a total of 204 luxurious apartments measuring 4,50,000 Sq ft designed by Perkins Eastman, US.",
     segment: "Commercial",
     client: "Yash Arian Infra LLP",
-    projectSize:
-      "4,50,000 Sqft. 2 Residential Buildings (2B+G+14 Floors) 1 Commercial Building (2B+G+4 Floors)",
+    projectSize: "4,50,000 Sq. ft.",
+    projectDes: "14 Floors, 42 Meters",
     projectYear: "2017",
     architect: "Design Studio",
-    consultant: "Design Studio",
-    scope: "N.K. Shah Consulting Engineers LLP",
+    consultant: "N.K. Shah Consulting Engineers LLP",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/commercial/completed/11.png",
@@ -287,12 +289,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "H N Safal",
     location: "Rakhial, Ahmedabad",
-    projectSize: "16,00,000 Sqft. 11 Commercial buildings (B+G+5 Floors)",
+    projectSize: "16,00,000 Sq. ft.",
+    projectDes: "5 Floors, 21 Meters",
     projectYear: "2017",
     architect: "ADS Architects Pvt Ltd",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Commercial Building of B+G+5 Storey (11 Blocks).",
+    scope: "RCC Framework, Masonry ,Plaster,Finishing Work.",
   },
   // {
   //   src: "Sources/images/prouctlist/commercial/completed/11.png",
@@ -317,12 +319,12 @@ const commercialcompleted = [
     segment: "Commercial",
     client: "Aadhan Builders Pvt Ltd",
     location: "SG Highway, Ahmedabad",
-    projectSize: "5,00,000 Sqft.",
+    projectSize: "5,00,000 Sq. ft.",
+    projectDes: "23 Floors, 70 Meters",
     projectYear: "2014",
     architect: "ADS Architects Pvt Ltd",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of B+G+23 Storey and B+G+14 Storey.",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   // {
   //   src: "Sources/images/prouctlist/commercial/completed/12.png",
@@ -474,6 +476,14 @@ const Commercial = () => {
                             <div className="pt-3">
                               <p className="is-size-6">
                                 <span className="has-text-weight-semibold">
+                                  Project Size:&nbsp;
+                                </span>
+                                {item.projectDes}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
                                   Project Year:&nbsp;
                                 </span>
                                 {item.projectYear}
@@ -563,6 +573,14 @@ const Commercial = () => {
                                   Project Size:&nbsp;
                                 </span>
                                 {item.projectSize}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Project Size:&nbsp;
+                                </span>
+                                {item.projectDes}
                               </p>
                             </div>
                             <div className="pt-3">

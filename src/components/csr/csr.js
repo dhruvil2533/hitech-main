@@ -56,7 +56,7 @@ const Csr = () => {
                 <YouTube videoId="hrUdXoxY2nw" />
                 <br />
                 <li>
-                  Regular medical, eye checkup camps at labour colonies . <br />
+                  Regular medical, eye checkup camps at labour colonies. <br />
                   {/* <img
                     style={{ height: "300px", width: "auto" }}
                     src="Sources/images/csr/Aids Awareness.jpeg"
@@ -76,8 +76,8 @@ const Csr = () => {
 
                 <br />
                 <li>
-                  Malnutrition related awareness and nutrition grocery kit
-                  distribution. <br />
+                  Workshops on malnutrition awareness and nutritional grocery
+                  kit distribution. <br />
                   {/* <img
                     style={{ height: "300px", width: "auto" }}
                     src="Sources/images/csr/Grocery Kit.jpg"
@@ -86,12 +86,12 @@ const Csr = () => {
                 </li>
                 <br />
                 <li>
-                  Support for Gramsetu (Meghraj, Arravali District) initiative
-                  by Dreams Foundation.
+                  Support for holistic village development initiative by Dreams
+                  Foundation.
                 </li>
                 <br />
                 <li>
-                  Support patient care and medical equipment to various
+                  Support for patient care and medical equipment to various
                   charitable hospitals.
                 </li>
                 <br />
@@ -271,7 +271,7 @@ const Csr = () => {
                       style={{ color: "#03446a" }}
                       className="has-text-centered"
                     >
-                      <span>Holistic Village Development</span>
+                      <span>Safe Haven for stray dogs</span>
                     </h3>
                     <a href="#"></a>
                   </div>

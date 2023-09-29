@@ -817,6 +817,7 @@ a.navbar-item.is-active,
   box-shadow: 0 -1px 1px #0000001f, 0 0px 1px #000000c7;
   transition: all 0.6s;
   min-height: 775px;
+  /* height: 48rem; */
 }
 
 .property_list:hover {

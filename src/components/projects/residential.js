@@ -11,10 +11,11 @@ const industriallist = [
     client: "Aaryan Developers",
     location: "Shilaj, Ahmedabad",
     projectSize: "1,861,168 Sq. ft.",
+    projectDes: "21 Floors, 70 Meters",
     projectYear: "2023-Current",
     architect: "AAA Architects",
     consultant: "HNBS Associates",
-    scope: "RCC Frame works, Block work, Plaster work",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/2-2.jpg",
@@ -24,11 +25,11 @@ const industriallist = [
     client: "Palak Group",
     location: "S. G. Highway, Ahmedabad",
     projectSize: "1,060,422 Sq. ft.",
+    projectDes: "23 Floors, 85 Meters",
     projectYear: "2023-Current",
     architect: "Studio Mansi Shah",
     consultant: "HNBS Associates",
-    scope:
-      "Construction of 02 Basement+ G.F + 2 Podium+ HP + 20 floors of Residential Building. ",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   // {
   //   // src: "Sources/images/prouctlist/residential/ongoing/1.png",
@@ -66,10 +67,11 @@ const industriallist = [
     client: "Shree Siddhi Group",
     location: "Godrej Garden City, Ahmedabad",
     projectSize: "1,550,196 Sq. ft.",
+    projectDes: "14 Floors, 55 Meters",
     projectYear: "2022-Current",
     architect: "Placekinesis Associates",
     consultant: "Japan Shah Consulting Engineers",
-    scope: "Civil works RCC Core Structure along with Masonry & Plaster",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/1-3.png",
@@ -79,10 +81,11 @@ const industriallist = [
     client: "Alinea Properties LLP",
     location: "Adani Shantigram",
     projectSize: "2,24,000 Sq. ft.",
+    projectDes: "13 Floors, 45 Meters",
     projectYear: "2022-Current",
     architect: "Studio ARA, Ahmedabad",
     consultant: "N K Shah Consulting LLP",
-    scope: "Civil Structure (Core & Shell) and Finishing works.",
+    scope: "Structural Work, RCC Framework, Finishing Work.",
   },
 
   {
@@ -92,12 +95,13 @@ const industriallist = [
     segment: "Residential",
     client: "Sheetal Infrastructure",
     location: "Ambli, Ahmedabad",
-    projectSize: "5,00,000 Sqft. (03 Basement + G.F + 21 Floors)",
+    projectSize: "5,00,000 Sqft.",
+    projectDes: "21 Floors, 75 Meters",
     projectYear: "2022-Current",
     architect: "ADS Architect",
     consultant: "Ducon Consultants",
     scope:
-      "Civil Structure work for D Wall, RCC works, Block work, Internal plaster, External Plaster",
+      "Structural Work , Diaphragm Wall , RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/3.png",
@@ -107,12 +111,12 @@ const industriallist = [
     segment: "Residential",
     client: "Madhav Oeuvre-2 LLP - Madhav Group",
     location: "Bodakdev, Amedabad",
-    projectSize: "6,05,957 Sq. ft. (Four tower) (2B+GF+P-1+P-2+H.P,+22 Floors)",
+    projectSize: "6,05,957 Sq. ft.",
+    projectDes: "23 Floors, 85 Meters",
     projectYear: "2022-Current",
     architect: "H M Architects",
     consultant: "Setu Infrastructure",
-    scope:
-      "Construction of residential building with material having 2 no of Basement (with 107 stores with plaster) + G.F. +P-1+P-2+H.P-+ Typical 22 floors as below considerations including parapet terrace cabin, water tank (UGWT & OHWT).",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/4.png",
@@ -121,12 +125,13 @@ const industriallist = [
     segment: "Residential",
     client: "Sarthi Prospace LLP- Venus Lifespace Creators",
     location: "Bodakdev, Amedabad",
-    projectSize: "8,89,160 Sq. ft.(2B+G+2P+HP+19 Floors)",
+    projectSize: "8,89,160 Sq. ft.",
+    projectDes: "21 Floors, 70 Meters",
     projectYear: "2022-Current",
     architect: "H M Architects",
     consultant: "Setu Infrastructure",
     scope:
-      "Civil Structure work for D Wall, RCC works, Block work, Internal plaster, External Plaster",
+      "Structural Work , Diaphragm Wall , RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/5.png",
@@ -135,12 +140,13 @@ const industriallist = [
     segment: "Residential",
     client: "Sun Realty",
     location: "Shela, Ahmedabad",
-    projectSize: "1,25,000 Sq. ft.(16 Blocks- 2B+G+14 Floors)",
+    projectSize: "1,25,000 Sq. ft.",
+    projectDes: "14 Floors, 50 Meters",
     projectYear: "2022-Current",
     architect: "H M Architects",
     consultant: "Setu Infrastructure",
     scope:
-      "Civil Structure work for D Wall, RCC works, Block work, Internal plaster, External Plaster",
+      "Structural Work , Diaphragm Wall , RCC Framework, Masonry ,Plaster.",
   },
 ];
 const industrialcompleted = [
@@ -153,11 +159,12 @@ const industrialcompleted = [
     client: "Reliance Industries Ltd",
     location: "Jamnagar",
     projectSize: "281,000 Sq. ft.",
+    projectDes: "2 Floors, 12 Meters",
     projectYear: "2020-2023",
     architect: "PVDRS, Ahmedabad",
     consultant: "PVDRS, Ahmedabad",
     scope:
-      "Civil Structure work for RCC Core and Shell, Waterproofing, Masonry, all in-building MEP, interior finishing works",
+      "Structural Work, RCC Framework, Masonry,Plaster, MEP, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/7.png",
@@ -167,11 +174,12 @@ const industrialcompleted = [
     segment: "Residential",
     client: "Armaan Developer",
     location: "Ambli, Ahmedabad",
-    projectSize: "4,55,000 Sqft.1 Building (4B+G+11 Floors)",
+    projectSize: "4,55,000 Sq. ft.",
+    projectDes: "11 Floors, 45 Meters",
     projectYear: "2022",
     architect: "Scarlett Design",
     consultant: "Ducon Consultant Pvt Ltd",
-    scope: "Civil Structure Work, Finishing And Services",
+    scope: "Structural Work, RCC Framework, MEP, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/ongoing/6.png",
@@ -180,12 +188,12 @@ const industrialcompleted = [
     segment: "Residential",
     client: "Jaydeep Buildcon LLP",
     location: "Bhat, Gandhinagar",
-    projectSize: "1,00,000 Sq. ft.1 Building (B+G+9 Floors)",
+    projectSize: "1,00,000 Sq. ft.",
+    projectDes: "9 Floors, 33 Meters",
     projectYear: "2022",
     architect: "9th Street Architects",
     consultant: "Bhoomi Consultants",
-    scope:
-      "Civil works for  Earthwork, Civil Structural Work, Block Masonry and Plaster ",
+    scope: "Earthwork,Structural Work,RCC Framework,Masonry, Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/1.png",
@@ -194,11 +202,12 @@ const industrialcompleted = [
       "Arvind Aavishkaar is a residential development constructed by Arvind Smartspaces.",
     client: "Arvind Smartspaces",
     location: "Naroda, Ahmedabad",
-    projectSize: "6,10,000 Sqft. 6 Buildings (B+G+14 Floors)",
+    projectSize: "6,10,000 Sqft.",
+    projectDes: "14 Floors, 44 Meters",
     projectYear: "2022",
     architect: "Jagrut And Partners LLP",
     consultant: "Alpha consultancy services",
-    scope: "Civil Structure Work, Finishing And Services",
+    scope: "Structural Work, RCC Framework, MEP, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/2.png",
@@ -207,12 +216,12 @@ const industrialcompleted = [
       "Welcome to a new perspective to city living in Ahmedabad through Community, Central Park, Club, Homes, Penthouse etc.",
     client: "Shilp Developers - Sun Builders",
     location: "Ambli, Ahmedabad",
-    projectSize: " 8,41,464 Sq. ft. (2B+G+22 Floors)",
+    projectSize: " 8,41,464 Sq. ft.",
+    projectDes: "22 Floors, 70 Meters",
     projectYear: "2020",
     architect: "Placekinesis Associates",
     consultant: "Setu Infrastructure",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work, Plumbing and Electrical work, and Finishing Works of Residential Buildings of 2B+G+22 Storey (3 Blocks) and Commercial Building 2B+G+20 Storey.",
+    scope: "RCC Framework, Masonry ,Plaster , MEP , Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/3.png",
@@ -221,12 +230,12 @@ const industrialcompleted = [
       "Indraprasth Gulmohar is a name that will make the difference between elite and everyone else.",
     client: "Deep Group",
     location: "Vastrapur, Ahmedabad",
-    projectSize: "5,00,000 Sqft. 3 Buildings (2B+G+14 Floors)",
+    projectSize: "5,00,000 Sq. ft.",
+    projectDes: "14 Floors, 45 Meters",
     projectYear: "2019",
     architect: "Hiren Patel Architects",
     consultant: "Setu Infrastructure",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster works of Residential Building of 2B+G+14 storey (3 Blocks). ",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/4.png",
@@ -235,12 +244,12 @@ const industrialcompleted = [
       "For the first time in Gujarat, Quintessentially, the world’s leading luxury lifestyle concierge service is now at ‘The Banyan’.",
     client: "Suryam Group",
     location: "Ashok Vatika, Bodakev, Ahmedabad",
-    projectSize: "  2,10,000 Sqft. 2 Buildings (B+G+12 Floors)",
+    projectSize: "  2,10,000 Sq. ft.",
+    projectDes: "12 Floors, 45 Meters",
     projectYear: "2018",
     architect: "Design Module",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work, Waterproofing and Finishing Works of Residential Building of B+G+12 Storey (2 Block).",
+    scope: "RCC Framework, Masonry ,Plaster,Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/5.png",
@@ -249,12 +258,12 @@ const industrialcompleted = [
       "ONE49, an iconic high-rise residential development is one of the most sought after neighborhoods in Ahmedabad today.",
     client: "Amaya Properties Group",
     location: "Ambli, Ahmedabad",
-    projectSize: "4,00,000 Sqft. 1 Building (2B+G+19 Floors)",
+    projectSize: "4,00,000 Sq. ft.",
+    projectDes: "19 Floors, 70 Meters",
     projectYear: "2018",
     architect: "ONG AND ONGS",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Residential Building of 2B+G+19 Storey.",
+    scope: "RCC Framework, Masonry ,Plaster,Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/6.JPG",
@@ -263,12 +272,12 @@ const industrialcompleted = [
       "The project offers residential units with top class specifications that meet the expectations of the lifestyle of the urban.",
     client: "Shilp Developers",
     location: "Bodakdev, Ahmedabad",
-    projectSize: "1,25,000 Sqft. 1 Building (1B+G+13 Floors)",
+    projectSize: "1,25,000 Sq. ft.",
+    projectDes: "13 Floors, 45 Meters",
     projectYear: "2017",
     architect: "MODO Designs",
     consultant: "Umang Patel",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work, MEPF work, and Finishing Works of Residential Building of B+G+13 Storey.",
+    scope: "RCC Framework , Masonry , Plaster , MEP, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/7.png",
@@ -277,13 +286,12 @@ const industrialcompleted = [
       "Yash Arian is a project with several modern amenities.It comes with a total of 204 spacious and luxurious apartments.",
     client: "Yash Arian Infra LLP",
     location: "Memnagar, Ahmedabad",
-    projectSize:
-      "4,50,000 Sqft. 2 Residential Buildings (2B+G+14 Floors) 1 Commercial Building (2B+G+4 Floors)",
+    projectSize: "4,50,000 Sq. ft.",
+    projectDes: "14 Floors, 42 Meters",
     projectYear: "2017",
     architect: "Design Studio",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry and Plaster works of Commercial Building of 2B+G+4 Storey and of Residential Building 2B+G+14 Storey (2 Blocks).",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/8.png",
@@ -292,11 +300,12 @@ const industrialcompleted = [
       "A 2,10,000 Sqft project to help nearly 1200 families living in the slums of Amraiwadi with a one-BHK flat with good drainage and supply of drinking water.",
     client: "H N Safal",
     location: "Amraiwadi, Ahmedabad",
-    projectSize: "2,10,000 Sqft.",
+    projectSize: "2,10,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2015",
     architect: "Design Module",
     consultant: "Design Module",
-    scope: "Civil Structure Work, Finishing And Services",
+    scope: "Structural Work,RCC Framework, MEP, Finishing Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/9.jpg",
@@ -305,12 +314,12 @@ const industrialcompleted = [
       "The Applewoods township consists of 400 luxurious bungalows accommodated in a plush green environment occupied with open garden spaces, parks and lakes.",
     client: "Goyal Safal Developers",
     location: "Shela, Ahmedabad",
-    projectSize: "9,00,000 Sqft. 10 Buildings (B+G+16 Floors)",
+    projectSize: "9,00,000 Sq. ft.",
+    projectDes: "16 Floors, 60 Meters",
     projectYear: "2013",
     architect: "Apurva Amin",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope:
-      "Civil Construction work of RCC Frame, Block Masonry Plaster work & Finishing Works of Residential Building of B+G+16 Storey (10 Blocks).",
+    scope: "RCC Framework, Masonry ,Plaster.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/10.png",
@@ -319,11 +328,12 @@ const industrialcompleted = [
       "Shalvik Shukan by Aakar Developers offers a total of 132 well-planned and world class residential units with top line specifications.",
     client: "Aakar Developers",
     location: "Vavol, Gandhinagar",
-    projectSize: "3,00,000 Sqft.",
+    projectSize: "3,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2013",
     architect: "Neha Consultants",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work",
+    scope: "RCC Framework, Structural Work.",
   },
   {
     src: "Sources/images/prouctlist/residential/completed/11.png",
@@ -332,11 +342,12 @@ const industrialcompleted = [
       "Shalvik Homes by Aakar Developers offers 53 residential bungalows with common plots and play area.",
     client: "Aakar Developers",
     location: "Vavol, Gandhinagar",
-    projectSize: "1,00,000 Sqft.",
+    projectSize: "1,00,000 Sq. ft.",
+    projectDes: "-",
     projectYear: "2010",
     architect: "Consultants",
     consultant: "N.K. Shah Consulting Engineers LLP",
-    scope: "Civil Structure Work",
+    scope: "RCC Framework, Structural Work.",
   },
 ];
 
@@ -453,6 +464,14 @@ const Residential = () => {
                             <div className="pt-3">
                               <p className="is-size-6">
                                 <span className="has-text-weight-semibold">
+                                  Project Description:&nbsp;
+                                </span>
+                                {item.projectDes}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
                                   Project Year:&nbsp;
                                 </span>
                                 {item.projectYear}
@@ -542,6 +561,14 @@ const Residential = () => {
                                   Project Size:&nbsp;
                                 </span>
                                 {item.projectSize}
+                              </p>
+                            </div>
+                            <div className="pt-3">
+                              <p className="is-size-6">
+                                <span className="has-text-weight-semibold">
+                                  Project Description:&nbsp;
+                                </span>
+                                {item.projectDes}
                               </p>
                             </div>
                             <div className="pt-3">
