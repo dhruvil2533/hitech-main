@@ -293,7 +293,7 @@ const Institutionalprojects = () => {
                             <div className="pt-3">
                               <p className="is-size-6">
                                 <span className="has-text-weight-semibold">
-                                  Project Size:&nbsp;
+                                  Project Description:&nbsp;
                                 </span>
                                 {item.projectDes}
                               </p>
@@ -394,7 +394,7 @@ const Institutionalprojects = () => {
                             <div className="pt-3">
                               <p className="is-size-6">
                                 <span className="has-text-weight-semibold">
-                                  Project Size:&nbsp;
+                                  Project Description:&nbsp;
                                 </span>
                                 {item.projectDes}
                               </p>
