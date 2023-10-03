@@ -591,7 +591,7 @@ const Whoweare = () => {
                               <p className="is-size-6 has-text-black mt-3">
                                 Association with leading real estate developer
                                 H.N.Safal. 5 million sqft built for them over
-                                the
+                                the years for their various commercial projects
                               </p>
                             </div>
                           </div>
@@ -626,9 +626,9 @@ const Whoweare = () => {
                             <p className="is-size-6 has-text-black mt-3">
                               Moved to 3000 sqft office premises. Associated
                               with True Value for execution of Ahmedabad's first
-                              22 storey commercial complex. West Gate 2 million
-                              sqft built for them over the years. Procured 1st
-                              tower crane.
+                              22 storey commercial complex - West Gate. 2
+                              million sqft built for them over the years.
+                              Procured 1st tower crane.
                             </p>
                           </div>
                         </Space>
@@ -697,9 +697,9 @@ const Whoweare = () => {
                             </div>
                             <p className="is-size-6 has-text-black mt-3">
                               Organisation converted to Private Limited from
-                              Partnership. Association with Sun builders for
-                              High end residential complex-Sun Evoq. 3 million
-                              sqft built for them till date.
+                              Partnership firm. Association with Sun builders
+                              for High end residential complex-Sun Evoq. 3
+                              million sqft built for them till date.
                             </p>
                           </div>
                         </Space>
@@ -837,7 +837,7 @@ const Whoweare = () => {
                               />
                             </div>
                             <p className="is-size-6 has-text-black mt-3">
-                              Started projects with Reliance IndutriesLtd at
+                              Started projects with Reliance Indutries Ltd at
                               Jamnagar. Added concrete boom placer in the feet
                               of P&M equipment.
                             </p>
