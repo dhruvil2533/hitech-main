@@ -8,7 +8,12 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "../header/header";
-
+import img1 from "./images/quality.png";
+import img2 from "./images/team.png";
+import img3 from "./images/workforce.png";
+import img4 from "./images/construction.png";
+import img5 from "./images/completed-task.png";
+import img6 from "./images/building.png";
 const managementcard = [
   {
     icon: <AiFillEye className="is-size-1 service_mainicon" />,
@@ -213,7 +218,7 @@ const Whoweare = () => {
             <div className="section_padding"></div>
           </div>
         </section>
-        <section className="stats">
+        {/* <section className="stats">
           <div className="container">
             <p
               className="is-size-2 has-text-weight-semibold has-text-centered mt-2"
@@ -251,6 +256,98 @@ const Whoweare = () => {
               </Row>
             }
           </div>
+        </section> */}
+        <section className="home_achievements">
+          <p
+            className="is-size-2 has-text-weight-semibold has-text-centered mt-2"
+            style={{ color: "white" }}
+          >
+            Our Achievements
+          </p>
+          <Row
+            style={{ textAlign: "center", marginTop: "1rem" }}
+            className="container"
+          >
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img1} alt="" className="mb-4" />
+
+              <h6>Years of Experience</h6>
+              <h6>25+</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img2} alt="" className="mb-4" />
+              <h6> Team Members</h6>
+              <h6>500+</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img3} alt="" className="mb-4" />
+              <h6>Workforce</h6>
+              <h6>3000+</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img4} alt="" className="mb-4" />
+              <h6> Total Constructed Area</h6>
+              <h6>25Mn+ Sqft</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img5} alt="" className="mb-4" />
+              <h6>Completed Projects</h6>
+              <h6>100+</h6>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={24}
+              className="white_back"
+            >
+              <img src={img6} alt="" className="mb-4" />
+              <h6> Ongoing Projects</h6>
+              <h6>20+</h6>
+            </Col>
+          </Row>
         </section>
 
         <section className="mobile_margin">
