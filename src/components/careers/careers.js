@@ -92,7 +92,7 @@ const Careers = () => {
                   <div className="career_card">
                     <div className="content">
                       <Image
-                        src="Sources/images/career/2.png"
+                        src="Sources/images/career/184.png"
                         alt="404 - Not Given"
                         className="pt-2"
                       />
@@ -122,7 +122,67 @@ const Careers = () => {
                   <div className="career_card">
                     <div className="content">
                       <Image
-                        src="Sources/images/career/1.png"
+                        src="Sources/images/career/185.png"
+                        alt="404 - Not Given"
+                        className="pt-2"
+                      />
+                      <div className="career_text has-text-centered">
+                        <a>
+                          <Space direction="horizontal">
+                            <p className="has-text-centered blue_color has-text-weight-semibold">
+                              APPLY NOW
+                            </p>
+                            <MdArrowForwardIos className="arrow_icon blue_color" />
+                          </Space>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col
+                xxl={8}
+                lg={8}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ justifyContent: "center" }}
+              >
+                <div className="card_outer">
+                  <div className="career_card">
+                    <div className="content">
+                      <Image
+                        src="Sources/images/career/186.png"
+                        alt="404 - Not Given"
+                        className="pt-2"
+                      />
+                      <div className="career_text has-text-centered">
+                        <a>
+                          <Space direction="horizontal">
+                            <p className="has-text-centered blue_color has-text-weight-semibold">
+                              APPLY NOW
+                            </p>
+                            <MdArrowForwardIos className="arrow_icon blue_color" />
+                          </Space>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col
+                xxl={8}
+                lg={8}
+                md={12}
+                sm={24}
+                xs={24}
+                style={{ justifyContent: "center" }}
+              >
+                <div className="card_outer">
+                  <div className="career_card">
+                    <div className="content">
+                      <Image
+                        src="Sources/images/career/187.png"
                         alt="404 - Not Given"
                         className="pt-2"
                       />
