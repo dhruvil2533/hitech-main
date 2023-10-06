@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import axios from "axios";
 import { Col, Image, Row, Space } from "antd";
 import { MdArrowForwardIos } from "react-icons/md";
 import { Button, Form, Input } from "antd";
@@ -9,11 +10,31 @@ import TextArea from "antd/lib/input/TextArea";
 import { UploadOutlined } from "@ant-design/icons";
 import { Upload } from "antd";
 import Header from "../header/header";
-
+import emailjs from "@emailjs/browser";
 const Careers = () => {
-  const onFinish = (formData) => {
-    console.log(formData);
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_nhbe9dm",
+        "template_tipq7fw",
+        form.current,
+        "sXlMSR_u5DAtfiQ2y"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message send");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   };
+
   return (
     <>
       <img
@@ -29,7 +50,7 @@ const Careers = () => {
           <div className="section_padding"></div>
           <div className="container">
             <Row style={{ justifyContent: "center" }}>
-              <Col
+              {/* <Col
                 xxl={8}
                 lg={8}
                 md={12}
@@ -58,7 +79,7 @@ const Careers = () => {
                     </div>
                   </div>
                 </div>
-              </Col>
+              </Col> */}
               <Col
                 xxl={8}
                 lg={8}
@@ -264,7 +285,7 @@ const Careers = () => {
                     padding: "2.5rem",
                   }}
                 >
-                  <Form onFinish={onFinish}>
+                  {/* <Form ref={form} onSubmit={sendEmail}>
                     <Form.Item
                       className="form_hover"
                       name="name"
@@ -277,7 +298,9 @@ const Careers = () => {
                       ]}
                     >
                       <Input
-                        placeholder="Your Name"
+                        type="text"
+                        name="user_name"
+                        placeholder="Name"
                         onc
                         className="form_item"
                       />
@@ -295,7 +318,9 @@ const Careers = () => {
                       <Input placeholder="Your Mobile" className="form_item" />
                     </Form.Item>
                     <Form.Item
-                      name="email"
+                      type="email"
+                      name="user_email"
+                      placeholder="Email"
                       rules={[
                         {
                           required: true,
@@ -304,7 +329,12 @@ const Careers = () => {
                         },
                       ]}
                     >
-                      <Input placeholder="Your Email" className="form_item" />
+                      <Input
+                        placeholder="Your Email"
+                        type="email"
+                        name="user_email"
+                        className="form_item"
+                      />
                     </Form.Item>
                     <Form.Item
                       className="form_hover"
@@ -323,27 +353,115 @@ const Careers = () => {
                         className="form_item"
                       />
                     </Form.Item>
-                    <Form.Item>
-                      <TextArea rows={1} placeholder="Message..." />
+                    <Form.Item name="message">
+                      <TextArea name="message" placeholder="Message" rows={1} />
                     </Form.Item>
                     <div className="mb-4">
                       <Upload
                         action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
                         directory
                       >
-                        <Button icon={<UploadOutlined />}>Upload Resume</Button>
+                        <Button icon={<UploadOutlined />} type="submit">
+                          Upload Resume
+                        </Button>
                       </Upload>
                     </div>
                     <Form.Item>
                       <Button
-                        htmlType="submit"
+                        type="submit"
+                        value="Send"
                         className="btn btn-color submit_button"
                         size="large"
                       >
                         Apply Now
                       </Button>
                     </Form.Item>
-                  </Form>
+                  </Form> */}
+                  <form ref={form} onSubmit={sendEmail} id="form_edit">
+                    <div className="form-item">
+                      {/* <label htmlFor="user_name">Name</label> */}
+                      <input
+                        type="text"
+                        id="user_name"
+                        name="user_name"
+                        className="form_input"
+                        required
+                        pattern="^[A-Za-z\s]+$"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div className="form-item">
+                      {/* <label htmlFor="user_email">Email</label> */}
+                      <input
+                        type="email"
+                        id="user_email"
+                        name="user_email"
+                        className="form_input"
+                        required
+                        pattern="^[A-Za-z0-9._-]+@[A-Za-z]+\.[A-Za-z]+$"
+                        placeholder="Your Email"
+                      />
+                    </div>
+
+                    <div className="form-item">
+                      {/* <label htmlFor="user_number">Mobile</label> */}
+                      <input
+                        type="tel"
+                        id="user_number"
+                        name="user_number"
+                        className="form_input"
+                        required
+                        pattern="^[0-9]{10}$"
+                        placeholder="Your Mobile"
+                      />
+                    </div>
+                    <div className="form-item">
+                      <input
+                        type="text"
+                        name="user_position"
+                        id="user_position"
+                        className="form_input"
+                        placeholder="Position"
+                      />
+                    </div>
+                    <div className="form-item">
+                      {/* <label htmlFor="message">Message</label> */}
+                      <textarea
+                        id="message"
+                        name="message"
+                        className="form_input"
+                        placeholder="Message"
+                      />
+                    </div>
+                    <div className="form-item">
+                      {/* <label htmlFor="resume">Upload Resume</label> */}
+                      <input
+                        className="doc_button"
+                        type="file"
+                        id="resume"
+                        name="resume"
+                        accept=".pdf,.doc,.docx"
+                      />
+                      <p
+                        style={{
+                          fontSize: "13px",
+                          fontWeight: "bold",
+                          marginTop: "5px",
+                        }}
+                      >
+                        Maximum size 50kb
+                      </p>
+                    </div>
+                    <div className="form-item">
+                      <button
+                        type="submit"
+                        className="btn btn-color submit_button"
+                        value="Send"
+                      >
+                        Apply Now
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </Col>
             </Row>

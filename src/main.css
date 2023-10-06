@@ -1871,3 +1871,71 @@ hr.footerhr {
     height: 550px;
   }
 }
+#form_edit {
+  margin: 10px 20px;
+  background-color: white;
+}
+
+#form_edit input {
+  border-color: #0d2e61;
+  box-shadow: none;
+  border-bottom: 2px solid #0d2e61;
+  background-color: transparent;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  outline: 0;
+  width: 100%;
+}
+#form_edit input::placeholder {
+  color: gray;
+  opacity: 0.5;
+  font-weight: 600;
+}
+#form_edit .form-item {
+  box-sizing: border-box;
+
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  margin-bottom: 55px;
+  vertical-align: top;
+  width: 100%;
+}
+#message {
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 2px solid #0d2e61;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  outline: 0;
+
+  transition: all 0.3s, height 0s;
+}
+textarea.form_input {
+  margin: 0;
+  height: 28px;
+}
+textarea.form_input::placeholder {
+  color: gray;
+  opacity: 0.5;
+  font-weight: 600;
+}
+#form_edit .doc_button {
+  border: none;
+}
+#form_edit .form-item .btn {
+  background-color: #0d2e61;
+  color: #f4f4f4;
+  border: none;
+  height: 40px;
+  padding: 6.4px 15px;
+  font-size: 16px;
+  border-radius: 2px;
+}
