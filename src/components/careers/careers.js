@@ -11,28 +11,28 @@ import { UploadOutlined } from "@ant-design/icons";
 import { Upload } from "antd";
 import Header from "../header/header";
 import emailjs from "@emailjs/browser";
+const email = require;
 const Careers = () => {
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_nhbe9dm",
-        "template_tipq7fw",
+        "service_n0ye8jh",
+        "template_9rh8c7p",
         form.current,
-        "sXlMSR_u5DAtfiQ2y"
+        "9gzOeaMNf6BF5M1jC"
       )
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message send");
         },
         (error) => {
           console.log(error.text);
         }
       );
-    e.target.reset();
   };
 
   return (
