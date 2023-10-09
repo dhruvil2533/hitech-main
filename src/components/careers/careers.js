@@ -34,35 +34,16 @@ const Careers = () => {
         }
       );
   };
-  useEffect(() => {
-    // Find all elements with the 'target' class
-    const targetElements = document.querySelectorAll(".target");
+  function scrollToForm() {
+    // Get the heading element by its 'id'
+    const headingElement = document.getElementById("form_heading");
 
-    // Add click event listeners to them
-    targetElements.forEach((element) => {
-      element.addEventListener("click", scrollToForm);
+    // Scroll to the heading using the 'scrollIntoView' method
+    headingElement.scrollIntoView({
+      behavior: "smooth", // You can use "auto" for immediate scrolling
+      block: "start", // Scroll to the top of the heading
     });
-
-    // Define the scroll-to-form function
-    function scrollToForm() {
-      // Get the form element by its 'id'
-      const formElement = document.getElementById("form_edit");
-
-      // Scroll to the form using the 'scrollIntoView' method
-      formElement.scrollIntoView({
-        behavior: "smooth", // You can use "auto" for immediate scrolling
-        block: "start", // Scroll to the top of the form
-      });
-    }
-
-    // Clean up event listeners when the component unmounts
-    return () => {
-      targetElements.forEach((element) => {
-        element.removeEventListener("click", scrollToForm);
-      });
-    };
-  }, []); // Empty dependency array ensures this effect runs only once
-
+  }
   // ... rest of your component ...
   return (
     <>
@@ -126,9 +107,9 @@ const Careers = () => {
                         className="pt-2"
                       />
                       <div className="career_text has-text-centered">
-                        <a>
+                        <a onClick={scrollToForm}>
                           <Space direction="horizontal">
-                            <p className="has-text-centered blue_color has-text-weight-semibold target">
+                            <p className="has-text-centered blue_color has-text-weight-semibold ">
                               APPLY NOW
                             </p>
                             <MdArrowForwardIos className="arrow_icon blue_color" />
@@ -156,9 +137,9 @@ const Careers = () => {
                         className="pt-2"
                       />
                       <div className="career_text has-text-centered">
-                        <a>
+                        <a onClick={scrollToForm}>
                           <Space direction="horizontal">
-                            <p className="has-text-centered blue_color has-text-weight-semibold target">
+                            <p className="has-text-centered blue_color has-text-weight-semibold ">
                               APPLY NOW
                             </p>
                             <MdArrowForwardIos className="arrow_icon blue_color" />
@@ -186,9 +167,9 @@ const Careers = () => {
                         className="pt-2"
                       />
                       <div className="career_text has-text-centered">
-                        <a>
+                        <a onClick={scrollToForm}>
                           <Space direction="horizontal">
-                            <p className="has-text-centered blue_color has-text-weight-semibold target">
+                            <p className="has-text-centered blue_color has-text-weight-semibold ">
                               APPLY NOW
                             </p>
                             <MdArrowForwardIos className="arrow_icon blue_color" />
@@ -216,9 +197,9 @@ const Careers = () => {
                         className="pt-2"
                       />
                       <div className="career_text has-text-centered">
-                        <a>
+                        <a onClick={scrollToForm}>
                           <Space direction="horizontal">
-                            <p className="has-text-centered blue_color has-text-weight-semibold target">
+                            <p className="has-text-centered blue_color has-text-weight-semibold ">
                               APPLY NOW
                             </p>
                             <MdArrowForwardIos className="arrow_icon blue_color" />
@@ -233,7 +214,7 @@ const Careers = () => {
           </div>
           <div className="section_padding"></div>
         </section>
-        <section className="contact_box">
+        <section className="contact_box" id="form_heading">
           <div className="section_padding"></div>
           <div className="container">
             <div className="mb-5 pb-2">
