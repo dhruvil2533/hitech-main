@@ -17,6 +17,7 @@ const Careers = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    e.target.reset();
 
     emailjs
       .sendForm(
@@ -32,6 +33,7 @@ const Careers = () => {
         (error) => {
           console.log(error.text);
         }
+        // location()
       );
   };
   function scrollToForm() {
@@ -43,6 +45,9 @@ const Careers = () => {
       behavior: "smooth", // You can use "auto" for immediate scrolling
       block: "start", // Scroll to the top of the heading
     });
+  }
+  function thankYou() {
+    alert("Thank You! Your Resume has been submited successfully!");
   }
   // ... rest of your component ...
   return (
@@ -527,6 +532,7 @@ const Careers = () => {
                         type="submit"
                         className="btn btn-color submit_button"
                         value="Send"
+                        onClick={thankYou}
                       >
                         Apply Now
                       </button>
