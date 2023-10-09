@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import axios from "axios";
 import { Col, Image, Row, Space } from "antd";
 import { MdArrowForwardIos } from "react-icons/md";
@@ -34,7 +34,36 @@ const Careers = () => {
         }
       );
   };
+  useEffect(() => {
+    // Find all elements with the 'target' class
+    const targetElements = document.querySelectorAll(".target");
 
+    // Add click event listeners to them
+    targetElements.forEach((element) => {
+      element.addEventListener("click", scrollToForm);
+    });
+
+    // Define the scroll-to-form function
+    function scrollToForm() {
+      // Get the form element by its 'id'
+      const formElement = document.getElementById("form_edit");
+
+      // Scroll to the form using the 'scrollIntoView' method
+      formElement.scrollIntoView({
+        behavior: "smooth", // You can use "auto" for immediate scrolling
+        block: "start", // Scroll to the top of the form
+      });
+    }
+
+    // Clean up event listeners when the component unmounts
+    return () => {
+      targetElements.forEach((element) => {
+        element.removeEventListener("click", scrollToForm);
+      });
+    };
+  }, []); // Empty dependency array ensures this effect runs only once
+
+  // ... rest of your component ...
   return (
     <>
       <img
@@ -99,7 +128,7 @@ const Careers = () => {
                       <div className="career_text has-text-centered">
                         <a>
                           <Space direction="horizontal">
-                            <p className="has-text-centered blue_color has-text-weight-semibold">
+                            <p className="has-text-centered blue_color has-text-weight-semibold target">
                               APPLY NOW
                             </p>
                             <MdArrowForwardIos className="arrow_icon blue_color" />
@@ -129,7 +158,7 @@ const Careers = () => {
                       <div className="career_text has-text-centered">
                         <a>
                           <Space direction="horizontal">
-                            <p className="has-text-centered blue_color has-text-weight-semibold">
+                            <p className="has-text-centered blue_color has-text-weight-semibold target">
                               APPLY NOW
                             </p>
                             <MdArrowForwardIos className="arrow_icon blue_color" />
@@ -159,7 +188,7 @@ const Careers = () => {
                       <div className="career_text has-text-centered">
                         <a>
                           <Space direction="horizontal">
-                            <p className="has-text-centered blue_color has-text-weight-semibold">
+                            <p className="has-text-centered blue_color has-text-weight-semibold target">
                               APPLY NOW
                             </p>
                             <MdArrowForwardIos className="arrow_icon blue_color" />
@@ -189,7 +218,7 @@ const Careers = () => {
                       <div className="career_text has-text-centered">
                         <a>
                           <Space direction="horizontal">
-                            <p className="has-text-centered blue_color has-text-weight-semibold">
+                            <p className="has-text-centered blue_color has-text-weight-semibold target">
                               APPLY NOW
                             </p>
                             <MdArrowForwardIos className="arrow_icon blue_color" />
